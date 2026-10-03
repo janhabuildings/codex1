@@ -2,6 +2,11 @@
 import base64
 import json
 import os
+import hashlib
+import hmac
+import threading
+import time
+from collections import deque
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 import urllib.error
@@ -10,6 +15,32 @@ import urllib.request
 ROOT = Path(__file__).parent
 MAX_REQUEST = 22 * 1024 * 1024
 MAX_PDF = 15 * 1024 * 1024
+
+
+class ReviewLimit:
+    """Per-process cap; failed provider attempts count toward the cap."""
+    def __init__(self):
+        self.lock = threading.Lock()
+        self.attempts = deque()
+        self.active = False
+
+    def acquire(self):
+        with self.lock:
+            now = time.monotonic()
+            while self.attempts and self.attempts[0] <= now - 3600:
+                self.attempts.popleft()
+            if self.active or len(self.attempts) >= 10:
+                return False
+            self.active = True
+            self.attempts.append(now)
+            return True
+
+    def release(self):
+        with self.lock:
+            self.active = False
+
+
+REVIEW_LIMIT = ReviewLimit()
 
 
 def validate_submission(data):
@@ -97,6 +128,30 @@ review. Do not fabricate sources, measurements, or approvals.'''
 
 
 class Handler(BaseHTTPRequestHandler):
+    def authorize(self):
+        password = os.getenv('APP_PASSWORD', '')
+        username = os.getenv('APP_USERNAME', 'owner')
+        if len(password) < 16 or not username or ':' in username:
+            self.respond(503, {'error': 'Access is locked. Configure APP_PASSWORD with at least 16 characters and a valid APP_USERNAME in Render.'})
+            return False
+        header = self.headers.get('Authorization', '')
+        try:
+            scheme, encoded = header.split(' ', 1)
+            credentials = base64.b64decode(encoded, validate=True)
+            expected = (username + ':' + password).encode('utf-8')
+            valid = scheme.lower() == 'basic' and hmac.compare_digest(
+                hashlib.sha256(credentials).digest(), hashlib.sha256(expected).digest())
+        except (ValueError, TypeError):
+            valid = False
+        if not valid:
+            self.send_response(401)
+            self.send_header('WWW-Authenticate', 'Basic realm="NYC Zoning Review", charset="UTF-8"')
+            self.send_header('Cache-Control', 'no-store')
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(b'{"error":"Sign in to access this app."}')
+        return valid
+
     def respond(self, status, value):
         body = json.dumps(value).encode()
         self.send_response(status)
@@ -107,6 +162,10 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self.path = self.path.split('?', 1)[0]
+        if self.path == '/healthz':
+            return self.respond(200, {'status': 'ok'})
+        if not self.authorize():
+            return
         if self.path == '/api/status':
             return self.respond(200, {'analysis_available': bool(os.getenv('OPENAI_API_KEY'))})
         files = {'/': ('index.html', 'text/html'), '/app.js': ('app.js', 'text/javascript'),
@@ -123,9 +182,11 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_POST(self):
+        if not self.authorize():
+            return
         if self.path != '/api/review':
             return self.respond(404, {'error': 'Not found'})
-        # Reject cross-origin browser requests to this local, unauthenticated app.
+        # Browser credentials must not authorize cross-site submissions.
         origin = self.headers.get('Origin')
         if origin and origin not in ('http://' + self.headers.get('Host', ''), 'https://' + self.headers.get('Host', '')):
             return self.respond(403, {'error': 'Cross-origin requests are not allowed.'})
@@ -136,7 +197,15 @@ class Handler(BaseHTTPRequestHandler):
             data = json.loads(self.rfile.read(length))
             if not isinstance(data, dict):
                 raise ValueError('Invalid submission.')
-            self.respond(200, review(data))
+            validate_submission(data)
+            limited = bool(os.getenv('OPENAI_API_KEY'))
+            if limited and not REVIEW_LIMIT.acquire():
+                return self.respond(429, {'error': 'Only one AI review may run at a time, with a maximum of 10 attempts per hour. Please try later.'})
+            try:
+                self.respond(200, review(data))
+            finally:
+                if limited:
+                    REVIEW_LIMIT.release()
         except (ValueError, TypeError):
             self.respond(400, {'error': 'Invalid submission. Provide an address and a PDF up to 15 MB.'})
         except RuntimeError as error:

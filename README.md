@@ -11,7 +11,25 @@ cd /workspace/codex1
 python server.py
 ```
 
-Open the app on port 8000 in your own browser. It binds to loopback by default. `PORT` and `HOST` can override the listener. This prototype has no authentication: keep it local rather than exposing it publicly.
+Set `APP_PASSWORD` in the server environment to a unique password of at least
+16 characters before starting. `APP_USERNAME` defaults to `owner`. The browser
+will show a username/password sign-in prompt. All pages, assets and review API
+routes require authentication. Without a valid password configuration, access is
+locked with HTTP 503, even if an API key is set. Never commit either password or
+API key. Browsers remember Basic authentication until the browser session ends;
+use a private window on shared devices. Rotate the password to revoke access.
+
+For Render, add `APP_USERNAME` and `APP_PASSWORD` under Environment, save and
+redeploy. Use the HTTPS service URL. `/healthz` is the only public route and can
+be set as Render's health check path; it exposes no drawings or configuration.
+
+AI review requests are limited to one concurrent review and 10 attempts per
+rolling hour per running process. Provider failures count toward this limit.
+The counters reset on restart and are not shared across instances; this is not
+a durable billing cap. Keep the service at one instance and configure project
+usage alerts in OpenAI. There is no per-user account management in this version.
+
+Open the app on port 8000 in your own browser. It binds to loopback by default. `PORT` and `HOST` can override the listener. Use HTTPS for hosted access so browser credentials are encrypted in transit.
 
 ## Enable drawing analysis
 
