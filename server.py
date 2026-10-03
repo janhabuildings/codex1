@@ -43,6 +43,51 @@ class ReviewLimit:
 REVIEW_LIMIT = ReviewLimit()
 
 
+def provider_error_message(error):
+    """Map provider errors to fixed messages; never return raw response content."""
+    detail = {}
+    try:
+        body = json.loads(error.read(65536))
+        if isinstance(body, dict) and isinstance(body.get('error'), dict):
+            detail = body['error']
+    except (ValueError, OSError):
+        pass
+    code = str(detail.get('code', '')).lower()
+    kind = str(detail.get('type', '')).lower()
+    message = str(detail.get('message', '')).lower()
+    if error.code == 429:
+        if 'insufficient_quota' in (code, kind) or code == 'billing_hard_limit_reached':
+            return ('OpenAI quota unavailable (HTTP 429). Check billing and usage limits for '
+                    'the organization/project that owns the API key saved in Render. '
+                    'A balance shown in a different organization does not establish available quota for this key.')
+        if 'request too large' in message or code in ('request_too_large', 'tokens_limit_exceeded'):
+            return ('Drawing request exceeds an OpenAI rate-limit allowance (HTTP 429). '
+                    'Try a PDF with fewer sheets, or check the model token limits for the '
+                    'API key’s organization/project. Waiting alone may not resolve an oversized request.')
+        if 'rate_limit_exceeded' in (code, kind) or 'rate limit' in message:
+            wait = 'Wait briefly before retrying.'
+            retry = error.headers.get('Retry-After', '') if error.headers else ''
+            if retry.isdigit() and 0 < int(retry) <= 3600:
+                wait = f'Wait at least {int(retry)} seconds before retrying.'
+            return ('OpenAI rate limit reached (HTTP 429). ' + wait +
+                    ' If it repeats, try fewer drawing sheets and check the model rate limits '
+                    'for the API key’s organization/project.')
+        return ('OpenAI returned HTTP 429 without a recognized quota or rate-limit detail. '
+                'Check the API key’s organization/project billing and model limits; '
+                'try a smaller drawing set. This is separate from the app’s hourly review limit.')
+    if error.code == 401:
+        return 'OpenAI authentication failed (HTTP 401). Check or replace OPENAI_API_KEY in Render, then redeploy.'
+    if error.code in (403, 404):
+        return f'OpenAI access or model availability error (HTTP {error.code}). Check project permissions and OPENAI_MODEL in Render.'
+    if error.code == 413:
+        return 'OpenAI rejected the upload size (HTTP 413). Try a smaller PDF with fewer sheets.'
+    if error.code == 400:
+        return 'OpenAI rejected the analysis request (HTTP 400). Check that the PDF is readable and the configured model supports PDF input and web search.'
+    if error.code >= 500:
+        return f'OpenAI service error (HTTP {error.code}). Please retry later.'
+    return f'OpenAI request failed (HTTP {error.code}). Check API access and configuration.'
+
+
 def validate_submission(data):
     address = str(data.get('address', '')).strip()
     if not address or len(address) > 500:
@@ -116,7 +161,7 @@ review. Do not fabricate sources, measurements, or approvals.'''
         with urllib.request.urlopen(request, timeout=180) as response:
             result = json.load(response)
     except urllib.error.HTTPError as error:
-        raise RuntimeError(f'Analysis provider returned HTTP {error.code}. Check API access, model availability and billing.') from None
+        raise RuntimeError(provider_error_message(error)) from None
     except (urllib.error.URLError, TimeoutError):
         raise RuntimeError('The analysis provider could not be reached. Please retry.') from None
     report = '\n\n'.join(part['text'] for output in result.get('output', [])
