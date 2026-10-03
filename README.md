@@ -1,6 +1,29 @@
 # NYC Zoning Review
 
-A local web app for uploading architectural PDFs and requesting a preliminary NYC zoning review of use, FAR, height and setbacks.
+A web app for uploading architectural PDFs and requesting a preliminary NYC zoning review of use, FAR, height and setbacks using the supplied resolution library.
+
+## Zoning reference library
+
+The five user-supplied resolution parts are retained as extracted page text in
+`references/resolution.json`, with original PDF SHA-256 hashes and part/page order.
+The export title is NYC Zoning Resolution, generated September 21, 2026.
+Section amendment dates are preserved in the text. This does not establish that
+every section became effective on December 5, 2024 or guarantee applicability to
+a particular project date. The original PDFs are not included in GitHub.
+
+Run `python resolution.py` before local startup or tests to build the SQLite FTS
+index. Docker builds do this automatically. No new Render secrets are needed.
+The model can search this local index during a review; web search is disabled.
+Reports cite Split number and PDF page, plus the combined page number.
+Only relevant text excerpts are sent to OpenAI alongside the uploaded drawing.
+Search is lexical and selective, not an exhaustive legal analysis.
+
+There are 5,306 pages; 408 have fewer than 80 extracted text characters.
+Map/diagram content (especially Appendix F) is not visually indexed. Even pages
+with text may contain omitted images. The app must flag image-dependent findings
+for visual review. No address-to-zoning lookup is implemented; supply known zoning
+districts and overlays in project details. Replacing reference documents requires
+re-extraction, index rebuild, and deployment.
 
 ## Run
 
@@ -33,9 +56,9 @@ Open the app on port 8000 in your own browser. It binds to loopback by default. 
 
 ## Enable drawing analysis
 
-Set `OPENAI_API_KEY` securely in the server process environment, then restart. Do not commit credentials. The app does not load `.env` files automatically. Optional `OPENAI_MODEL` defaults to `gpt-4.1`; the model must support PDF input and the Responses API web search tool. API usage is billed to your account.
+Set `OPENAI_API_KEY` securely in the server process environment, then restart. Do not commit credentials. The app does not load `.env` files automatically. Optional `OPENAI_MODEL` defaults to `gpt-4.1`; the model must support PDF input and Responses API function tools. API usage is billed to your account. A review can make several model calls to retrieve references.
 
-Without a key the app validates submissions and returns a preparation checklist, not a drawing analysis. With a key it sends drawings and notes to OpenAI, requests current official sources, and returns a preliminary report. Files are held in memory rather than saved locally; provider retention policies still apply. Responses use `store: false`.
+Without a key the app validates submissions and returns a preparation checklist, not a drawing analysis. With a key it sends drawings, notes and retrieved library excerpts to OpenAI and returns a preliminary report. Files are held in memory rather than saved locally; provider retention policies still apply. Responses use `store: false`.
 
 Reports display model-generated Markdown as plain text, including source URLs, and can be downloaded. Source accuracy, drawing interpretation, and zoning conclusions require professional verification. This is not DOB approval, an exhaustive compliance engine, or a substitute for an architect. Image-only drawings, unclear dimensions, amendments and special districts may prevent reliable findings.
 

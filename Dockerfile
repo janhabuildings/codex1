@@ -7,9 +7,11 @@ ENV PYTHONUNBUFFERED=1 \
 
 WORKDIR /app
 COPY server.py ./server.py
+COPY resolution.py ./resolution.py
+COPY references/resolution.json ./references/resolution.json
 COPY static/ ./static/
 
-RUN chmod -R a+rX /app && python -m py_compile server.py
+RUN python resolution.py && chmod -R a+rX /app && python -m py_compile server.py
 
 USER 10001:10001
 EXPOSE 8000
