@@ -9,7 +9,7 @@ WORKDIR /app
 COPY server.py ./server.py
 COPY static/ ./static/
 
-RUN python -m py_compile server.py
+RUN chmod -R a+rX /app && python -m py_compile server.py
 
 USER 10001:10001
 EXPOSE 8000
