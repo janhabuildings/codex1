@@ -164,15 +164,24 @@ review. Do not fabricate sources, measurements, or approvals.'''
              'file_data': 'data:application/pdf;base64,' + base64.b64encode(pdf).decode()}
         ]}],
         'max_output_tokens': 6000,
+        'tool_choice': {'type': 'function', 'name': 'search_resolution'},
     }
     citations = set()
     deadline = time.monotonic() + 180
     for round_number in range(7):
+        payload['tool_choice'] = ('none' if round_number == 6 and citations else
+                                  'auto' if citations else
+                                  {'type': 'function', 'name': 'search_resolution'})
         result = call_provider(payload, key, max(1, deadline - time.monotonic()))
         if result.get('status') != 'completed':
             raise RuntimeError('Analysis did not complete. Please retry with a smaller drawing set.')
         calls = [item for item in result.get('output', []) if item.get('type') == 'function_call']
         if not calls:
+            if not citations and round_number < 6:
+                # Retry a provider response that ignored the forced tool choice.
+                payload['input'].append({'role': 'user', 'content': [
+                    {'type': 'input_text', 'text': 'Search the supplied resolution using search_resolution before returning the review. The property details were already provided above.'}]})
+                continue
             break
         if round_number == 6 or time.monotonic() >= deadline:
             raise RuntimeError('Reference retrieval needs a more focused review. Try fewer sheets and provide the zoning district in project notes.')
@@ -190,7 +199,7 @@ review. Do not fabricate sources, measurements, or approvals.'''
         if output.get('type') == 'message' for part in output.get('content', [])
         if part.get('type') == 'output_text')
     if not report or not citations:
-        raise RuntimeError('No completed source-grounded report was returned. Supply a zoning district and clearer project details, then retry.')
+        raise RuntimeError('The reference search did not produce a completed report. This is a review-processing failure, not a missing zoning-district validation. Please retry; if it persists, report this message.')
     report += '\n\nReference library: NYC Zoning Resolution, export generated September 21, 2026. Web search disabled. Text retrieval does not verify maps or diagrams.\n\nPages retrieved (not all necessarily used):\n' + '\n'.join(sorted(citations))
     return {'mode': 'analysis', 'report': report}
 

@@ -45,5 +45,27 @@ class ResolutionTests(unittest.TestCase):
                   'content': [{'type': 'output_text', 'text': 'Everything passes.'}]}]}
         with patch.dict(server.os.environ, {'OPENAI_API_KEY': 'test-only'}), \
                 patch('server.call_provider', return_value=result):
-            with self.assertRaisesRegex(RuntimeError, 'source-grounded'):
+            with self.assertRaisesRegex(RuntimeError, 'review-processing failure'):
                 server.review(data)
+
+    def test_search_is_forced_and_recovers_from_skipped_lookup(self):
+        data = {'address': '699 Eldert Lane', 'details': 'Brooklyn, Block 4274 Lot 10, R4',
+                'filename': 'plans.pdf', 'pdf': base64.b64encode(b'%PDF-1.4\nfixture').decode()}
+        skipped = {'status': 'completed', 'output': [{'type': 'message', 'content': [
+            {'type': 'output_text', 'text': 'Premature answer'}]}]}
+        lookup = {'status': 'completed', 'output': [{'type': 'function_call',
+                  'name': 'search_resolution', 'call_id': 'lookup',
+                  'arguments': '{"query":"R4"}'}]}
+        final = {'status': 'completed', 'output': [{'type': 'message', 'content': [
+            {'type': 'output_text', 'text': 'Preliminary R4 review with source references.'}]}]}
+        choices = []
+        responses = iter([skipped, lookup, final])
+        def provider(payload, *args):
+            choices.append(payload['tool_choice'])
+            return next(responses)
+        with patch.dict(server.os.environ, {'OPENAI_API_KEY': 'test-only'}), \
+                patch('server.call_provider', side_effect=provider):
+            result = server.review(data)
+        self.assertEqual(choices[:2], [{'type': 'function', 'name': 'search_resolution'}] * 2)
+        self.assertEqual(choices[2], 'auto')
+        self.assertIn('Preliminary R4 review', result['report'])
