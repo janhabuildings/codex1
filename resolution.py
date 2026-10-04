@@ -3,10 +3,23 @@ import json
 import re
 import sqlite3
 from pathlib import Path
+from functools import lru_cache
 
 ROOT = Path(__file__).parent
 SOURCE = ROOT / 'references' / 'resolution.json'
 DATABASE = ROOT / 'references' / 'resolution.sqlite'
+
+# Verified continuations: a heading-only hit must not omit the next page's rule.
+SECTION_PAGES = {'23-321': (452, 453, 454), '23-332': (455, 456, 457),
+                 '23-333': (457, 458), '23-342': (464, 465),
+                 '23-42': (498,), '23-421': tuple(range(498, 506)),
+                 '23-422': (505, 506), '23-424': (507, 508),
+                 '24-01': (564,)}
+
+
+@lru_cache(maxsize=1)
+def source_pages():
+    return json.loads(SOURCE.read_text())['parts'][0]['pages']
 
 
 def far_tables():
@@ -38,10 +51,27 @@ def metadata():
             'coverage': 'Extracted text only; maps, diagrams and image-only provisions require visual review.'}
 
 
-def search(query):
+def search(query, use_scope='unknown'):
     tokens = re.findall(r'[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*', str(query))[:24]
     if not tokens:
         return []
+    if use_scope == 'residential' and not any(re.fullmatch(r'\d{2,3}-\d{2,4}', word) for word in tokens):
+        subject = str(query).lower()
+        for phrase, section in [('front yard', '23-321'), ('side yard', '23-332'),
+                                ('rear yard', '23-342'), ('height', '23-42')]:
+            if phrase in subject:
+                return search(section)
+    requested = [word for word in tokens if word in SECTION_PAGES]
+    if requested:
+        pages = source_pages()
+        selected = {}
+        for section in requested:
+            for page in SECTION_PAGES[section]:
+                selected.setdefault(page, []).append(section)
+        return [{'text': pages[page-1],
+                 'citation': f'ZR {", ".join(sections)}: Split 1, PDF page {page}',
+                 'scope': 'community facility applicability' if page == 564 else 'residential bulk'}
+                for page, sections in selected.items()]
     expression = ' OR '.join('"' + word + '"' for word in tokens)
     sections = [word for word in tokens if re.fullmatch(r'\d{2,3}-\d{2,4}', word)]
     districts = [word for word in tokens if re.fullmatch(r'[RCM]\d[A-Z0-9-]*', word, re.I)]

@@ -8,6 +8,7 @@ ENV PYTHONUNBUFFERED=1 \
 WORKDIR /app
 COPY server.py ./server.py
 COPY resolution.py ./resolution.py
+COPY review_guidance.py ./review_guidance.py
 COPY references/resolution.json ./references/resolution.json
 COPY references/far_tables.json ./references/far_tables.json
 COPY static/ ./static/

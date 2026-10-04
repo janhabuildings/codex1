@@ -18,6 +18,20 @@ Reports cite Split number and PDF page, plus the combined page number.
 Only relevant text excerpts are sent to OpenAI alongside the uploaded drawing.
 Search is lexical and selective, not an exhaustive legal analysis.
 
+Drawing extraction now returns structured evidence including building/lot type,
+dwelling count, lot width, exact dimension labels, endpoints, datum, sheet/page
+and uncertainty. Roof datum elevations must not be treated as base-plane heights.
+Final map lines are preserved as distinct references; their legal role must be
+verified. Explicit rear-yard dimensions take precedence over derived arithmetic.
+Residential yard searches are routed to Chapter 23 when residential scope is
+identified. Selected sections include verified continuation pages so retrieval
+does not omit applicability clauses or the following page's table/paragraph.
+Guidance distinguishes 23-332(c) from qualifying-site modifications, applies
+23-342(a)(2)(i) only to the appropriate narrow attached/semi-detached interior
+lots, and distinguishes the qualifying-site height table from basic envelopes.
+These controls reduce known interpretation errors but do not guarantee model
+extraction accuracy or professional compliance review.
+
 To reduce rate-limit pressure, a separate model call extracts drawing evidence
 with sheet references and uncertainty. Subsequent review/search calls use those
 notes instead of resending the PDF. Extraction can miss information; the review

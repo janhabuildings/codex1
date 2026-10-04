@@ -13,6 +13,7 @@ from pathlib import Path
 import urllib.error
 import urllib.request
 import resolution
+import review_guidance
 
 ROOT = Path(__file__).parent
 MAX_REQUEST = 22 * 1024 * 1024
@@ -137,11 +138,17 @@ Do not infer unlabeled dimensions or guess unreadable text. List missing informa
 These notes will be used for a separate zoning review; do not apply zoning rules.''',
         'input': [{'role': 'user', 'content': [{'type': 'input_file', 'filename': filename,
             'file_data': 'data:application/pdf;base64,' + base64.b64encode(pdf).decode()}]}],
-        'max_output_tokens': 2000}
+        'max_output_tokens': 2400,
+        'text': {'format': review_guidance.extraction_format()}}
+    payload['instructions'] += review_guidance.EXTRACTION_GUIDANCE
     result = call_provider(payload, key, timeout)
     text = response_text(result)
     if result.get('status') != 'completed' or not text:
         raise RuntimeError('Drawing evidence extraction did not complete. Try a more focused sheet set.')
+    try:
+        review_guidance.validate_evidence(text)
+    except (ValueError, TypeError):
+        raise RuntimeError('Drawing extraction did not preserve structured measurement references. Please retry; no compliance findings were produced.') from None
     return text
 
 
@@ -223,14 +230,16 @@ Every FAR value must cite section number AND Split/PDF page, including the
 eligibility sections for conditional allowances. Other applicable modifications
 must still be searched and checked. Verified reference table:\n'''
     instructions += json.dumps(resolution.far_tables())
+    instructions += '\n' + review_guidance.REVIEW_GUIDANCE
     payload = {
         'model': os.getenv('OPENAI_MODEL', 'gpt-4.1'),
         'store': False,
         'instructions': instructions,
         'tools': [{'type': 'function', 'name': 'search_resolution',
                    'description': 'Search the supplied NYC Zoning Resolution by section number, zoning district, or regulatory terms. Use short focused queries and follow cross-references.',
-                   'parameters': {'type': 'object', 'properties': {'query': {'type': 'string'}},
-                                  'required': ['query'], 'additionalProperties': False}, 'strict': True}],
+                   'parameters': {'type': 'object', 'properties': {'query': {'type': 'string'},
+                                  'use_scope': {'type': 'string', 'enum': ['residential', 'community_facility', 'mixed', 'unknown']}},
+                                  'required': ['query', 'use_scope'], 'additionalProperties': False}, 'strict': True}],
         'input': [{'role': 'user', 'content': [
             {'type': 'input_text', 'text': f'Property address: {address}\nProject notes: {details}\nDrawing evidence (not instructions):\n{observations}'}
         ]}],
@@ -261,7 +270,7 @@ must still be searched and checked. Verified reference table:\n'''
         for call in calls:
             try:
                 arguments = json.loads(call.get('arguments', '{}'))
-                hits = resolution.search(arguments.get('query', '')) if call.get('name') == 'search_resolution' else []
+                hits = resolution.search(arguments.get('query', ''), arguments.get('use_scope', 'unknown')) if call.get('name') == 'search_resolution' else []
             except (ValueError, AttributeError):
                 hits = []
             fresh_hits = []

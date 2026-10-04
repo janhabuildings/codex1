@@ -47,13 +47,14 @@ class RetryTests(unittest.TestCase):
         sleep.assert_not_called()
 
     def test_drawing_only_sent_during_extraction(self):
+        evidence = {'notes': 'Sheet A1: lot 2000 sf.', 'measurements': []}
         result = {'status': 'completed', 'output': [{'type': 'message', 'content': [
-            {'type': 'output_text', 'text': 'Sheet A1: lot 2000 sf.'}]}]}
+            {'type': 'output_text', 'text': json.dumps(evidence)}]}]}
         with patch('server.call_provider', return_value=result) as provider:
-            self.assertEqual(server.extract_drawing('plans.pdf', b'%PDF-1.4', 'test-only', 180), 'Sheet A1: lot 2000 sf.')
+            self.assertEqual(json.loads(server.extract_drawing('plans.pdf', b'%PDF-1.4', 'test-only', 180)), evidence)
         payload = provider.call_args.args[0]
         self.assertEqual(payload['input'][0]['content'][0]['type'], 'input_file')
-        self.assertEqual(payload['max_output_tokens'], 2000)
+        self.assertEqual(payload['max_output_tokens'], 2400)
         self.assertNotIn('tools', payload)
 
 
