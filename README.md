@@ -2,6 +2,23 @@
 
 A web app for uploading architectural PDFs and requesting a preliminary NYC zoning review of use, FAR, height and setbacks using the supplied resolution library.
 
+## Chat and image uploads
+
+Review uploads and chat attachments accept one PDF plus up to four PNG, JPEG or
+WebP images, up to 15 MiB combined per request (each image up to 5 MiB). Image-only
+reviews are supported. Unsupported image formats, malformed base64 and mismatched
+file signatures are rejected. Phone HEIC photos must first be exported as JPEG.
+
+The chat panel accepts follow-up questions about the current report, with optional
+new screenshots/photos/PDF details. Answers retrieve the supplied resolution and
+retain applicability/measurement guidance. The report and recent chat are context,
+not verified evidence. Earlier uploads are not retained or silently re-inspected;
+reattach a detail when needed. Chat history exists only in the current page, clears
+on reload or a new review, and sends bounded recent context with each question.
+Chat and review share password protection, cross-origin checks, hourly/concurrency
+limits and rate-limit retries. Both consume OpenAI API usage. No new secrets are
+required. Without an API key the app returns a checklist, not an AI chat answer.
+
 ## Zoning reference library
 
 The five user-supplied resolution parts are retained as extracted page text in
