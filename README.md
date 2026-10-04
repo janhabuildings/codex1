@@ -18,6 +18,13 @@ Reports cite Split number and PDF page, plus the combined page number.
 Only relevant text excerpts are sent to OpenAI alongside the uploaded drawing.
 Search is lexical and selective, not an exhaustive legal analysis.
 
+Merged PDF table cells can lose row alignment during text extraction. The
+residential FAR table in Section 23-21 (Split 1, pages 436–437) and conditional
+Section 23-712 values (page 542) are also retained as visually verified structured
+rows in `references/far_tables.json`. R4 standard FAR is 1.00, not 0.75.
+The model receives these rows on every review and with relevant searches.
+Conditional eligibility and other applicable modifications still require review.
+
 There are 5,306 pages; 408 have fewer than 80 extracted text characters.
 Map/diagram content (especially Appendix F) is not visually indexed. Even pages
 with text may contain omitted images. The app must flag image-dependent findings

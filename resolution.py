@@ -9,6 +9,10 @@ SOURCE = ROOT / 'references' / 'resolution.json'
 DATABASE = ROOT / 'references' / 'resolution.sqlite'
 
 
+def far_tables():
+    return json.loads((ROOT / 'references' / 'far_tables.json').read_text())
+
+
 def build_index():
     source = json.loads(SOURCE.read_text())
     db = sqlite3.connect(DATABASE)
@@ -47,8 +51,15 @@ def search(query):
         rows = db.execute('SELECT text,part,page,global_page FROM excerpts WHERE excerpts MATCH ? ORDER BY bm25(excerpts) LIMIT 8', (expression,)).fetchall()
     finally:
         db.close()
-    return [{'text': text, 'citation': f'Split {part}, PDF page {page}, combined page {global_page}'}
+    hits = [{'text': text, 'citation': f'Split {part}, PDF page {page}, combined page {global_page}'}
             for text, part, page, global_page in rows]
+    # Merged table cells can scramble row/value associations in PDF text.
+    # Supply the visually verified rows whenever a low-density FAR query is made.
+    if re.search(r'\b(?:FAR|floor|R[1-5][A-Z0-9-]*|23-21|23-71[12])\b', str(query), re.I):
+        tables = far_tables()
+        hits.insert(0, {'text': json.dumps(tables),
+                        'citation': 'ZR 23-21: Split 1, PDF pages 436–437; ZR 23-711: pages 541–542; ZR 23-712: page 542'})
+    return hits
 
 
 if __name__ == '__main__':

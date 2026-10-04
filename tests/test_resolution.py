@@ -7,6 +7,21 @@ import server
 
 
 class ResolutionTests(unittest.TestCase):
+    def test_r4_far_table_keeps_rows_and_eligibility_distinct(self):
+        tables = resolution.far_tables()
+        rows = tables['basic_table']['rows']
+        r4 = next(row for row in rows if 'R4' in row['districts'])
+        r3 = next(row for row in rows if 'R3-2' in row['districts'])
+        self.assertEqual(r4['standard_lot_far'], 1.0)
+        self.assertEqual(r4['qualifying_residential_site_far'], 1.5)
+        self.assertEqual(2000 * r4['standard_lot_far'], 2000)
+        self.assertEqual(r3['standard_lot_far'], 0.75)
+        self.assertEqual(tables['basic_table']['section'], '23-21')
+        self.assertEqual(tables['predominantly_built_up']['eligibility_section'], '23-711')
+        hits = resolution.search('R4 floor area ratio')
+        self.assertIn('23-21', hits[0]['citation'])
+        self.assertIn('436–437', hits[0]['citation'])
+        self.assertIn('"standard_lot_far": 1.0', hits[0]['text'])
     def test_supplied_library_metadata(self):
         metadata = resolution.metadata()
         self.assertEqual(metadata['pages'], 5306)
@@ -33,6 +48,8 @@ class ResolutionTests(unittest.TestCase):
             report = server.review(data)
         payload = provider.call_args.args[0]
         self.assertEqual(payload['tools'][0]['name'], 'search_resolution')
+        self.assertIn('standard R4 FAR is 1.00, not 0.75', payload['instructions'])
+        self.assertIn('section number AND Split/PDF page', payload['instructions'])
         self.assertFalse(any('web_search' in tool['type'] for tool in payload['tools']))
         outputs = [item for item in payload['input'] if item.get('type') == 'function_call_output']
         self.assertIn('PDF page', outputs[0]['output'])

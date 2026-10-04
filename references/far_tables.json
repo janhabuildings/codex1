@@ -1,0 +1,27 @@
+{
+  "source_export": "2026-09-21",
+  "verification": "Table rows visually checked against supplied Split 1 PDF page 437; predominantly built-up values checked on page 542.",
+  "basic_table": {
+    "section": "23-21",
+    "title": "Floor Area Regulations for R1 Through R5 Districts",
+    "citation": "Split 1, PDF pages 436–437",
+    "last_amended": "2024-12-05",
+    "rows": [
+      {"districts": ["R1-2A", "R1-1", "R1-2", "R2A", "R2", "R3A", "R3X", "R3-1", "R3-2"], "standard_lot_far": 0.75, "qualifying_residential_site_far": 1.00, "footnote": "For standard zoning lots of 4,000 sf or more, residential floor area associated with any single dwelling unit may not exceed an equivalent FAR of 0.60."},
+      {"districts": ["R2X"], "standard_lot_far": 1.00, "qualifying_residential_site_far": 1.00},
+      {"districts": ["R4A", "R4B", "R4", "R4-1"], "standard_lot_far": 1.00, "qualifying_residential_site_far": 1.50},
+      {"districts": ["R5A", "R5B", "R5"], "standard_lot_far": 1.50, "qualifying_residential_site_far": 2.00},
+      {"districts": ["R5D"], "standard_lot_far": 2.00, "qualifying_residential_site_far": 2.00}
+    ]
+  },
+  "predominantly_built_up": {
+    "section": "23-712",
+    "citation": "Split 1, PDF page 542",
+    "last_amended": "2024-12-05",
+    "rows": [{"district": "R4", "far": 1.35}, {"district": "R5", "far": 1.65}],
+    "eligibility_section": "23-711",
+    "eligibility_citation": "Split 1, PDF pages 541–542",
+    "qualification": "Only for qualifying lots utilizing Section 23-71; R4/R5 without a suffix. Full Section 23-711 eligibility must be checked; do not assume eligibility."
+  },
+  "limits": "Residential FAR only. Verify district, qualifying residential site definition, project date, special districts, overlays, use-specific rules and other applicable modifications. This table alone does not establish parcel eligibility or overall compliance."
+}

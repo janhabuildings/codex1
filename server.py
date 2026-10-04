@@ -150,6 +150,18 @@ make a compliance claim. State review date and source limitations.
 Return readable Markdown with: preliminary summary, property/zoning evidence,
 drawing observations, checks, missing information, and next steps for professional
 review. Do not fabricate sources, measurements, or approvals.'''
+    instructions += '''\nFor FAR findings use the visually verified table rows below rather than
+inferring merged-cell row alignment from extracted PDF text. In Section 23-21,
+standard R4 FAR is 1.00, not 0.75. The qualifying residential site value is 1.50,
+subject to demonstrated eligibility. Predominantly built-up FAR is 1.35 only
+when Section 23-711 eligibility is established. Identify which regime is used.
+For a 2,000 sf standard R4 lot the base residential floor-area allowance is
+2,000 sf, not 1,500 sf. Verify actual lot area and zoning floor-area inputs before
+making any project calculation. Do not generalize this example to other lots.
+Every FAR value must cite section number AND Split/PDF page, including the
+eligibility sections for conditional allowances. Other applicable modifications
+must still be searched and checked. Verified reference table:\n'''
+    instructions += json.dumps(resolution.far_tables())
     payload = {
         'model': os.getenv('OPENAI_MODEL', 'gpt-4.1'),
         'store': False,
