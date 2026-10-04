@@ -23,7 +23,7 @@ form.addEventListener('submit', async event => {
   submit.disabled = true;
   document.querySelector('#result').hidden = true;
   document.querySelector('#empty').hidden = false;
-  feedback.textContent = 'Preparing your review. Drawing analysis may take a few minutes…';
+  feedback.textContent = 'Reading drawing evidence and checking the resolution. Rate-limit retries are automatic; allow up to three minutes…';
   try {
     const pdf = await new Promise((resolve, reject) => {
       const reader = new FileReader();

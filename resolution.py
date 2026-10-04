@@ -43,12 +43,19 @@ def search(query):
     if not tokens:
         return []
     expression = ' OR '.join('"' + word + '"' for word in tokens)
-    anchors = [word for word in tokens if re.fullmatch(r'\d{2,3}-\d{2,4}|[RCM]\d[A-Z0-9-]*', word, re.I)]
-    if anchors:
-        expression = ' OR '.join('"' + word + '"' for word in anchors)
+    sections = [word for word in tokens if re.fullmatch(r'\d{2,3}-\d{2,4}', word)]
+    districts = [word for word in tokens if re.fullmatch(r'[RCM]\d[A-Z0-9-]*', word, re.I)]
+    if sections:
+        expression = ' OR '.join('"' + word + '"' for word in sections)
+    elif districts:
+        district_expression = '(' + ' OR '.join('"' + word + '"' for word in districts) + ')'
+        terms = [word for word in tokens if word not in districts and word.lower() not in ('and', 'or', 'the', 'for', 'in', 'of', 'far')]
+        expression = district_expression
+        if terms:
+            expression += ' AND (' + ' OR '.join('"' + word + '"' for word in terms) + ')'
     db = sqlite3.connect(f'file:{DATABASE}?mode=ro', uri=True)
     try:
-        rows = db.execute('SELECT text,part,page,global_page FROM excerpts WHERE excerpts MATCH ? ORDER BY bm25(excerpts) LIMIT 8', (expression,)).fetchall()
+        rows = db.execute('SELECT text,part,page,global_page FROM excerpts WHERE excerpts MATCH ? ORDER BY bm25(excerpts) LIMIT 4', (expression,)).fetchall()
     finally:
         db.close()
     hits = [{'text': text, 'citation': f'Split {part}, PDF page {page}, combined page {global_page}'}

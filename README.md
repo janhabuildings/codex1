@@ -18,6 +18,22 @@ Reports cite Split number and PDF page, plus the combined page number.
 Only relevant text excerpts are sent to OpenAI alongside the uploaded drawing.
 Search is lexical and selective, not an exhaustive legal analysis.
 
+To reduce rate-limit pressure, a separate model call extracts drawing evidence
+with sheet references and uncertainty. Subsequent review/search calls use those
+notes instead of resending the PDF. Extraction can miss information; the review
+must flag uncertain or missing evidence rather than claim visual verification.
+Searches combine district and subject, return at most four text chunks plus a
+verified table when relevant, and omit duplicate chunks already in the review.
+Reference excerpts are capped at 18,000 characters per review; omitted rules
+must be reported as unverified. Report output is capped at 3,000 tokens.
+
+Recognized temporary OpenAI 429 rate limits are retried up to twice. Numeric
+Retry-After delays up to 60 seconds are honored if the shared 180-second review
+deadline permits; otherwise the app returns the error. Without a delay header,
+backoff is 20 then 40 seconds. Quota errors and oversized requests are not
+retried. Retries do not create additional app-level review attempts. This cannot
+guarantee a request fits the provider's account-specific token allowance.
+
 Merged PDF table cells can lose row alignment during text extraction. The
 residential FAR table in Section 23-21 (Split 1, pages 436–437) and conditional
 Section 23-712 values (page 542) are also retained as visually verified structured

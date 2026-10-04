@@ -7,6 +7,11 @@ import server
 
 
 class ResolutionTests(unittest.TestCase):
+    def setUp(self):
+        extraction = patch('server.extract_drawing', return_value='Sheet A-001: R4; lot 2,000 sf; proposed ZFA 2,000 sf. Dimensions not verified.')
+        extraction.start()
+        self.addCleanup(extraction.stop)
+
     def test_r4_far_table_keeps_rows_and_eligibility_distinct(self):
         tables = resolution.far_tables()
         rows = tables['basic_table']['rows']
@@ -52,6 +57,8 @@ class ResolutionTests(unittest.TestCase):
         self.assertIn('section number AND Split/PDF page', payload['instructions'])
         self.assertFalse(any('web_search' in tool['type'] for tool in payload['tools']))
         outputs = [item for item in payload['input'] if item.get('type') == 'function_call_output']
+        self.assertFalse(any(part.get('type') == 'input_file' for item in payload['input']
+                             for part in item.get('content', []) if isinstance(part, dict)))
         self.assertIn('PDF page', outputs[0]['output'])
         self.assertIn('Pages retrieved', report['report'])
 
