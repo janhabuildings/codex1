@@ -6,6 +6,9 @@ const chatFeedback = document.querySelector('#chat-status');
 const chatSend = document.querySelector('#chat-send');
 let currentReport = '';
 let history = [];
+const selections = new Map([['drawing', []], ['chat-files', []]]);
+let activeUpload = 'drawing';
+let uploading = false;
 submit.disabled = false;
 feedback.textContent = 'Review controls ready. Enter the property address and choose a PDF or image.';
 fetch('./api/status', {signal: AbortSignal.timeout(10000)}).then(r => r.json()).then(data => {
@@ -13,7 +16,7 @@ fetch('./api/status', {signal: AbortSignal.timeout(10000)}).then(r => r.json()).
 }).catch(() => { feedback.textContent = 'Could not check server status.'; });
 
 async function attachmentsFrom(input, required = false) {
-  const files = Array.from(input.files);
+  const files = selections.get(input.id);
   if (required && !files.length) throw new Error('Choose a drawing PDF, photo or screenshot.');
   let pdfCount = 0, imageCount = 0, total = 0;
   const formats = {pdf: 'application/pdf', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp'};
@@ -36,6 +39,76 @@ async function attachmentsFrom(input, required = false) {
   return result;
 }
 
+function validateSelection(files) {
+  let pdfs = 0, images = 0, total = 0;
+  for (const file of files) {
+    const extension = file.name.split('.').pop().toLowerCase();
+    if (!['pdf', 'png', 'jpg', 'jpeg', 'webp'].includes(extension)) throw new Error('Use PDF, PNG, JPEG or WebP files.');
+    if (!file.size) throw new Error('Empty files cannot be attached.');
+    if (extension === 'pdf') pdfs++; else { images++; if (file.size > 5 * 1024 * 1024) throw new Error('Each image must be no larger than 5 MB.'); }
+    total += file.size;
+  }
+  if (pdfs > 1 || images > 4 || total > 15 * 1024 * 1024) throw new Error('Use one PDF and up to four images, 15 MB combined. Remove an attachment before adding more.');
+}
+function renderSelection(id) {
+  const list = document.getElementById(id + '-list');
+  list.replaceChildren();
+  selections.get(id).forEach((file, index) => {
+    const row = document.createElement('li');
+    const name = document.createElement('span'); name.textContent = file.name + ' · ' + (file.size / 1024 / 1024).toFixed(2) + ' MB';
+    const remove = document.createElement('button'); remove.type = 'button'; remove.textContent = 'Remove'; remove.disabled = uploading;
+    remove.setAttribute('aria-label', 'Remove ' + file.name);
+    remove.addEventListener('click', () => { selections.get(id).splice(index, 1); renderSelection(id); document.getElementById(id + '-status').textContent = 'Attachment removed.'; });
+    row.append(name, remove); list.append(row);
+  });
+}
+function addAttachments(id, files) {
+  if (uploading) return;
+  const status = document.getElementById(id + '-status');
+  try {
+    const combined = selections.get(id).slice();
+    for (const file of files) if (!combined.some(f => f.name === file.name && f.size === file.size && f.lastModified === file.lastModified)) combined.push(file);
+    validateSelection(combined); selections.set(id, combined); renderSelection(id);
+    status.textContent = combined.length + ' attachment(s) ready. Nothing is sent until you submit.';
+  } catch (error) { status.textContent = error.message; }
+}
+function clearAttachments(id) { selections.set(id, []); document.getElementById(id).value = ''; renderSelection(id); document.getElementById(id + '-status').textContent = ''; }
+for (const [id, zoneId] of [['drawing', 'review-upload'], ['chat-files', 'chat-upload']]) {
+  const zone = document.getElementById(zoneId);
+  const input = document.getElementById(id);
+  input.addEventListener('change', () => { addAttachments(id, Array.from(input.files)); input.value = ''; });
+  zone.addEventListener('focusin', () => { activeUpload = id; });
+  zone.addEventListener('pointerdown', () => { activeUpload = id; });
+  zone.addEventListener('dragover', event => { event.preventDefault(); zone.classList.add('drag-over'); });
+  zone.addEventListener('dragleave', event => { if (!zone.contains(event.relatedTarget)) zone.classList.remove('drag-over'); });
+  zone.addEventListener('drop', event => { event.preventDefault(); zone.classList.remove('drag-over'); activeUpload = id; addAttachments(id, Array.from(event.dataTransfer.files)); });
+}
+document.addEventListener('paste', event => {
+  const files = Array.from(event.clipboardData?.files || []);
+  if (!files.length) return; // Leave normal pasted text in questions and fields alone.
+  event.preventDefault();
+  const id = event.target.closest?.('.chat-panel') ? 'chat-files' : event.target.closest?.('#review-form') ? 'drawing' : activeUpload;
+  addAttachments(id, files);
+});
+document.addEventListener('dragover', event => { if (Array.from(event.dataTransfer?.types || []).includes('Files')) event.preventDefault(); });
+document.addEventListener('drop', event => { if (event.dataTransfer?.files.length) event.preventDefault(); });
+for (const button of document.querySelectorAll('.paste-files')) button.addEventListener('click', async () => {
+  const id = button.dataset.upload; activeUpload = id;
+  const status = document.getElementById(id + '-status');
+  if (!navigator.clipboard?.read) { status.textContent = 'This browser does not support the paste button. Use Ctrl+V / ⌘V here, or Choose File.'; return; }
+  try {
+    const items = await navigator.clipboard.read();
+    const files = [];
+    const extensions = {'image/png': 'png', 'image/jpeg': 'jpg', 'image/webp': 'webp', 'application/pdf': 'pdf'};
+    for (const item of items) {
+      const type = item.types.find(t => extensions[t]);
+      if (type) files.push(new File([await item.getType(type)], 'clipboard-' + Date.now() + '-' + files.length + '.' + extensions[type], {type}));
+    }
+    if (!files.length) { status.textContent = 'No supported file on the clipboard. Copy a screenshot, or choose a file.'; return; }
+    addAttachments(id, files);
+  } catch { status.textContent = 'Clipboard access was unavailable or denied. Use Ctrl+V / ⌘V here, or Choose File.'; }
+});
+
 async function requestReview(path, body) {
   const response = await fetch(path, {signal: AbortSignal.timeout(200000), method: 'POST',
     headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
@@ -52,8 +125,8 @@ function project() {
   if (!address) { document.querySelector('#address').focus(); throw new Error('Enter the property address first.'); }
   return {address, details: document.querySelector('#details').value};
 }
-function busy(value) { submit.disabled = value; chatSend.disabled = value; document.querySelector('#chat-clear').disabled = value; }
-function clearChat() { history = []; document.querySelector('#chat-messages').replaceChildren(); chatFeedback.textContent = ''; }
+function busy(value) { uploading = value; submit.disabled = value; chatSend.disabled = value; document.querySelector('#chat-clear').disabled = value; for (const input of document.querySelectorAll('input[type=file], .paste-files')) input.disabled = value; for (const id of selections.keys()) renderSelection(id); }
+function clearChat() { history = []; document.querySelector('#chat-messages').replaceChildren(); chatFeedback.textContent = ''; clearAttachments('chat-files'); document.querySelector('#chat-question').value = ''; }
 function showMessage(role, text) {
   const box = document.createElement('div'); box.className = 'chat-message ' + role;
   const title = document.createElement('strong'); title.textContent = role === 'user' ? 'YOU' : 'ZONING ASSISTANT';
@@ -98,7 +171,7 @@ chatForm.addEventListener('submit', async event => {
     showMessage('user', message + (attachments.length ? '\nAttached: ' + attachments.map(f => f.filename).join(', ') : ''));
     showMessage('assistant', result.report);
     history.push({role: 'user', content: message}, {role: 'assistant', content: result.report});
-    document.querySelector('#chat-question').value = ''; document.querySelector('#chat-files').value = '';
+    document.querySelector('#chat-question').value = ''; clearAttachments('chat-files');
     chatFeedback.textContent = result.mode === 'analysis' ? 'Answer received. Verify findings with your project team.' : 'AI chat is unavailable until an API key is configured.';
   } catch (error) { chatFeedback.textContent = errorMessage(error); }
   finally { busy(false); }

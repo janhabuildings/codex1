@@ -4,6 +4,16 @@ A web app for uploading architectural PDFs and requesting a preliminary NYC zoni
 
 ## Chat and image uploads
 
+Both upload areas support file selection, drag-and-drop, and clipboard file/image
+paste. Click or focus the desired area and press Ctrl+V or Command+V; pasted files
+in the chat question go to chat attachments. Normal text paste is preserved.
+The Paste from clipboard button uses the browser Clipboard API on HTTPS and may
+prompt for permission. If unsupported or denied, keyboard paste or file selection
+remain available. Copying a file path or text does not attach the actual file.
+Added files accumulate in a removable attachment list with the same combined
+limits across all methods; invalid additions leave existing attachments intact.
+Files are sent only when Review drawings or Send question is submitted.
+
 Review uploads and chat attachments accept one PDF plus up to four PNG, JPEG or
 WebP images, up to 15 MiB combined per request (each image up to 5 MiB). Image-only
 reviews are supported. Unsupported image formats, malformed base64 and mismatched
