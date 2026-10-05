@@ -1,0 +1,287 @@
+{
+  "scope": "residential-far",
+  "status": "initial queue; dependencies and special districts remain to be expanded",
+  "tasks": [
+    {
+      "key": "12-10:floor-area",
+      "section": "12-10",
+      "target": "floor area",
+      "pages": [
+        {
+          "part": 1,
+          "page": 138
+        },
+        {
+          "part": 1,
+          "page": 139
+        },
+        {
+          "part": 1,
+          "page": 140
+        },
+        {
+          "part": 1,
+          "page": 141
+        },
+        {
+          "part": 1,
+          "page": 142
+        },
+        {
+          "part": 1,
+          "page": 143
+        },
+        {
+          "part": 1,
+          "page": 144
+        }
+      ]
+    },
+    {
+      "key": "12-10:floor-area-ratio",
+      "section": "12-10",
+      "target": "floor area ratio",
+      "pages": [
+        {
+          "part": 1,
+          "page": 145
+        }
+      ]
+    },
+    {
+      "key": "12-10:lot-area",
+      "section": "12-10",
+      "target": "lot area",
+      "pages": [
+        {
+          "part": 1,
+          "page": 169
+        }
+      ]
+    },
+    {
+      "key": "12-10:qualifying-residential-site",
+      "section": "12-10",
+      "target": "qualifying residential site",
+      "pages": [
+        {
+          "part": 1,
+          "page": 212
+        },
+        {
+          "part": 1,
+          "page": 213
+        },
+        {
+          "part": 1,
+          "page": 214
+        }
+      ]
+    },
+    {
+      "key": "23-20",
+      "section": "23-20",
+      "target": "floor area regulation routing",
+      "pages": [
+        {
+          "part": 1,
+          "page": 436
+        }
+      ]
+    },
+    {
+      "key": "23-21",
+      "section": "23-21",
+      "target": "R1\u2013R5 floor area allowances",
+      "pages": [
+        {
+          "part": 1,
+          "page": 436
+        },
+        {
+          "part": 1,
+          "page": 437
+        }
+      ]
+    },
+    {
+      "key": "23-22",
+      "section": "23-22",
+      "target": "R6\u2013R12 floor area allowances",
+      "pages": [
+        {
+          "part": 1,
+          "page": 438
+        },
+        {
+          "part": 1,
+          "page": 439
+        }
+      ]
+    },
+    {
+      "key": "23-23",
+      "section": "23-23",
+      "target": "multiple-dwelling exemption applicability",
+      "pages": [
+        {
+          "part": 1,
+          "page": 439
+        },
+        {
+          "part": 1,
+          "page": 440
+        }
+      ]
+    },
+    {
+      "key": "23-231",
+      "section": "23-231",
+      "target": "amenity exemptions",
+      "pages": [
+        {
+          "part": 1,
+          "page": 440
+        },
+        {
+          "part": 1,
+          "page": 441
+        }
+      ]
+    },
+    {
+      "key": "23-232",
+      "section": "23-232",
+      "target": "corridor exemptions",
+      "pages": [
+        {
+          "part": 1,
+          "page": 441
+        },
+        {
+          "part": 1,
+          "page": 442
+        }
+      ]
+    },
+    {
+      "key": "23-233",
+      "section": "23-233",
+      "target": "refuse exemptions",
+      "pages": [
+        {
+          "part": 1,
+          "page": 442
+        }
+      ]
+    },
+    {
+      "key": "23-234",
+      "section": "23-234",
+      "target": "elevated entry exemptions",
+      "pages": [
+        {
+          "part": 1,
+          "page": 443
+        }
+      ]
+    },
+    {
+      "key": "23-241",
+      "section": "23-241",
+      "target": "tower accounting",
+      "pages": [
+        {
+          "part": 1,
+          "page": 443
+        },
+        {
+          "part": 1,
+          "page": 444
+        }
+      ]
+    },
+    {
+      "key": "23-242",
+      "section": "23-242",
+      "target": "geographic modification",
+      "pages": [
+        {
+          "part": 1,
+          "page": 444
+        },
+        {
+          "part": 1,
+          "page": 445
+        }
+      ]
+    },
+    {
+      "key": "23-243",
+      "section": "23-243",
+      "target": "existing bonused amenities",
+      "pages": [
+        {
+          "part": 1,
+          "page": 445
+        },
+        {
+          "part": 1,
+          "page": 446
+        }
+      ]
+    },
+    {
+      "key": "23-711",
+      "section": "23-711",
+      "target": "predominantly built-up eligibility",
+      "pages": [
+        {
+          "part": 1,
+          "page": 541
+        },
+        {
+          "part": 1,
+          "page": 542
+        }
+      ]
+    },
+    {
+      "key": "23-712",
+      "section": "23-712",
+      "target": "predominantly built-up FAR",
+      "pages": [
+        {
+          "part": 1,
+          "page": 542
+        }
+      ]
+    },
+    {
+      "key": "23-721",
+      "section": "23-721",
+      "target": "Brooklyn CD12 eligibility",
+      "pages": [
+        {
+          "part": 1,
+          "page": 543
+        }
+      ]
+    },
+    {
+      "key": "23-722",
+      "section": "23-722",
+      "target": "Brooklyn CD12 FAR",
+      "pages": [
+        {
+          "part": 1,
+          "page": 543
+        },
+        {
+          "part": 1,
+          "page": 544
+        }
+      ]
+    }
+  ]
+}

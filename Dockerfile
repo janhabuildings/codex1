@@ -9,11 +9,14 @@ WORKDIR /app
 COPY server.py ./server.py
 COPY resolution.py ./resolution.py
 COPY review_guidance.py ./review_guidance.py
+COPY mapping_worker.py ./mapping_worker.py
+COPY mapping/ ./mapping/
+COPY requirements-worker.txt ./requirements-worker.txt
 COPY references/resolution.json ./references/resolution.json
 COPY references/far_tables.json ./references/far_tables.json
 COPY static/ ./static/
 
-RUN python resolution.py && chmod -R a+rX /app && python -m py_compile server.py
+RUN pip install --no-cache-dir -r requirements-worker.txt && python resolution.py && chmod -R a+rX /app && python -m py_compile server.py mapping_worker.py
 
 USER 10001:10001
 EXPOSE 8000

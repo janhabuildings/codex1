@@ -39,10 +39,26 @@ class AccessTests(unittest.TestCase):
         return 'Basic ' + base64.b64encode(('owner:' + password).encode()).decode()
 
     def test_all_app_routes_require_login(self):
-        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review']:
+        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review', '/mapping', '/mappings.js', '/api/mappings']:
             status, headers, _ = self.request(path, data={} if path == '/api/review' else None)
             self.assertEqual(status, 401, path)
             self.assertIn('WWW-Authenticate', headers)
+
+    def test_mapping_dashboard_requires_storage_and_returns_saved_tasks(self):
+        import tempfile
+        import mapping_worker
+        self.assertEqual(self.request('/mapping', self.auth())[0], 200)
+        self.assertEqual(self.request('/api/mappings', self.auth())[0], 503)
+        with tempfile.TemporaryDirectory() as directory, patch.dict(server.os.environ, {'MAPPING_DB_PATH': directory+'/tasks.sqlite'}):
+            store = mapping_worker.Store()
+            _, digest = mapping_worker.load_sources()
+            store.seed({'tasks':[{'key':'fixture','pages':[]}]}, digest)
+            store.db.close()
+            status, _, body = self.request('/api/mappings', self.auth())
+            self.assertEqual(status, 200)
+            data = json.loads(body)
+            self.assertEqual(data['tasks'][0]['status'], 'pending')
+            self.assertEqual(data['tasks'][0]['task']['key'], 'fixture')
 
     def test_bad_and_malformed_credentials_rejected(self):
         for auth in [self.auth('wrong'), 'Basic !!!!', 'Bearer token']:

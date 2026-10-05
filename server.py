@@ -406,10 +406,29 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(200, {'status': 'ok'})
         if not self.authorize():
             return
+        if self.path == '/api/mappings':
+            if not (os.getenv('MAPPING_DATABASE_URL') or os.getenv('MAPPING_DB_PATH')):
+                return self.respond(503, {'error': 'Connect the web app and worker to the same MAPPING_DATABASE_URL to view saved drafts.'})
+            try:
+                from mapping_worker import Store, load_sources
+                _, digest = load_sources()
+                store = Store()
+                try:
+                    rows = store.execute('SELECT id,task,status,result,flags,error,reviewer FROM mapping_tasks WHERE source_hash=? ORDER BY id',(digest,)).fetchall()
+                    runs = store.execute('SELECT id,api_calls,input_tokens,output_tokens,unknown_usage_calls FROM mapping_runs ORDER BY started DESC LIMIT 10').fetchall()
+                finally:
+                    store.db.close()
+                return self.respond(200, {'source_hash': digest, 'tasks':[
+                    {'id':r[0], 'task':json.loads(r[1]), 'status':r[2], 'mapping':json.loads(r[3]) if r[3] else None,
+                     'flags':json.loads(r[4]) if r[4] else [],'error':r[5],'reviewer':r[6]} for r in rows],
+                    'runs':[dict(zip(['id','api_calls','input_tokens','output_tokens','unknown_usage_calls'],r)) for r in runs]})
+            except Exception:
+                return self.respond(503, {'error':'Could not read the mapping database. Check the database connection and worker configuration; credentials are not displayed.'})
         if self.path == '/api/status':
             return self.respond(200, {'analysis_available': bool(os.getenv('OPENAI_API_KEY'))})
         files = {'/': ('index.html', 'text/html'), '/app.js': ('app.js', 'text/javascript'),
-                 '/style.css': ('style.css', 'text/css')}
+                 '/style.css': ('style.css', 'text/css'), '/mapping': ('mappings.html', 'text/html'),
+                 '/mappings.js': ('mappings.js', 'text/javascript')}
         if self.path not in files:
             return self.respond(404, {'error': 'Not found'})
         name, content_type = files[self.path]

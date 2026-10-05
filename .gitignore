@@ -2,3 +2,7 @@ __pycache__/
 .env
 *.log
 references/*.sqlite
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+mapping-exports/
