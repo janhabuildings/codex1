@@ -39,7 +39,7 @@ class AccessTests(unittest.TestCase):
         return 'Basic ' + base64.b64encode(('owner:' + password).encode()).decode()
 
     def test_all_app_routes_require_login(self):
-        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review', '/mapping', '/mappings.js', '/api/mappings']:
+        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review', '/mapping', '/mappings.js', '/api/mappings', '/onedrive', '/onedrive.js', '/onedrive/start', '/onedrive/callback?code=private-code', '/api/onedrive/status']:
             status, headers, _ = self.request(path, data={} if path == '/api/review' else None)
             self.assertEqual(status, 401, path)
             self.assertIn('WWW-Authenticate', headers)
@@ -59,6 +59,27 @@ class AccessTests(unittest.TestCase):
             data = json.loads(body)
             self.assertEqual(data['tasks'][0]['status'], 'pending')
             self.assertEqual(data['tasks'][0]['task']['key'], 'fixture')
+
+    def test_onedrive_disconnect_requires_origin_and_login(self):
+        self.assertEqual(self.request('/api/onedrive/disconnect',data={})[0],401)
+        self.assertEqual(self.request('/api/onedrive/disconnect',self.auth(),{})[0],403)
+
+    def test_onedrive_start_redirect_has_browser_cookie(self):
+        with patch('onedrive.start',return_value=('https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize','test-binding')):
+            status,headers,_ = self.request('/onedrive/start',self.auth())
+        self.assertEqual(status,303)
+        self.assertTrue(headers['Location'].startswith('https://login.microsoftonline.com/'))
+        for flag in ['Secure','HttpOnly','SameSite=Lax']:
+            self.assertIn(flag,headers['Set-Cookie'])
+
+    def test_onedrive_callback_hides_code_and_clears_cookie(self):
+        with patch('onedrive.complete') as complete, patch.object(server.Handler,'log_message') as log:
+            status,headers,_ = self.request('/onedrive/callback?state=state&code=private-code',self.auth())
+        self.assertEqual(status,303)
+        self.assertEqual(headers['Location'],'/onedrive')
+        self.assertIn('Max-Age=0',headers['Set-Cookie'])
+        self.assertEqual(complete.call_args[0][0]['code'],['private-code'])
+        self.assertNotIn('private-code',str(log.call_args_list))
 
     def test_bad_and_malformed_credentials_rejected(self):
         for auth in [self.auth('wrong'), 'Basic !!!!', 'Bearer token']:

@@ -400,12 +400,43 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def log_request(self, code='-', size='-'):
+        # OAuth authorization codes must never enter access logs.
+        self.log_message('%s %s %s', self.command, self.path.split('?',1)[0], str(code))
+
+    def redirect(self, location, cookie=None):
+        self.send_response(303)
+        self.send_header('Location', location)
+        self.send_header('Cache-Control', 'no-store')
+        self.send_header('Referrer-Policy', 'no-referrer')
+        if cookie:
+            self.send_header('Set-Cookie', cookie)
+        self.end_headers()
+
     def do_GET(self):
+        from urllib.parse import parse_qs
+        query = parse_qs(self.path.partition('?')[2])
         self.path = self.path.split('?', 1)[0]
         if self.path == '/healthz':
             return self.respond(200, {'status': 'ok'})
         if not self.authorize():
             return
+        if self.path in ('/onedrive/start', '/onedrive/callback', '/api/onedrive/status'):
+            try:
+                import onedrive
+                if self.path == '/onedrive/start':
+                    location, binding = onedrive.start()
+                    return self.redirect(location, 'onedrive_binding='+binding+'; Path=/onedrive; Secure; HttpOnly; SameSite=Lax; Max-Age=600')
+                if self.path == '/onedrive/callback':
+                    from http.cookies import SimpleCookie
+                    cookies = SimpleCookie(self.headers.get('Cookie',''))
+                    binding = cookies.get('onedrive_binding')
+                    onedrive.complete(query, binding.value if binding else '')
+                    return self.redirect('/onedrive', 'onedrive_binding=; Path=/onedrive; Secure; HttpOnly; SameSite=Lax; Max-Age=0')
+                return self.respond(200, onedrive.status())
+            except Exception as error:
+                message = str(error) if isinstance(error,RuntimeError) else 'OneDrive connection failed. Check configuration; credentials are not displayed.'
+                return self.respond(503, {'error':message})
         if self.path == '/api/mappings':
             if not (os.getenv('MAPPING_DATABASE_URL') or os.getenv('MAPPING_DB_PATH')):
                 return self.respond(503, {'error': 'Connect the web app and worker to the same MAPPING_DATABASE_URL to view saved drafts.'})
@@ -428,7 +459,8 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(200, {'analysis_available': bool(os.getenv('OPENAI_API_KEY'))})
         files = {'/': ('index.html', 'text/html'), '/app.js': ('app.js', 'text/javascript'),
                  '/style.css': ('style.css', 'text/css'), '/mapping': ('mappings.html', 'text/html'),
-                 '/mappings.js': ('mappings.js', 'text/javascript')}
+                 '/mappings.js': ('mappings.js', 'text/javascript'), '/onedrive': ('onedrive.html', 'text/html'),
+                 '/onedrive.js': ('onedrive.js', 'text/javascript')}
         if self.path not in files:
             return self.respond(404, {'error': 'Not found'})
         name, content_type = files[self.path]
@@ -443,12 +475,22 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if not self.authorize():
             return
-        if self.path not in ('/api/review', '/api/chat'):
+        if self.path not in ('/api/review', '/api/chat', '/api/onedrive/disconnect'):
             return self.respond(404, {'error': 'Not found'})
         # Browser credentials must not authorize cross-site submissions.
         origin = self.headers.get('Origin')
         if origin and origin not in ('http://' + self.headers.get('Host', ''), 'https://' + self.headers.get('Host', '')):
             return self.respond(403, {'error': 'Cross-origin requests are not allowed.'})
+        if self.path == '/api/onedrive/disconnect':
+            # Require a same-origin browser request, including Origin, for this mutation.
+            if not origin:
+                return self.respond(403, {'error':'A same-origin request is required.'})
+            try:
+                import onedrive
+                onedrive.disconnect()
+                return self.respond(200, {'connected':False})
+            except Exception:
+                return self.respond(503, {'error':'Could not disconnect OneDrive. Check storage configuration.'})
         try:
             length = int(self.headers.get('Content-Length', '0'))
             if length <= 0 or length > MAX_REQUEST:

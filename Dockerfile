@@ -10,6 +10,7 @@ COPY server.py ./server.py
 COPY resolution.py ./resolution.py
 COPY review_guidance.py ./review_guidance.py
 COPY mapping_worker.py ./mapping_worker.py
+COPY onedrive.py ./onedrive.py
 COPY mapping/ ./mapping/
 COPY requirements-worker.txt ./requirements-worker.txt
 COPY references/resolution.json ./references/resolution.json

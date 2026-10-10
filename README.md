@@ -126,6 +126,16 @@ Without a key the app validates submissions and returns a preparation checklist,
 
 Reports display model-generated Markdown as plain text, including source URLs, and can be downloaded. Source accuracy, drawing interpretation, and zoning conclusions require professional verification. This is not DOB approval, an exhaustive compliance engine, or a substitute for an architect. Image-only drawings, unclear dimensions, amendments and special districts may prevent reliable findings.
 
+## OneDrive document storage
+
+The protected `/onedrive` page connects a personal Microsoft account for document storage in the app's OneDrive folder. Follow [registration and Render setup](docs/onedrive.md). Saved tokens are encrypted in the shared PostgreSQL database. This provides storage for PDFs, extracted text and metadata; automatic DOB collection is a separate next step.
+
+Install optional worker/storage dependencies before running the complete test suite:
+
+```sh
+python -m pip install -r requirements-worker.txt
+```
+
 ## Validate
 
 ```sh
