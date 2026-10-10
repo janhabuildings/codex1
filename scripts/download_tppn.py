@@ -11,7 +11,7 @@ import sys
 import urllib.parse
 import urllib.request
 
-INDEX = 'https://www.nyc.gov/site/buildings/codes/technical-policy-and-procedure-notices.page'
+INDEX = 'https://www.nyc.gov/site/buildings/index.page'
 MAX_FILE = 30 * 1024 * 1024
 
 
@@ -66,12 +66,13 @@ def fetch(url):
 
 
 def discover(start=INDEX, loader=fetch, max_pages=150):
-    queue = deque([start])
+    queue = deque([(start, True)])
+    navigation_count = 0
     seen = set()
     documents = {}
     errors = []
     while queue:
-        url = queue.popleft()
+        url, required = queue.popleft()
         if url in seen:
             continue
         if len(seen)>=max_pages:
@@ -79,22 +80,31 @@ def discover(start=INDEX, loader=fetch, max_pages=150):
             break
         seen.add(url)
         try:
+            print('Inspecting official page: '+url, flush=True)
             parser = Links()
             parser.feed(loader(url).decode('utf-8',errors='replace'))
         except Exception as error:
-            errors.append({'url':url,'error':str(error)})
+            if required:
+                errors.append({'url':url,'error':str(error)})
+            else:
+                print('Skipping unavailable navigation page: '+url+' — '+str(error), flush=True)
             continue
         for href,label in parser.links:
             target = official_url(href,url)
             if not target:
                 continue
             path = urllib.parse.urlsplit(target).path.lower()
-            relevant = 'tppn' in path or 'tppn' in label.lower() or 'technical policy' in label.lower()
+            relevant = 'tppn' in path or 'technical-policy' in path or 'tppn' in label.lower() or 'technical policy' in label.lower()
             if path.endswith('.pdf'):
                 if relevant:
                     documents.setdefault(target,{'source_url':target,'title':label,'listing_url':url})
-            elif relevant and target not in seen:
-                queue.append(target)
+            elif target not in seen:
+                if relevant:
+                    queue.appendleft((target,True))
+                elif ('/site/buildings/codes/' in path or '/codes_and_reference_materials/' in path) and navigation_count < 30:
+                    # Discover the archive through DOB navigation, rather than guessing its slug.
+                    queue.append((target,False))
+                    navigation_count += 1
     return list(documents.values()),errors
 
 
@@ -117,6 +127,7 @@ def archive(output, start=INDEX, loader=fetch):
     now = datetime.now(timezone.utc).isoformat()
     for doc in sorted(documents,key=lambda d:d['source_url']):
         try:
+            print('Downloading PDF: '+doc['source_url'], flush=True)
             body = loader(doc['source_url'])
             if len(body)>MAX_FILE or not body.lstrip().startswith(b'%PDF-'):
                 raise ValueError('Response is not a PDF or exceeds the size limit')
@@ -139,6 +150,8 @@ def archive(output, start=INDEX, loader=fetch):
         'discovered_documents':len(documents),'documents':sorted(saved.values(),key=lambda d:d['filename']),
         'errors':errors},indent=2)+'\n')
     print(json.dumps({'discovered':len(documents),'saved':len(saved),'errors':len(errors),'folder':str(output)}))
+    for error in errors:
+        print('Download error: '+error['url']+' — '+error['error'], file=sys.stderr, flush=True)
     return not errors
 
 

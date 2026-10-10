@@ -12,12 +12,25 @@ class TppnTests(unittest.TestCase):
     def test_discovery_follows_year_pages_deduplicates_and_rejects_external_links(self):
         year='https://www.nyc.gov/site/buildings/codes/tppn-2000.page'
         pdf='https://www.nyc.gov/assets/buildings/pdf/tppn0100.pdf'
-        pages={tppn.INDEX:b'<a href="tppn-2000.page">2000 TPPNs</a><a href="https://evil.example/tppn.pdf">TPPN</a>',
+        pages={tppn.INDEX:b'<a href="/site/buildings/codes/tppn-2000.page">2000 TPPNs</a><a href="https://evil.example/tppn.pdf">TPPN</a>',
                year:b'<a href="/assets/buildings/pdf/tppn0100.pdf">TPPN 1/00</a><a href="/assets/buildings/pdf/tppn0100.pdf">Duplicate</a><a href="/assets/buildings/pdf/other.pdf">Other</a>'}
         docs,errors=tppn.discover(loader=pages.__getitem__)
         self.assertEqual(errors,[])
         self.assertEqual([d['source_url'] for d in docs],[pdf])
         self.assertEqual(docs[0]['listing_url'],year)
+
+    def test_archive_discovery_uses_dob_navigation_without_assumed_archive_url(self):
+        tools='https://www.nyc.gov/site/buildings/codes/code-tools.page'
+        missing='https://www.nyc.gov/site/buildings/codes/old-reference.page'
+        archive='https://www.nyc.gov/site/buildings/codes/technical-policy-procedure-notices.page'
+        pdf='https://www.nyc.gov/assets/buildings/pdf/tppn0100.pdf'
+        pages={tppn.INDEX:b'<a href="/site/buildings/codes/old-reference.page">Old codes</a><a href="/site/buildings/codes/code-tools.page">Code tools</a>',
+               tools:b'<a href="technical-policy-procedure-notices.page">Technical Policy &amp; Procedure Notices</a>',
+               archive:b'<a href="/assets/buildings/pdf/tppn0100.pdf">TPPN 1/00</a>'}
+        docs,errors=tppn.discover(loader=pages.__getitem__)
+        self.assertEqual(errors,[])
+        self.assertEqual([doc['source_url'] for doc in docs],[pdf])
+        self.assertEqual(docs[0]['listing_url'],archive)
 
     def test_partial_failure_retains_prior_files_and_records_errors(self):
         pdf='https://www.nyc.gov/assets/buildings/pdf/tppn0100.pdf'

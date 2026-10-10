@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/download-tppn.yml'
+      - 'scripts/download_tppn.py'
 permissions:
   contents: write
 concurrency:
@@ -12,20 +13,36 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Download official TPPN PDFs
         id: download
         continue-on-error: true
         run: python scripts/download_tppn.py
+      - name: Show download result
+        if: always()
+        run: |
+          if [ -f references/tppn/index.json ]; then
+            cat references/tppn/index.json
+            python - <<'PYTHON'
+          import json, os
+          from pathlib import Path
+          result = json.loads(Path('references/tppn/index.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('## TPPN download result\n\n')
+              summary.write(f"Discovered: {result['discovered_documents']}; saved: {len(result['documents'])}; errors: {len(result['errors'])}\n\n")
+              for error in result['errors']:
+                  summary.write(f"- {error['url']}: {error['error']}\n")
+          PYTHON
+          fi
       - name: Save downloaded files and provenance
         run: |
           git config user.name 'github-actions[bot]'
@@ -38,7 +55,7 @@ jobs:
           fi
       - name: Offer archive download
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: nyc-dob-tppn
           path: references/tppn
