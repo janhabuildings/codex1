@@ -1,0 +1,17 @@
+{
+  "source_index": "https://www.nyc.gov/site/buildings/codes/technical-policy-and-procedure-notices.page",
+  "last_checked": "2026-10-10T16:26:37.448725+00:00",
+  "coverage": "Linked official TPPN PDFs only. Current applicability, rescission and supersession require verification.",
+  "discovered_documents": 0,
+  "documents": [],
+  "errors": [
+    {
+      "url": "https://www.nyc.gov/site/buildings/codes/technical-policy-and-procedure-notices.page",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nyc.gov/site/buildings/codes/technical-policy-and-procedure-notices.page",
+      "error": "No TPPN PDF links found; verify the official archive URL and page structure"
+    }
+  ]
+}
