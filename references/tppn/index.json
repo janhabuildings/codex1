@@ -1,13 +1,1224 @@
 {
-  "source_index": "https://www.nyc.gov/site/buildings/index.page",
-  "last_checked": "2026-10-10T17:10:09.793289+00:00",
+  "source_index": "https://www.nyc.gov/site/buildings/codes/policy-procedure-notices.page",
+  "last_checked": "2026-10-10T17:14:51.374709+00:00",
   "coverage": "Linked official TPPN PDFs only. Current applicability, rescission and supersession require verification.",
-  "discovered_documents": 0,
-  "documents": [],
-  "errors": [
+  "discovered_documents": 135,
+  "documents": [
     {
-      "url": "https://www.nyc.gov/site/buildings/index.page",
-      "error": "No TPPN PDF links found; verify the official archive URL and page structure"
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0100.pdf",
+      "title": "Technical Policy and Procedure Notice #01/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0100-39853684ce.pdf",
+      "bytes": 537032,
+      "sha256": "d8629afabd3b0a8525c47fb4ffd3a86ef7cf33fcaec1b9a898a1588b82097e42",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0101.pdf",
+      "title": "Technical Policy and Procedure Notice #01/01",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0101-17678e948a.pdf",
+      "bytes": 937958,
+      "sha256": "0ad814cdbeb7459d3706bfdeab8e3129d0e9a290e7663af48bc48ae71528d41f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0102.pdf",
+      "title": "Technical Policy and Procedure Notice #01/02",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0102-8b905e42d1.pdf",
+      "bytes": 718862,
+      "sha256": "1748af2e9233984fbe5f4c6d4185102edd67e763184c46777f8af76f9077f003",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0103.pdf",
+      "title": "Technical Policy and Procedure Notice #01/03",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0103-96cb5596e1.pdf",
+      "bytes": 321611,
+      "sha256": "fe36353e1d8c355aa403f6960c273cf280160496560fdaa1f061c2436206ff98",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0104.pdf",
+      "title": "Technical Policy and Procedure Notice #01/04",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0104-1f46137c34.pdf",
+      "bytes": 1906230,
+      "sha256": "92bd6a2179b0fcfaa86934fbb7ae01921643ecdf1a4a1ff1ca470262a2ca27dd",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0105.pdf",
+      "title": "Technical Policy and Procedure Notice #01/05",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0105-83ac01bf00.pdf",
+      "bytes": 219958,
+      "sha256": "2d7af6643bc082ba4a4f1cb65eeb862860ae3cb98caa1df326e508304c8c8f36",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0106.pdf",
+      "title": "Technical Policy and Procedure Notice #01/06",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0106-da7c735109.pdf",
+      "bytes": 245301,
+      "sha256": "a61ac7a329429404c34d749b1247660a73580f6536affb1f016c4b595422d37f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0107.pdf",
+      "title": "Technical Policy and Procedure Notice #01/07",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0107-6e503b2c80.pdf",
+      "bytes": 1134095,
+      "sha256": "0a28344521c9de0402a571ae233ca1ed643b7891d6e63578c1af11feecf182c3",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0200.pdf",
+      "title": "Technical Policy and Procedure Notice #02/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0200-cffc168709.pdf",
+      "bytes": 599917,
+      "sha256": "88939c776fdb7b959602099440400a72841540d93d1ae2920644550612e60d42",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0201.pdf",
+      "title": "Technical Policy and Procedure Notice #02/01",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0201-b2eb4fc6cd.pdf",
+      "bytes": 393546,
+      "sha256": "c5549ca9abdaae1c541ee0cf98ee142890f529896369d86609c228f0bdcc652a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0207.pdf",
+      "title": "Technical Policy and Procedure Notice #02/07",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0207-2126c8e44a.pdf",
+      "bytes": 215096,
+      "sha256": "71febd739ecaef6fb17c746b47f3aef8b7c67b0d4186ac2146f2e3f0e038c7bd",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0300.pdf",
+      "title": "Technical Policy and Procedure Notice #03/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0300-9c60e6f3cd.pdf",
+      "bytes": 593712,
+      "sha256": "85a3d1bc636622b77868fe8e331958eb8bf1f7d987986ac162c93c226cb65313",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0303.pdf",
+      "title": "Technical Policy and Procedure Notice #03/03",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0303-1879a159bc.pdf",
+      "bytes": 690704,
+      "sha256": "c797cf67ea1336940032ff75be7066c47eaf207fdea9c06939411c2783cb82fc",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0307.pdf",
+      "title": "Technical Policy and Procedure Notice #03/07",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0307-c3301dd5fd.pdf",
+      "bytes": 223058,
+      "sha256": "836923af3413aad38dc6207265be37282a04c06aaacb792bd9a876ec8d5ad76a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0400.pdf",
+      "title": "Technical Policy and Procedure Notice #04/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0400-9e4b170987.pdf",
+      "bytes": 210619,
+      "sha256": "65d49069d33ccb2301826eb1ff30432013ac06025e909aaf7d38cc84a801a0dc",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0403.pdf",
+      "title": "Technical Policy and Procedure Notice #04/03",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0403-15a17adb13.pdf",
+      "bytes": 736827,
+      "sha256": "8d61a72a2efaac11122704c0f26b624146a2d121f8b51ae5d46fb135a2e31229",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn0600.pdf",
+      "title": "Technical Policy and Procedure Notice #06/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn0600-e8f3f0d0b8.pdf",
+      "bytes": 1086238,
+      "sha256": "1d0ef4adb27b13ff8bbe4ec92fcb84a49147dc85eef10d9c93ab06bcca8c27be",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1087.pdf",
+      "title": "Technical Policy and Procedure Notice #10/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1087-1db1f81d61.pdf",
+      "bytes": 634039,
+      "sha256": "3d29ad420de978102c03c1a6de1d0fc291eee1931e0565dae3af0794c3a9470f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1088.pdf",
+      "title": "Technical Policy and Procedure Notice #10/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1088-cde68fcce1.pdf",
+      "bytes": 97464,
+      "sha256": "e55cd2a169e5d2dd3aaff2d8d72a290958ab61df3f463e056386561fc5213f64",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1092.pdf",
+      "title": "Technical Policy and Procedure Notice #10/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1092-d3f72bd0b5.pdf",
+      "bytes": 665110,
+      "sha256": "d1806e7cad989524a92d91d052695f17c365e86897ba38d70dc3bf62d36d129b",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1093.pdf",
+      "title": "Technical Policy and Procedure Notice #10/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1093-207b6a5a5a.pdf",
+      "bytes": 114467,
+      "sha256": "478dcb26995585387e76cfb4dcee782033d91f12107bec3a8a1aedd319585405",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1094.pdf",
+      "title": "Technical Policy and Procedure Notice #10/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn1094-8ee691b100.pdf",
+      "bytes": 120408,
+      "sha256": "2c6593b6c39a1d037dce748c72060b63047b5abb70889bce47ccbd7912ed2d45",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1099.pdf",
+      "title": "Technical Policy and Procedure Notice #10/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn1099-4aac56201c.pdf",
+      "bytes": 939819,
+      "sha256": "4c3fa907c4c3128ef0e95b8c21435d99556ace4f6dff7142b4103929a2d7e75f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1187.pdf",
+      "title": "Technical Policy and Procedure Notice #11/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1187-7103b2d131.pdf",
+      "bytes": 29355,
+      "sha256": "d075cdc3e890e805460aca9b00ae9fc56a55a7f28f238e870e2cb53c1fb267e0",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1188.pdf",
+      "title": "Technical Policy and Procedure Notice #11/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1188-0a039cd125.pdf",
+      "bytes": 35774,
+      "sha256": "4237edbc5e6f6ce967b5abab9383869ed0795717be7634f06706a5946d3e6cb7",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1192.pdf",
+      "title": "Technical Policy and Procedure Notice #11/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1192-6c18903cb8.pdf",
+      "bytes": 383138,
+      "sha256": "573fa366c0d4612c1b4cf0e53eb01fd3b329e71db310d76db0dc6c62daa53c9a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1193.pdf",
+      "title": "Technical Policy and Procedure Notice #11/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1193-fbee3175fc.pdf",
+      "bytes": 22925,
+      "sha256": "34892cac760d6179141713fff57b4c788d0a008474312575a55f465ef5656d4a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1194.pdf",
+      "title": "Technical Policy and Procedure Notice #11/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn1194-785e67d8fe.pdf",
+      "bytes": 29259,
+      "sha256": "92068f8ad30614cb77e81523bc00d60ad4a987b4a021de19d6370ae590b99b8f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1199.pdf",
+      "title": "Technical Policy and Procedure Notice #11/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn1199-d46a902f28.pdf",
+      "bytes": 7861634,
+      "sha256": "217f5faddf803411078be54d3d5579f329b5650d63b0a932704795f2bda5cadd",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1288.pdf",
+      "title": "Technical Policy and Procedure Notice #12/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1288-c57e0715cc.pdf",
+      "bytes": 98915,
+      "sha256": "7298ea90859bd8d574c048bb7af75b4bcf72f6a5d36626578c9eae196f8a3168",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1293.pdf",
+      "title": "Technical Policy and Procedure Notice #12/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1293-5efecd88fa.pdf",
+      "bytes": 357328,
+      "sha256": "7af78e84757137d40cf982359ccba964a2941c564d262e7735f74024f794aea8",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1294.pdf",
+      "title": "Technical Policy and Procedure Notice #12/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn1294-7b6a9e74ac.pdf",
+      "bytes": 400806,
+      "sha256": "fcf2ea030da76b605969fd03e2dd6f90d7b2af6b69c0a9e2a0f50ce3be7ed467",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1299.pdf",
+      "title": "Technical Policy and Procedure Notice #12/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn1299-46b5dc4cf8.pdf",
+      "bytes": 195256,
+      "sha256": "7df2e69328102e1204c5eae2e01096d0ddda0a06d832be61c324cd6c0d0a111c",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1388.pdf",
+      "title": "Technical Policy and Procedure Notice #13/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1388-30f65f3c81.pdf",
+      "bytes": 42537,
+      "sha256": "f2f164d03aa2f9f41f374e1ea7ba2f83c944b01aa268c5de807e444838bbbbd1",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1393.pdf",
+      "title": "Technical Policy and Procedure Notice #13/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1393-2a31953f3f.pdf",
+      "bytes": 28416,
+      "sha256": "1859d27eae1394a7be822b649ca4f5af97d61040dcc0582c5f57d65870c3e145",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1488.pdf",
+      "title": "Technical Policy and Procedure Notice #14/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1488-9766f12313.pdf",
+      "bytes": 52357,
+      "sha256": "b5beddbf0fe2754f932dee9587d8bb5063cdf8bab8c3399a86177dacccbdcc44",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1493.pdf",
+      "title": "Technical Policy and Procedure Notice #14/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn1493-ba0c5e81df.pdf",
+      "bytes": 97306,
+      "sha256": "caeb2b693959fd13bb4b81a949811c2f7fa51b1b69d138fd83eb5514fda02f6b",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1588.pdf",
+      "title": "Technical Policy and Procedure Notice #15/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1588-59e823d9a8.pdf",
+      "bytes": 2009731,
+      "sha256": "f7f3752437a45546bf65c477c498b598c9fec013a66e031c8aed45c75ac95fdb",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1688.pdf",
+      "title": "Technical Policy and Procedure Notice #16/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1688-cdb7a0d112.pdf",
+      "bytes": 302252,
+      "sha256": "22c85d6361e376b0dec39a0d18e390ca71d4932d10cf09d4783a49551f291d36",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1788.pdf",
+      "title": "Technical Policy and Procedure Notice #17/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1788-83dc4ed72d.pdf",
+      "bytes": 175564,
+      "sha256": "f339a6738f788290df1a226ad8877403f10156d47231ac0a6c729764cd555a33",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn187.pdf",
+      "title": "Technical Policy and Procedure Notice #1/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn187-8b73d1dba9.pdf",
+      "bytes": 183902,
+      "sha256": "9fc5af846e195f076d2b5a5d041c9931098c00b5f0947baab2d390ec936fd899",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn188.pdf",
+      "title": "Technical Policy and Procedure Notice #01/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn188-63aca9e327.pdf",
+      "bytes": 99584,
+      "sha256": "e959b0092f6c65a11b457340e2c02e1743f6a1bf74fb88ba1da602b594a22fcd",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1888.pdf",
+      "title": "Technical Policy and Procedure Notice #18/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1888-a95ab137f6.pdf",
+      "bytes": 166003,
+      "sha256": "1aa716f2e2661a23838b36c7d549602dd7b0419da8323095ba967bcebc198be8",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn189.pdf",
+      "title": "Technical Policy and Procedure Notice #1/89",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn189-655e6974b5.pdf",
+      "bytes": 22597,
+      "sha256": "497956150029b698204966de168f547ad53e2616c434cdef536e97b87c9ad0ef",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn190.pdf",
+      "title": "Technical Policy and Procedure Notice #01/90",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn190-98d857511f.pdf",
+      "bytes": 396235,
+      "sha256": "e7becc4298976bb55a639521e33742f4ed9a2c74e1243af3f979b2093fb1c2ad",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn191.pdf",
+      "title": "Technical Policy and Procedure Notice #01/91",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn191-8c97d54e20.pdf",
+      "bytes": 95805,
+      "sha256": "dd3f8cb95daff8cdafd79b0d0cc79ecf6d6f8ca9b437e3dfbf3cad45ad3b0d43",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn192.pdf",
+      "title": "Technical Policy and Procedure Notice #01/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn192-b10234840f.pdf",
+      "bytes": 264404,
+      "sha256": "55367b4c06a78ce8efcbfbbf40348c35772b3b725575cd0f3bcdb48c7d0fe325",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn193.pdf",
+      "title": "Technical Policy and Procedure Notice #01/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn193-3f807d2b79.pdf",
+      "bytes": 157169,
+      "sha256": "9aafa74a6b376afb05b4277764500184ccdeb14787fcf7de42b6242a764123b7",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn194.pdf",
+      "title": "Technical Policy and Procedure Notice #01/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn194-6c56e0dc65.pdf",
+      "bytes": 247680,
+      "sha256": "b07654e2b34ca323e10eefd529a9e23c90d8f43e8f26a060fa4b59d989843279",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn195.pdf",
+      "title": "Technical Policy and Procedure Notice #01/95",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn195-ceb76c3684.pdf",
+      "bytes": 285191,
+      "sha256": "0323b6581ea495a11bc98d6e9c284f921adf331ea323d8a1307b36d0c4ae7b9f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn196.pdf",
+      "title": "Technical Policy and Procedure Notice #01/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn196-888853e3d2.pdf",
+      "bytes": 207621,
+      "sha256": "8a4180304052a8155403b469b3a54adc992cc46213ef8127fb08b8db408f1d80",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn197.pdf",
+      "title": "Technical Policy and Procedure Notice #01/97",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn197-6432dec4aa.pdf",
+      "bytes": 306873,
+      "sha256": "a624315fe7f802dcfa3f05e490dd682f7d4fb8285413a45eb2c78cfd46942ff5",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn198.pdf",
+      "title": "Technical Policy and Procedure Notice #1/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn198-5041329e3b.pdf",
+      "bytes": 756738,
+      "sha256": "7138914ac09d55c56630379e0f6207d5045fc81c4024f91618820c77a417f64c",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1988.pdf",
+      "title": "Technical Policy and Procedure Notice #19/88 (Part 1)",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1988-9a7732d750.pdf",
+      "bytes": 1019557,
+      "sha256": "773bf3a9f9da82ca8519ddedf0ba4f14d48c67e3300a125666c9064e1f1329ed",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn1988a.pdf",
+      "title": "Technical Policy and Procedure Notice #19/88 (Part 2)",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn1988a-08247a3350.pdf",
+      "bytes": 238866,
+      "sha256": "e8d176e2833b04ae972682c3e811460ac11cbc26ac9c54d5bc9a87db7f2bb7bb",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn199.pdf",
+      "title": "Technical Policy and Procedure Notice #1/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn199-354483e34c.pdf",
+      "bytes": 2667681,
+      "sha256": "ef42a15ffb0f95490408d785897c2faf789f9e6730ae35abf8eea904937d14a2",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn2088.pdf",
+      "title": "Technical Policy and Procedure Notice #20/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn2088-4b2fc25642.pdf",
+      "bytes": 23749,
+      "sha256": "c5495eb6429d6d35fdfffe6905d67f02bcb2ec00b89152088ab6866e3127fbeb",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn2188.pdf",
+      "title": "Technical Policy and Procedure Notice #21/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn2188-c4099e0653.pdf",
+      "bytes": 24332,
+      "sha256": "a9fede21463dc645bb744f6ddee56922aae9aeb6497f3d1c51dc4a008c76358b",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn2288.pdf",
+      "title": "Technical Policy and Procedure Notice #22/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn2288-838ec91df1.pdf",
+      "bytes": 558206,
+      "sha256": "3d9dbbab0fb524a9a61f21efdf4f956eba9b5af25d173d2110320876a0794270",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn2388.pdf",
+      "title": "Technical Policy and Procedure Notice #23/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn2388-db5c24fdf1.pdf",
+      "bytes": 99874,
+      "sha256": "3b088792eca7d6ab68a62d05792706d83a83513029436eba002a8fdd5c8b0857",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn287.pdf",
+      "title": "Technical Policy and Procedure Notice #2/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn287-9ffe4f0777.pdf",
+      "bytes": 271366,
+      "sha256": "5980c3735ad9dbd78db51bcf0c854cea3c361d9740abfb7b171adcadae5f052d",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn288.pdf",
+      "title": "Technical Policy and Procedure Notice #02/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn288-86f39517eb.pdf",
+      "bytes": 38281,
+      "sha256": "841c682d53ef4eb90eda510cf640d34656fb5e58b4accd1edf078a42ce43bddf",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn289.pdf",
+      "title": "Technical Policy and Procedure Notice #2/89",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn289-61031a3b38.pdf",
+      "bytes": 101857,
+      "sha256": "13d23c5cfcef4004dcbcfea4c3c0570068c85714e35a42496e5d6bad0f4e84aa",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn291.pdf",
+      "title": "Technical Policy and Procedure Notice #02/91",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn291-867c9ae75d.pdf",
+      "bytes": 176235,
+      "sha256": "8ead1314651464ed718fd3a4ec999387758e2185cd796563ff934ef895e6c885",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn292.pdf",
+      "title": "Technical Policy and Procedure Notice #02/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn292-6e071a6b64.pdf",
+      "bytes": 168293,
+      "sha256": "04d686c493b2ce6e6c422363e6084330f291ee6328ea89f3506092a025a345e4",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn293.pdf",
+      "title": "Technical Policy and Procedure Notice #02/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn293-1e94c29e22.pdf",
+      "bytes": 108313,
+      "sha256": "a761ba24a9d0f94df8f36b6e987fbf0df5bbc43f2cc53be5bb46185bcc12dc8e",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn294.pdf",
+      "title": "Technical Policy and Procedure Notice #02/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn294-231b3be033.pdf",
+      "bytes": 33201,
+      "sha256": "afbe7e7ee80d4f665b79d12c9eef015310f699a57f07501cd9040f752c909896",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn295.pdf",
+      "title": "Technical Policy and Procedure Notice #02/95",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn295-b641bccb85.pdf",
+      "bytes": 176973,
+      "sha256": "c9e88602c69a45912d7c360e426400f122c35bb5fb9495d970c3c97118105c2b",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn296.pdf",
+      "title": "Technical Policy and Procedure Notice #02/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn296-5f876bb20f.pdf",
+      "bytes": 53161,
+      "sha256": "0246ca46030f510c30ba1c6b7f4971e1d0108fc8de9c302c6636e1ee032afb3d",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn297.pdf",
+      "title": "Technical Policy and Procedure Notice #02/97",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn297-c77d9630ea.pdf",
+      "bytes": 100758,
+      "sha256": "5856f30998a06647e23d9b5f165efa0ad43d3e1b2b6be4a7e7db42e2b9e08c83",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn298.pdf",
+      "title": "Technical Policy and Procedure Notice #2/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn298-a6120e8a55.pdf",
+      "bytes": 1622777,
+      "sha256": "bc0fe55f37fdd21f6bde9673909e9c3596f9fccf599a031229840f576ca5ae7f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn299.pdf",
+      "title": "Technical Policy and Procedure Notice #2/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn299-1b074a4e8a.pdf",
+      "bytes": 148702,
+      "sha256": "e49eab4b645784eb3854f5b8dafd2411f055499fb212b86649b91550d9331182",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn387.pdf",
+      "title": "Technical Policy and Procedure Notice #3/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn387-8f5cdc3e51.pdf",
+      "bytes": 138294,
+      "sha256": "bc7fa674c68481d490785072488377837ea1f8216c6f98403e2099bb6747937e",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn388.pdf",
+      "title": "Technical Policy and Procedure Notice #03/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn388-6835ab05d6.pdf",
+      "bytes": 112449,
+      "sha256": "606bda3b15f95b6aba9cc3f11660b06a2d30c5ab8eba91a60c1e79716da98045",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn389.pdf",
+      "title": "Technical Policy and Procedure Notice #3/89",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn389-f85ed4f639.pdf",
+      "bytes": 89677,
+      "sha256": "abdaa97d04fc5367ce4b2d4ce956656215d4004b342094df186587ebc9973f2d",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn392.pdf",
+      "title": "Technical Policy and Procedure Notice #03/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn392-16b02bfb1e.pdf",
+      "bytes": 598860,
+      "sha256": "59950f9b2ab55fb22f3fcf7d639f01a3de345f9ab1f14ec6e09df80cc9936539",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn393.pdf",
+      "title": "Technical Policy and Procedure Notice #03/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn393-e499a98140.pdf",
+      "bytes": 122204,
+      "sha256": "844783fb1577a52d913e65192be324ad82821c054e3a7915a34f855dd99b88db",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn394.pdf",
+      "title": "Technical Policy and Procedure Notice #03/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn394-dc5a11e5f3.pdf",
+      "bytes": 311505,
+      "sha256": "f9ec4f4cfa8ab39394a13688183c8dee837f67c10a43a7ce18f873652e92fbf5",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn395.pdf",
+      "title": "Technical Policy and Procedure Notice #03/95",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn395-61bf3826ad.pdf",
+      "bytes": 184798,
+      "sha256": "edde4ccc712569526e2fc8c4c998cc1412d46f84e653dfd434d88be2a838dc18",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn396.pdf",
+      "title": "Technical Policy and Procedure Notice #03/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn396-98449b3fb9.pdf",
+      "bytes": 553896,
+      "sha256": "268710b4c6332e67fed5f881d4446c20512b20a8f24a191a751928ade42267f2",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn397.pdf",
+      "title": "Technical Policy and Procedure Notice #3/97",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn397-0ac2ecb04b.pdf",
+      "bytes": 77330,
+      "sha256": "7c0bbb8b2b0544fe68d67b0455924dcaf7d253813b981f752510fe05fb7f159b",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn398.pdf",
+      "title": "Technical Policy and Procedure Notice #3/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn398-f56da06232.pdf",
+      "bytes": 556233,
+      "sha256": "7ffc775050b49898670798de4edd8b2b2d1ca37cc53715c1376a48bd442b8503",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn399.pdf",
+      "title": "Technical Policy and Procedure Notice #3/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn399-ce5763a2bd.pdf",
+      "bytes": 262105,
+      "sha256": "9f70d5ea45f3debb9f8226318d2976449eeda777776a23bfc58329e2116d6d01",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn487.pdf",
+      "title": "Technical Policy and Procedure Notice #4/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn487-b85f698026.pdf",
+      "bytes": 244125,
+      "sha256": "0acc7feea7cd01595d6382cfa8fef053d0fa29405d40fcddeb6015f19b3ea260",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn488.pdf",
+      "title": "Technical Policy and Procedure Notice #04/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn488-e067e3d7b7.pdf",
+      "bytes": 104353,
+      "sha256": "df8d0458f57234f45aaa06337c1043719da3e09d4ae8396b22ac6b3d90b17dce",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn489.pdf",
+      "title": "Technical Policy and Procedure Notice #4/89",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn489-56d9028641.pdf",
+      "bytes": 100690,
+      "sha256": "c536abb5f4f8c9113009f69f085d514185ebd645d4ea66a638fa9999f6110027",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn491a.pdf",
+      "title": "Technical Policy and Procedure Notice #04/91",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn491a-81ebe15ba4.pdf",
+      "bytes": 200402,
+      "sha256": "4aa87e1fda26748a3a2729418bad398d984c7ed8f4a1ca96643bbdfe4f72eb42",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn491b.pdf",
+      "title": "Technical Policy and Procedure Notice #04/91",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn491b-7c2b0a9e93.pdf",
+      "bytes": 80572,
+      "sha256": "733038a76f0c7bd8eb1b36ede1098b6a9bb6169ef51ab4328e564b92207ffe82",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn492.pdf",
+      "title": "Technical Policy and Procedure Notice #04/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn492-ba0407b60c.pdf",
+      "bytes": 148355,
+      "sha256": "af2f0adca12caa0d4384c2b04b1b4e79e0f5a8aabe19db5f1e905f45a412f64e",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn493.pdf",
+      "title": "Technical Policy and Procedure Notice #04/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn493-94989812a4.pdf",
+      "bytes": 831287,
+      "sha256": "8be18282b00b5719d1762f52a1de5341086f25aca15b2e80b5bfbe524be87d0f",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn494.pdf",
+      "title": "Technical Policy and Procedure Notice #04/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn494-c7a335d15a.pdf",
+      "bytes": 248351,
+      "sha256": "c99296b634032efdc9189c8317d97400fc89590452992e6e531efdd0bdce9e61",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn495.pdf",
+      "title": "Technical Policy and Procedure Notice #04/95",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn495-994f95f4e3.pdf",
+      "bytes": 233533,
+      "sha256": "a55a796fe8bee1594795390a09ca44f3aa1d101b8440ae0dd11c9abc6caf9214",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn496.pdf",
+      "title": "Technical Policy and Procedure Notice #04/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn496-214743eb5f.pdf",
+      "bytes": 337462,
+      "sha256": "cf413c87e295cf29c5125e416302cef77b9337a003033e5c5ab3c1aafc4a6566",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn498.pdf",
+      "title": "Technical Policy and Procedure Notice #4/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn498-efa0d02afc.pdf",
+      "bytes": 442485,
+      "sha256": "284b52fcedfbb17fc7faa1fc98821506ef5a8f27d48bbc81bbbfdf4a81d1d6c3",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn499.pdf",
+      "title": "Technical Policy and Procedure Notice #4/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn499-8214efa3d4.pdf",
+      "bytes": 1291320,
+      "sha256": "49138a13d29063fb13e9959611c14a29eb0f5ea744e59bead6a1962972b6f653",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn500.pdf",
+      "title": "Technical Policy and Procedure Notice #05/00",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn500-49fc344c87.pdf",
+      "bytes": 2297176,
+      "sha256": "09a77ad9951e0dabb9c257a073149696d009c798fbe28b244e9149dc41ed9478",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn587.pdf",
+      "title": "Technical Policy and Procedure Notice #5/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn587-44143d9bbe.pdf",
+      "bytes": 114496,
+      "sha256": "e37f1cd98222e77e1df74c34ab7fb46402b8e775077d6b076ad45b49d5b6ccc1",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn588.pdf",
+      "title": "Technical Policy and Procedure Notice #05/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn588-8ce3f83dec.pdf",
+      "bytes": 24324,
+      "sha256": "eba727251f19ce14e629da0876b0e1c2c72792b0ec5f8256905486994e497fed",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn592.pdf",
+      "title": "Technical Policy and Procedure Notice #05/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn592-a758c2c833.pdf",
+      "bytes": 161024,
+      "sha256": "f1b4a181968d2253ec55f4e3b421758a1077ae2ab6baf927f09641277eaa4fd0",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn593.pdf",
+      "title": "Technical Policy and Procedure Notice #05/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn593-7097abfb08.pdf",
+      "bytes": 117083,
+      "sha256": "2428051362ba9843277a00c8cbae28504d1d037d85156d6e70a990635640873d",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn594.pdf",
+      "title": "Technical Policy and Procedure Notice #05/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn594-9e81ccd1a3.pdf",
+      "bytes": 27992,
+      "sha256": "dd2c225ad0f8cfec3259146009dff91125aa3c1af2fe068281f9197ac1980f66",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn596.pdf",
+      "title": "Technical Policy and Procedure Notice #05/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn596-4f11481ec4.pdf",
+      "bytes": 320001,
+      "sha256": "b145cd8c49df2f14fb4b7da2a3de7a5b03b0bc429734219c5cef1c146dc354dd",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn598.pdf",
+      "title": "Technical Policy and Procedure Notice #5/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn598-df80f85b78.pdf",
+      "bytes": 412673,
+      "sha256": "11c6b72f2a03c5871259419e83b8a30897fef6ffdcb41117ea156bc10dff3d78",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn599.pdf",
+      "title": "Technical Policy and Procedure Notice #5/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn599-aabf8014e8.pdf",
+      "bytes": 1121280,
+      "sha256": "e7014eba66f0961d3cc7f73aa8af0762e9454de77bed1a2922514a02a68421da",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn687.pdf",
+      "title": "Technical Policy and Procedure Notice #6/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn687-c2d27467cc.pdf",
+      "bytes": 159778,
+      "sha256": "8e8c30aa0f9e221887b8fe707b81d750092aae6cdfb48541aff42012d6e6ae89",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn688.pdf",
+      "title": "Technical Policy and Procedure Notice #06/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn688-adde1a473c.pdf",
+      "bytes": 51198,
+      "sha256": "32be4875163601f17fb666629eaaca45fb34eea2d011e3292370f0fb2ff03928",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn692.pdf",
+      "title": "Technical Policy and Procedure Notice #06/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn692-8f500d0a1d.pdf",
+      "bytes": 24319,
+      "sha256": "63d1f067862685b1fa7e16f58c7c052a4282c7d9b35f046b3a89bf8b47702279",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn693.pdf",
+      "title": "Technical Policy and Procedure Notice #06/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn693-0b544c9e49.pdf",
+      "bytes": 288937,
+      "sha256": "28d9f94e4ab4e78ed9a1c07b18a2ec32f46dcc4e63d4b96c16bdbcc794d7f9fa",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn694.pdf",
+      "title": "Technical Policy and Procedure Notice #06/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn694-5ce9f64b9b.pdf",
+      "bytes": 26936,
+      "sha256": "344cf064d78b2c56c725033dbf835fb9e001d90c40dca173d460e0ca217eb5fc",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn696.pdf",
+      "title": "Technical Policy and Procedure Notice #06/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn696-159fc4eddf.pdf",
+      "bytes": 71536,
+      "sha256": "163f140955074c7b60dd1975f9e49d18a49475c5cdf026f9b81b99c0321ad557",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn698.pdf",
+      "title": "Technical Policy and Procedure Notice #6/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn698-37eccd934e.pdf",
+      "bytes": 342119,
+      "sha256": "e47b4293078dac44467063986f0cd64bab7444edcf03df685fa5db83e1f66104",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn699.pdf",
+      "title": "Technical Policy and Procedure Notice #6/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn699-f5925ecef1.pdf",
+      "bytes": 1397808,
+      "sha256": "a31f471ba9e11e01c04663eec4b4509fbb78dab22a58a2e5bfa09872a8d4b03a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn787.pdf",
+      "title": "Technical Policy and Procedure Notice #7/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn787-e9a2e1014e.pdf",
+      "bytes": 178941,
+      "sha256": "363b669a297abeaa8abf32bdf493880ee8ade2a588f77bfd7c4d7be2609c617a",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn788.pdf",
+      "title": "Technical Policy and Procedure Notice #07/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn788-8d50313941.pdf",
+      "bytes": 106235,
+      "sha256": "edf93a3849fcdf873499fc0c1bdaf649446d16a1e597c1e11ed80751a027a7ee",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn792.pdf",
+      "title": "Technical Policy and Procedure Notice #07/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn792-0030edf40b.pdf",
+      "bytes": 106609,
+      "sha256": "60e8660562744ff9502c60f51a7b7d4c37bf24f3d7b7a8107cbfca497fce628e",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn793.pdf",
+      "title": "Technical Policy and Procedure Notice #07/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn793-0fbdf979f2.pdf",
+      "bytes": 54847,
+      "sha256": "aae66b43231e0fbfcfe1662fdc841316f5d3955a1f57febe8488fe1d168f3a96",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn794.pdf",
+      "title": "Technical Policy and Procedure Notice #07/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn794-802b78895f.pdf",
+      "bytes": 464532,
+      "sha256": "4602ade676eabb06a4ab27c6f639fb34e4774d325d44080a4f3741685eb23aab",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn796.pdf",
+      "title": "Technical Policy and Procedure Notice #07/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn796-da61ceb9a3.pdf",
+      "bytes": 217425,
+      "sha256": "ebe624a6d69195857515817b745d255c0d0d9fbba44514e9e5d95e4658ebcd75",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn798.pdf",
+      "title": "Technical Policy and Procedure Notice #7/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn798-1382130048.pdf",
+      "bytes": 1025270,
+      "sha256": "d0c41da924d27b527b700412b053f8231e93783e22abe4a0a5af89819baccaec",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn799.pdf",
+      "title": "Technical Policy and Procedure Notice #7/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn799-158ecd1e24.pdf",
+      "bytes": 1920742,
+      "sha256": "66877b64a691bf45c9c6bcb47152090e4433bf64fa9e657587a43711cde860b8",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn887.pdf",
+      "title": "Technical Policy and Procedure Notice #8/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn887-74b0561461.pdf",
+      "bytes": 29689,
+      "sha256": "935db716517835bf6901dd0b6becfaccec306c59bcc520a278d41056ec67d65d",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn888.pdf",
+      "title": "Technical Policy and Procedure Notice #08/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn888-f12dd35388.pdf",
+      "bytes": 789058,
+      "sha256": "e22a509d4889161a7baee6b1c5e4b5df7a7615e6c4fa54e1e596b00110fe4f15",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn892.pdf",
+      "title": "Technical Policy and Procedure Notice #08/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn892-0365eeb4a4.pdf",
+      "bytes": 280698,
+      "sha256": "35a37190ecf7ce25c9ec82f3a8287310ca0c6e394727051332004a8a89feb78e",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn893.pdf",
+      "title": "Technical Policy and Procedure Notice #08/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn893-9a95ad81ea.pdf",
+      "bytes": 212912,
+      "sha256": "7bf7d98bb8eda7cf548685e99cc9b14c62e9961cf3fc6fb019d0ddfb93b72ccb",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn894.pdf",
+      "title": "Technical Policy and Procedure Notice #08/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn894-52a4f9b911.pdf",
+      "bytes": 236933,
+      "sha256": "bb8986b7b3e7a3e8532c232549f76a47c658d7b8116d69df5f1de42eb0676e11",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn896.pdf",
+      "title": "Technical Policy and Procedure Notice #08/96",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn896-34618acb45.pdf",
+      "bytes": 276984,
+      "sha256": "937aad3660c094a6ae886785ca67a7af678b777104cb90777343978f200dc3fb",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn898.pdf",
+      "title": "Technical Policy and Procedure Notice #8/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn898-e797426dd4.pdf",
+      "bytes": 310011,
+      "sha256": "c342e8cea96fd4eba18037f3566fa8d72b39fd30ca72b40617ca569d08555d19",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn899.pdf",
+      "title": "Technical Policy and Procedure Notice #8/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn899-06904a76e4.pdf",
+      "bytes": 695407,
+      "sha256": "cdf187b46551fe943091bb859afeb54e7c93d2234187620181766266c5dbf6d0",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn987.pdf",
+      "title": "Technical Policy and Procedure Notice #9/87",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn987-9db5b620f5.pdf",
+      "bytes": 23891,
+      "sha256": "d5f5e8cad2e77c1eed0bb6ec8f18e450fa730672eaf84492492349a88d55ac2c",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn988.pdf",
+      "title": "Technical Policy and Procedure Notice #09/88",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn4.page",
+      "filename": "tppn988-7a49fa4ac4.pdf",
+      "bytes": 176605,
+      "sha256": "ad474fc25055f449a5e0fa269d5bef3ad3aabf2d1de0ad3b6efe513372bd80af",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn992.pdf",
+      "title": "Technical Policy and Procedure Notice #09/92",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn992-4715e2ba9f.pdf",
+      "bytes": 522007,
+      "sha256": "0734bf9427214d1c988ca7ec07dec733926f42e1f233acb33daf0c3a8aefe8ef",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn993.pdf",
+      "title": "Technical Policy and Procedure Notice #09/93",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn3.page",
+      "filename": "tppn993-1855ebfb7f.pdf",
+      "bytes": 69241,
+      "sha256": "a9b121a612b8169387e79b4ad8ff187e44575bb54b45d9b50610e2a67b432ee2",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn994.pdf",
+      "title": "Technical Policy and Procedure Notice #09/94",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn2.page",
+      "filename": "tppn994-58ce61cf78.pdf",
+      "bytes": 49399,
+      "sha256": "eb4d1e136bec7bc4636ceade1b3117902d8a1025e67c9a4fdca9786556cb0b04",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn998.pdf",
+      "title": "Technical Policy and Procedure Notice #9/98",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn998-2c763426a7.pdf",
+      "bytes": 428398,
+      "sha256": "fad2443462eda96761e8c265a046795c67965612b409511ecd0aaa11d4e99ece",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/ppn/tppn999.pdf",
+      "title": "Technical Policy and Procedure Notice #9/99",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/tppn1.page",
+      "filename": "tppn999-2387ef5345.pdf",
+      "bytes": 455475,
+      "sha256": "ae6f6bed73109533d1e129dec51e8f7e8d623eec3070fdf5a3510dd749418399",
+      "downloaded_at": "2026-10-10T17:14:51.374709+00:00"
     }
-  ]
+  ],
+  "errors": []
 }
