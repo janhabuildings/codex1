@@ -1,6 +1,6 @@
 # NYC DOB TPPN archive
 
-The downloader starts at the DOB homepage and follows official code-reference links to discover the TPPN archive.
+The downloader starts at the [official DOB Policy and Procedure Notices page](https://www.nyc.gov/site/buildings/codes/policy-procedure-notices.page) and follows its TPPN archive links.
 
 Official Technical Policy and Procedure Notice PDFs are saved here by the **Download NYC DOB TPPNs** GitHub Actions workflow. `index.json` records original PDF links, the listing pages, SHA-256 checksums and download errors. Existing files remain available if a later download fails.
 

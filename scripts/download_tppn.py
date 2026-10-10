@@ -11,7 +11,7 @@ import sys
 import urllib.parse
 import urllib.request
 
-INDEX = 'https://www.nyc.gov/site/buildings/index.page'
+INDEX = 'https://www.nyc.gov/site/buildings/codes/policy-procedure-notices.page'
 MAX_FILE = 30 * 1024 * 1024
 
 
