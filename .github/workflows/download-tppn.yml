@@ -1,0 +1,50 @@
+name: Download NYC DOB TPPNs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/download-tppn.yml'
+permissions:
+  contents: write
+concurrency:
+  group: download-tppn
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download official TPPN PDFs
+        id: download
+        continue-on-error: true
+        run: python scripts/download_tppn.py
+      - name: Save downloaded files and provenance
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add references/tppn
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive official NYC DOB TPPNs and source index'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Offer archive download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nyc-dob-tppn
+          path: references/tppn
+          retention-days: 30
+      - name: Report incomplete downloads
+        if: steps.download.outcome == 'failure'
+        run: |
+          echo 'Some sources could not be downloaded. See references/tppn/index.json errors and the downloaded artifact.'
+          exit 1
