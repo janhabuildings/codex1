@@ -1,6 +1,8 @@
-# Extracted DOB reference library
+# Zoning and DOB reference library
 
-The library stores page-separated text from the archived TPPNs and Buildings Bulletins in `references/dob-text/`. Each JSON record retains its source URL, original filename, PDF checksum and page numbering. The index tracks extraction failures, pages with little text and pages improved by OCR.
+The `/references` page offers All collections, Zoning Resolution, TPPNs and Buildings Bulletins filters. Zoning search uses the existing supplied-resolution index and preserves its split/PDF citations, verified FAR tables and section continuation pages. The original zoning PDFs are not stored, so those results show their supplied-text source without inventing a PDF download link. All-collection results interleave independent searches rather than claiming a common relevance score.
+
+The DOB library stores page-separated text from the archived TPPNs and Buildings Bulletins in `references/dob-text/`. Each JSON record retains its source URL, original filename, PDF checksum and page numbering. The index tracks extraction failures, pages with little text and pages improved by OCR.
 
 Extraction uses local Poppler tools; low-text pages use Tesseract OCR. No OpenAI API calls are used for extraction or indexing. Install Poppler and Tesseract locally (Ubuntu: `sudo apt-get install poppler-utils tesseract-ocr tesseract-ocr-eng`), then run from the repository root:
 

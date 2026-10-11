@@ -9,6 +9,7 @@ WORKDIR /app
 COPY server.py ./server.py
 COPY resolution.py ./resolution.py
 COPY dob_references.py ./dob_references.py
+COPY reference_library.py ./reference_library.py
 COPY review_guidance.py ./review_guidance.py
 COPY mapping_worker.py ./mapping_worker.py
 COPY onedrive.py ./onedrive.py

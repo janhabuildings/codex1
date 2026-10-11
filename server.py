@@ -14,6 +14,7 @@ import urllib.error
 import urllib.request
 import resolution
 import dob_references
+import reference_library
 import review_guidance
 
 ROOT = Path(__file__).parent
@@ -449,16 +450,10 @@ class Handler(BaseHTTPRequestHandler):
                 message = str(error) if isinstance(error,RuntimeError) else 'OneDrive connection failed. Check configuration; credentials are not displayed.'
                 return self.respond(503, {'error':message})
         if self.path == '/api/dob/search':
-            hits = dob_references.search(query.get('query',[''])[0],query.get('collection',['all'])[0])
-            return self.respond(200, {'excerpts':hits,'coverage':dob_references.metadata().get('coverage')})
+            hits = reference_library.search(query.get('query',[''])[0],query.get('collection',['all'])[0])
+            return self.respond(200, {'excerpts':hits,'coverage':'Supplied zoning text and archived DOB guidance; OCR, diagrams and current applicability require verification.'})
         if self.path == '/api/dob/status':
-            info = dob_references.metadata()
-            return self.respond(200, {'documents':len(info['documents']),
-                'pages':sum(d['pages'] for d in info['documents']),
-                'ocr_pages':sum(len(d.get('ocr_pages',[])) for d in info['documents']),
-                'low_text_pages':sum(len(d['low_text_pages']) for d in info['documents']),
-                'extraction_errors':info.get('errors',[]),'ocr_errors':info.get('ocr_errors',[]),
-                'coverage':info.get('coverage')})
+            return self.respond(200, reference_library.status())
         if self.path == '/api/mappings':
             if not (os.getenv('MAPPING_DATABASE_URL') or os.getenv('MAPPING_DB_PATH')):
                 return self.respond(503, {'error': 'Connect the web app and worker to the same MAPPING_DATABASE_URL to view saved drafts.'})
