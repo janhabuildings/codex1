@@ -1,0 +1,3528 @@
+{
+  "source_index": "https://www.nyc.gov/site/buildings/codes/policy-procedure-notices.page",
+  "last_checked": "2026-10-11T03:22:57.023209+00:00",
+  "coverage": "Linked official Buildings Bulletin PDFs only. Current applicability, rescission and supersession require verification.",
+  "discovered_documents": 391,
+  "documents": [
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-001.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-001-dec6ce0a21.pdf",
+      "bytes": 197055,
+      "sha256": "0f0b76294890ea840e7e77246eb6d1e419b16545ef5405c4c5b6e3738849c772",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-002.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-002-86d1b816af.pdf",
+      "bytes": 665598,
+      "sha256": "e06a90f8825c46d3d3a5d1be88b8311fea2201e953c890b23d722e3fa566a644",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-003.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-003-b84e95dbdc.pdf",
+      "bytes": 52480,
+      "sha256": "558b6021edefaa0f1a5a93907195b3f24e5012fa4ef11669df4f18ab9e3829d1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-004.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-004-471a38b613.pdf",
+      "bytes": 658861,
+      "sha256": "9d9625c3a076ac58c326b3350584df84508399589f76d09363614a08ecbb7e25",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-005.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-005-5ed2da20ac.pdf",
+      "bytes": 658789,
+      "sha256": "f6b4bc87f154cb1bf35013b31511100bbd0b86f2bea2d0c8c58185906676b641",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-006.pdf",
+      "title": "Code Interpretation / Buildings Bulletin 2008-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-006-0807d8695a.pdf",
+      "bytes": 51912,
+      "sha256": "a2b6e0e3e72f1be523c641f80d060e8bef3816901c82de72a7e088a993773044",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-007.pdf",
+      "title": "Legal / Buildings Bulletin 2008-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-007-35ab1529fb.pdf",
+      "bytes": 619771,
+      "sha256": "8e3a5f2ae811899480a292361b2f100c66cf5f27fa193d82438eb419460fb01e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-008.pdf",
+      "title": "Technical / Buildings Bulletin 2008-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-008-2d11419e04.pdf",
+      "bytes": 48880,
+      "sha256": "823312d0f0b76b54bbef010e2d841b87d6e165166842e5b91bd9ddcfd6f05155",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-009.pdf",
+      "title": "Technical / Buildings Bulletin 2008-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-009-76b7973e7c.pdf",
+      "bytes": 53458,
+      "sha256": "b9d2f195194138539fc1e8b76ba0111af171621533b7a2187ba91057ea7d097d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-010.pdf",
+      "title": "Technical / Buildings Bulletin 2008-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-010-6319622d95.pdf",
+      "bytes": 138217,
+      "sha256": "2a49d66fabba50775ed19b3d6e1d519dc41cab29e934d008b826543df18561ba",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-011.pdf",
+      "title": "Technical / Buildings Bulletin 2008-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2008-011-5fe555627b.pdf",
+      "bytes": 180753,
+      "sha256": "9d5ddea1823f12049f81384bd3068556635566811932468046945a88afbddb4f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-001.pdf",
+      "title": "Technical / Buildings Bulletin 2009-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-001-d5cc4127f7.pdf",
+      "bytes": 46807,
+      "sha256": "250e3e065091ab10f7eccdfdfeada6155c1bb142dbb93039fcd823e4f284e996",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-002.pdf",
+      "title": "Technical / Buildings Bulletin 2009-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-002-d61f404b53.pdf",
+      "bytes": 61490,
+      "sha256": "89a8051f63459a747569aebeee1843c561e308d8eabb213ddbe4e8a8e0afcad3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-003.pdf",
+      "title": "Zoning/ Buildings Bulletin 2009-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-003-4f08adc5b4.pdf",
+      "bytes": 67575,
+      "sha256": "2b7a8d61ff5040f44a562e073229bf8db8c9d2509827502be786764a1862668d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-004S.pdf",
+      "title": "Technical / Buildings Bulletin 2009-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-004S-01156cae9f.pdf",
+      "bytes": 71357,
+      "sha256": "5eabcb5391b46140a724fc2b2b9203c98a438c6147e494019cd7e03f18a93f1c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-005.pdf",
+      "title": "Technical / Buildings Bulletin 2009-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-005-5f811320ea.pdf",
+      "bytes": 68025,
+      "sha256": "d8366a7290a23fe56404343ab7b76a017748d06ca2ec39cb1a01066ad58d35f2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-006.pdf",
+      "title": "Technical / Buildings Bulletin 2009-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-006-ec019c2c19.pdf",
+      "bytes": 227188,
+      "sha256": "32034b7dc2b5db8d55c9c09f92b87c6d83091b97e316c731216e971292ae2b84",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-007.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-007-6903bb0c30.pdf",
+      "bytes": 156036,
+      "sha256": "84b3d5cb822ab5421fe2b18030093cf6d39fc21ebabd5795fda04456456408c9",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-008.pdf",
+      "title": "Zoning/ Buildings Bulletin 2009-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-008-db88112cae.pdf",
+      "bytes": 404993,
+      "sha256": "82229827c8ab0e32e05bb0f672d4b4ba464f21a9fe65e7e840f373197afd7052",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-009.pdf",
+      "title": "Operational/ Buildings Bulletin 2009-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-009-ddcc901dbf.pdf",
+      "bytes": 49076,
+      "sha256": "80e5856fee56f24e90b1c1b350e2a7dd37fc22f5cce082c6bf2671bfa3017824",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-010.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-010-27b0303686.pdf",
+      "bytes": 294464,
+      "sha256": "79211721d462902441dbb93aacc6f81df2af216ab4a6eb6ea81fb66d91fe34fd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-011.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-011-d2a65155ff.pdf",
+      "bytes": 158611,
+      "sha256": "f1956c7568c3f54aba1b62938f4ce7ca38fa898bfe476d8e9838f5b646604f01",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-012.pdf",
+      "title": "Operational/ Buildings Bulletin 2009-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-012-bdab9daa6a.pdf",
+      "bytes": 159792,
+      "sha256": "e3438d0c7786b7d0b6d43ed71d0136096fc59909df3b416453dca0f5b07227c1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-013.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-013-a3b8c6506a.pdf",
+      "bytes": 156856,
+      "sha256": "65a15e67b53fb4f9ec4fc1c15aae9268bec2f2e7bbeee70992001c7c372ae9fe",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-014.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-014-e8d0e491f3.pdf",
+      "bytes": 155026,
+      "sha256": "0840d94af6d6fa2d604eb82df03aa0c6bf522fd4ebc3422c1451c2a286391a0c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-015.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-015-5886fc7eec.pdf",
+      "bytes": 94173,
+      "sha256": "9365c6a85b98c9337783d9f124728bc4e15f6862c0c2ba735b2cedcd19da9f30",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-016.pdf",
+      "title": "Operational/ Buildings Bulletin 2009-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-016-fc4f414ced.pdf",
+      "bytes": 47508,
+      "sha256": "fdd1d34d3b75817a928784b0e0f7ab1f722db13209e73ce4c74fa7c636bd6b69",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-017.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-017-1370de0f7c.pdf",
+      "bytes": 74275,
+      "sha256": "f18288033ff649bba1a5d6bae703722a9f4eba8ce02910a023b1ab8216365021",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-018.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-018-4b3dee4a33.pdf",
+      "bytes": 282441,
+      "sha256": "d86e613d380e3cdf7ed99acefdd6f1a401f4c115591de0a307cd831ff488f8cd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-019.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-019-e42da570f4.pdf",
+      "bytes": 205126,
+      "sha256": "a788573d574869c8da24a9b3c4565432d1d1b43847e90173ff776fb1275bf6c2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-020.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-020-ffb2671e66.pdf",
+      "bytes": 64661,
+      "sha256": "d36b4e836077ef146f337c54e0142fa24e949df7ba8f69f9273af9f5ae0a7768",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-021.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-021-024a8655fb.pdf",
+      "bytes": 204928,
+      "sha256": "53cf5e5aba23eaf678e3bef1cd5edceb1020486f330f19108979c27ce060355e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-022.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-022-563f976c2b.pdf",
+      "bytes": 215563,
+      "sha256": "79eb0be4b1587490abc18c939f4633d8b04b42069d8496ffe0519c1cb33c844c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-023.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-023-7de3f0f11b.pdf",
+      "bytes": 70006,
+      "sha256": "c8ba9c64db0833dcf67a0af1213018b464a923df46abc1e8816e451bd8be77b1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-024.pdf",
+      "title": "Zoning/ Buildings Bulletin 2009-024",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-024-410264dc69.pdf",
+      "bytes": 48501,
+      "sha256": "854708707efb50ef7f02761d4c91119841501336462b51806122632725306bc2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-025.pdf",
+      "title": "Operational/ Buildings Bulletin 2009-025",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-025-90a71af63f.pdf",
+      "bytes": 121431,
+      "sha256": "0fe7edd6d3a24eb9df47691cebfe31482a334046b543b8ed4acf75102acd4781",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-026.pdf",
+      "title": "Technical/ Buildings Bulletin 2009-026",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-026-03b37482d5.pdf",
+      "bytes": 148781,
+      "sha256": "dfddb6d58397928b8bb9d5481de21618ab6329c7b3de5d69d6e41f3ab7d0f9f0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-027.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-027",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-027-0107ebd8e8.pdf",
+      "bytes": 303031,
+      "sha256": "c8882547ca4705f586224cf24462d2a3875d6d81faf0cbfe3b2aaf1d7298f7b9",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-028.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-028",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-028-2c665708ae.pdf",
+      "bytes": 239647,
+      "sha256": "6ab6d79d8701e87b11e471e3419dc95fc3127411a6eed8f84402b3547cf8bd7e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-029.pdf",
+      "title": "OTCR/ Buildings Bulletin 2009-029",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-029-824deab008.pdf",
+      "bytes": 253150,
+      "sha256": "8422ab9618821e68f01c13e572fde175db0efd8b4604435b5d04854dd95240c3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-030.pdf",
+      "title": "Zoning/ Buildings Bulletin 2009-030",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-030-e7133840cc.pdf",
+      "bytes": 58211,
+      "sha256": "6ae0c1ec02fbfd5babe791dc98bc85b1906a5dbd07b776314aab702756deab92",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-031.pdf",
+      "title": "Operational/ Buildings Bulletin 2009-031",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2009-031-69adc2d764.pdf",
+      "bytes": 108604,
+      "sha256": "43d58ba544e557fa11ced521ff5a074622477ca7b6b0089233160bfae390610d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-001.pdf",
+      "title": "Technical / Buildings Bulletin 2010-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-001-a36c7fbe8a.pdf",
+      "bytes": 88773,
+      "sha256": "98fbbc225f5776c6bf5c2097818fb4e5962f540356defc5bcb18d7f9bea9b67e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-002.pdf",
+      "title": "Operational / Buildings Bulletin 2010-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-002-6a6f1df4e6.pdf",
+      "bytes": 72747,
+      "sha256": "8427026421405c8a344806feca6053c699f2a51f6225d48499cb2d4ba82cbb2a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-003.pdf",
+      "title": "Technical / Buildings Bulletin 2010-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-003-2b139f545c.pdf",
+      "bytes": 263901,
+      "sha256": "4157941e09b42cef30668dcae12f2741e0738ad4840381affb68130ec92b5b0d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-004.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-004-f1a10bd55a.pdf",
+      "bytes": 297746,
+      "sha256": "51eff068633e1dea7df63ab81a6d06c38155476daa006bbf8653b4519e6f2977",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-005.pdf",
+      "title": "OTCR / Buildings Bulletin 2010-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-005-112213e9ea.pdf",
+      "bytes": 208090,
+      "sha256": "bd052faa15e921f5fd8b2384ec001836c241374147df6aa4ce3cd43d6d46c2f6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-006.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-006-8643539305.pdf",
+      "bytes": 198793,
+      "sha256": "649f886edc69a23fa89aba52200460b6b70f6b201caf044597bbf3c0edc42cee",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-007.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-007-e1aed19442.pdf",
+      "bytes": 90085,
+      "sha256": "6f102de63ce2c13ee0274aec938801fd9ca1e90238d1baee86b06486cba90420",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-008.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-008-9e13a9b2e7.pdf",
+      "bytes": 245079,
+      "sha256": "48578c518681ca9e3640dea1ec02e5bb4fda585f5749897c0cb84193b5ba95e6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-009.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-009-356317d518.pdf",
+      "bytes": 260909,
+      "sha256": "c717b059c691465edba3fa311aa072c84606d8f88a175fcc57f6e1be0c0e44a6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-010.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-010-96087e0f04.pdf",
+      "bytes": 62734,
+      "sha256": "2ecd925206960a5cc5f3d93c84a59e17f781e88e2859d3bf3f475cb142b0d9b5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-011.pdf",
+      "title": "Technical / Buildings Bulletin 2010-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-011-138f75a0ad.pdf",
+      "bytes": 49590,
+      "sha256": "84ba0363cb99ac12002522ab4ca24c7db95fc76c75f3d418656f93091ab43508",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-012.pdf",
+      "title": "Operational/ Buildings Bulletin 2010-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-012-c4a5a2a34a.pdf",
+      "bytes": 664989,
+      "sha256": "335ffbd3a8aca646defcf5027b49932762f6f8c8b4276c3a9f69360bdf908e73",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-013.pdf",
+      "title": "Operational/ Buildings Bulletin 2010-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-013-f80ec07244.pdf",
+      "bytes": 103843,
+      "sha256": "cbd09ebe2d28489f1fa89f31dabd263b04397e5a85a4f007192a9ebbc65cc9fa",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-014.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-014-c38049d27f.pdf",
+      "bytes": 77365,
+      "sha256": "f17b472fae4655f3ff96d824b54d405642f447205d2fe5c337a0c722ded0ddca",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-015.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-015-050cad4653.pdf",
+      "bytes": 56170,
+      "sha256": "12f4e27ad7abf9c9d7556ce49b96869e347a85f863953d5e56c1640c54723e35",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-016.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-016-f88f653e42.pdf",
+      "bytes": 73819,
+      "sha256": "6474b3c94829754e86b38fd447bb5dda493f1e9e4f6609ec05b6378c67999ee1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-017.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-017-4beacb75c9.pdf",
+      "bytes": 73312,
+      "sha256": "343d52bbf54ea629fc2ba53da504bbffa23d9052c2075a942a1b3f6c84c02df9",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-018.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-018-3b412184ce.pdf",
+      "bytes": 69514,
+      "sha256": "7b5b456f98b26e9017a4471e9ec547385dea880d224c5fbe6f606b100ee71d58",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-019.pdf",
+      "title": "Operational/ Buildings Bulletin 2010-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-019-d5151b521e.pdf",
+      "bytes": 160004,
+      "sha256": "e53e14c1402de1b8cd0fafb6a324ce7238c2af56b94f0bed4abde37fcf815dba",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-020.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-020-cc734187d9.pdf",
+      "bytes": 77138,
+      "sha256": "c65154eb18da61da76715894ff8014a2b28eda31e189590a87f4ad9b8ed6ad09",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-021.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-021-5325c0f6f4.pdf",
+      "bytes": 337019,
+      "sha256": "ed60174f1012f6133ec813b46a15cd815a167a409f348d245f2496525f577713",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-022.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-022-f87aea465d.pdf",
+      "bytes": 188727,
+      "sha256": "6ad0568f568c9cdfacdc0e38e949a22e9b3e06e1e8f906af449abcadbee17238",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-023.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-023-6a7ef9d463.pdf",
+      "bytes": 58282,
+      "sha256": "3f8ef1313f8bfcb21743e6d1dd32a33ec427f6f4ff8a64bcf4506fd6223d7efb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-024.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-024",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-024-a6014057a6.pdf",
+      "bytes": 723567,
+      "sha256": "821c2c9fbd0f3c01dc62500abf7c1afe73873ca647be2d4e2f731acbd115a57b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-025.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-025",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-025-f56b34e130.pdf",
+      "bytes": 75487,
+      "sha256": "5e827570095d23975961fe9ff8e07030f0e458fcebc69ab511adf2d6aebd2108",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-026.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-026",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-026-7a27e12519.pdf",
+      "bytes": 242634,
+      "sha256": "88f8a27c5d5a1fd2420f1ba00340e3904d09b6688ed26392258afcf0d6e8f7cb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-027.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-027",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-027-4c639068fe.pdf",
+      "bytes": 683041,
+      "sha256": "6e3b76b77acd10229340b113ef7fbbbf8c8b7add9a69c781be44b42ff2766cbe",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-028.pdf",
+      "title": "Technical/Buildings Bulletin 2010-028",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2010-028-7c3daaf678.pdf",
+      "bytes": 710941,
+      "sha256": "59629cf602221178e1a62363d659b66fd46bb6bb49b9c4365d2de2cb5e5638e1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-029.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-029",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-029-537cc902f2.pdf",
+      "bytes": 74140,
+      "sha256": "b38113785f14ba825abf680d00ffe29ab9308323ec40ad4d0b17fb6551d3d2c7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-030.pdf",
+      "title": "OTCR/ Buildings Bulletin 2010-030",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-030-a5efc5d988.pdf",
+      "bytes": 263558,
+      "sha256": "95515c31e072a734b9bd7eb758ad923274a01115c6b1ccad46f6ab98f1b123e1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-031.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-031",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-031-7ce51fb9cf.pdf",
+      "bytes": 85108,
+      "sha256": "af580911f1693c9eed59090339375138ea829afcd8d6d6aba56836d92db95ab7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2010-032.pdf",
+      "title": "Technical/ Buildings Bulletin 2010-032",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2010-032-f2a5a79c0a.pdf",
+      "bytes": 90041,
+      "sha256": "6e4aaeafb24194c82e12c7b7a26807d8dd880ca57b1019ac29813d330991721c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-001.pdf",
+      "title": "Technical / Buildings Bulletin 2011-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-001-e114c77ee1.pdf",
+      "bytes": 52408,
+      "sha256": "9bb640ca9a282baf8b2c190794c90033f36f79aa8c92d8dc7e4b40d53a57fe96",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-002.pdf",
+      "title": "OTCR / Buildings Bulletin 2011-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-002-b4aaf00c5d.pdf",
+      "bytes": 234280,
+      "sha256": "73d566f13ccd4352f83bb19ecc78ffa3bd543df48b7abcb1e6d28d05bbf742dd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-003.pdf",
+      "title": "Zoning/ Buildings Bulletin 2011-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-003-fab7646598.pdf",
+      "bytes": 74144,
+      "sha256": "43dbf0f846fab8e7261709160ce5d73badcd28fe7d87da43fcc8638c525d2fd2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-004.pdf",
+      "title": "Technical/Buildings Bulletin 2011-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2011-004-42318c68b0.pdf",
+      "bytes": 69999,
+      "sha256": "c1b7aa1ec49c03415ba294b90c09a5a8fab14a7e900a19b104f8209b4a8ec573",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-005.pdf",
+      "title": "OTCR / Buildings Bulletin 2011-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-005-cf0c199bfb.pdf",
+      "bytes": 209132,
+      "sha256": "3f24bcfdcaff6cf87131a97c8b5b5eecfda96b79d5efc441912f6c12d7e44aef",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-006.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-006-fa35de9f22.pdf",
+      "bytes": 65194,
+      "sha256": "8b02612dde87cd4cd7d4c51c5257e4ebc1cb9955861f81e1831d268a72209ac3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-007.pdf",
+      "title": "OTCR / Buildings Bulletin 2011-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-007-4d44798e26.pdf",
+      "bytes": 190239,
+      "sha256": "c1cfc96ced3b331556c444fde38e464a3f5066bcddbfbbe5b5d77c489c8e54d6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-008.pdf",
+      "title": "Technical/ Buildings Bulletin 2011-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-008-d4f160c2d4.pdf",
+      "bytes": 83653,
+      "sha256": "5bfe70117ecedd46f295e16127c04c7c4db330fd37e3039528fa4d2b4a8441dc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-009.pdf",
+      "title": "Buildings Bulletin 2011-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-009-30b47b2487.pdf",
+      "bytes": 305560,
+      "sha256": "3eaf36c5b210f986cb596651c8415a1827ebd2802abb7d2d00a9ba2c1c38b887",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-010.pdf",
+      "title": "Technical/ Buildings Bulletin 2011-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-010-d7240ca5e9.pdf",
+      "bytes": 59974,
+      "sha256": "2542a210ebdc6d8192743b129196fa9c6a533fd212a3d4c2c0808a2f6d887094",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-011.pdf",
+      "title": "Buildings Bulletin 2011-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2011-011-f6d1d3cdf3.pdf",
+      "bytes": 245242,
+      "sha256": "7f0dd5fd636f3bf6052317f4344062836797ae1aae219f8fea22317996f19806",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-012.pdf",
+      "title": "Technical/ Buildings Bulletin 2011-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-012-e1333c8da4.pdf",
+      "bytes": 173789,
+      "sha256": "875e05b34e49f703c2b8811ee52396e79facddfaba3fea96a5898ebb96b3b4f9",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-013.pdf",
+      "title": "Technical / Buildings Bulletin 2011-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-013-9fa5dc3457.pdf",
+      "bytes": 725226,
+      "sha256": "c1eee3452e8e81e7180ff6a10abb99b40032c2a21b952e4ea77f8456a239fe19",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-014.pdf",
+      "title": "Technical/ Buildings Bulletin 2011-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-014-312e6a78f3.pdf",
+      "bytes": 89517,
+      "sha256": "12644200cf61c95439ccf8fe59d4605736246895c915ae86dabc6969c60ada0b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-015.pdf",
+      "title": "Technical / Buildings Bulletin 2011-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-015-5383a59e9d.pdf",
+      "bytes": 80900,
+      "sha256": "91361e2814346dacd349babf98aaefd0e125ca005ef079e0fe93240f36d8a5cc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-016.pdf",
+      "title": "Technical / Buildings Bulletin 2011-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-016-3ea186e36e.pdf",
+      "bytes": 95094,
+      "sha256": "7ba928d0ad1427d85c21a13e4e198a68f3006484ece4cc99f3aec4410ef40838",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-017.pdf",
+      "title": "Technical / Buildings Bulletin 2011-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-017-1aace3007e.pdf",
+      "bytes": 688697,
+      "sha256": "89956d7aa0de4112b27a59ed45e0008a79577dd29f864565257a756d6b3c0954",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-018.pdf",
+      "title": "Technical / Buildings Bulletin 2011-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-018-bcc7153f82.pdf",
+      "bytes": 158815,
+      "sha256": "55f04a8abdc779221b8150c44f94dc09a4901672282d81b7134d37ac1c8ae970",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-019.pdf",
+      "title": "Technical Buildings Bulletin 2011-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-019-7252421989.pdf",
+      "bytes": 82375,
+      "sha256": "0a6347c7da05eb631f265dd547e8c03bfde2ba748f1a0a5b94821a14388de53d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-020.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-020-0295aba89b.pdf",
+      "bytes": 227001,
+      "sha256": "3de38af33cc41839d2631457e55246649f6461148f3fa213ed19313c7d70cbdc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-021.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-021-d7bacb4578.pdf",
+      "bytes": 237249,
+      "sha256": "a127478877524868774e196f6741cd2c01e4c5cf208028747ca353e90bafc2ca",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-022.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-022-37ed2ca465.pdf",
+      "bytes": 59336,
+      "sha256": "54fcf88270953aa6ce7774179510f1e2e22740485fedbdd4a157dc5ec0a00b24",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-023.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-023-fd1ad49e0c.pdf",
+      "bytes": 88758,
+      "sha256": "ecc8b88ad52fe2b34e3d4b7a0f56873e1c908ac6e3bc1c95a7396b2d930c1f76",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-024.pdf",
+      "title": "Technical/ Buildings Bulletin 2011-024",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-024-9ea483880f.pdf",
+      "bytes": 120616,
+      "sha256": "3215d34cbe6780694cb207c3dd245deefc72ebc2dd9e9750f132252e7adb3136",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-025.pdf",
+      "title": "Technical Buildings Bulletin 2011-025",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2011-025-f68fd0d495.pdf",
+      "bytes": 676192,
+      "sha256": "d8a91a947711054e20fdec72ed176d81635518659b567e908d6b4e73a70bf459",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2011-026.pdf",
+      "title": "OTCR/ Buildings Bulletin 2011-026",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2011-026-19742417f9.pdf",
+      "bytes": 205253,
+      "sha256": "d010a7acc5bd7318adf8f79b9f0504a66e6810c46d7438662b2a291a09a672e5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-001.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-001-c459f86785.pdf",
+      "bytes": 602896,
+      "sha256": "440b4c7b44eeddf67a2409a7c1b82a284323af9bb49446c23f2f9176ff570bef",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-002.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-002-33573c47a5.pdf",
+      "bytes": 275237,
+      "sha256": "ce504ecbe6e6b81b7441afc0b0a1c485fe777525ca69dcb4d065a8a234706c22",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-003.pdf",
+      "title": "Zoning / Buildings Bulletin 2012-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-003-f03c424d6b.pdf",
+      "bytes": 93421,
+      "sha256": "3e689d8944b0fd28b585fb44e2f236e655a2f7fdef59fb44c05e0e81c4de9e33",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-004.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-004-b071d868b6.pdf",
+      "bytes": 271329,
+      "sha256": "9fa4f44de3d7c4c56f52f32ddb5d9ad2d9150aabed1dad5e6eb65d6ede5e7ff4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-005.pdf",
+      "title": "OTCR/Buildings Bulletin 2012-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2012-005-9afd3649c0.pdf",
+      "bytes": 200876,
+      "sha256": "70286f088a08703c6cab7f9f1caae1cdc20be5ec74279e117e391d0cf8560d60",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-006.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-006-209fd5670a.pdf",
+      "bytes": 602080,
+      "sha256": "c5c1e2bd7ff92332f78a4b3dd2c92a5917c8c3c5c858d103359500a3102af804",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-007.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-007-bc7c459d2a.pdf",
+      "bytes": 794218,
+      "sha256": "54708143d813898adfb80bb3670501d3c228f3203c008d36243d3fca160d4159",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-008.pdf",
+      "title": "Zoning / Buildings Bulletin 2012-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-008-9c5044e64b.pdf",
+      "bytes": 157739,
+      "sha256": "a6947d580d6f5aa2916769ac825b5393af3bdf3a3bdab3bf60a0f7ffd5a30e2f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-009.pdf",
+      "title": "Technical / Buildings Bulletin 2012-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-009-7efbb204b7.pdf",
+      "bytes": 129787,
+      "sha256": "857aeb84c6f4f7ee17d0147a6ee14757363d3ab3d9ce8ca000c4d8418f48bc4a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-010.pdf",
+      "title": "OTCR / Buildings Bulletin 2012-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2012-010-d1fa7f7c49.pdf",
+      "bytes": 207735,
+      "sha256": "e27b0f05115dd931251a4e737a3f55b8ebae95c1cc97640b7cb2fb259327ffd1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2012-011.pdf",
+      "title": "OTCR/Buildings Bulletins 2012-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2012-011-ba17a4fa89.pdf",
+      "bytes": 226135,
+      "sha256": "2740e52d922b4d4e2be4f618d4c2c6fa1404006ae0f33f80e0709a08a07d1715",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-001.pdf",
+      "title": "Technical / Buildings Bulletin 2013-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-001-b00c70325d.pdf",
+      "bytes": 288121,
+      "sha256": "e1d49edc4b8b19383055f03879c0f011fa63da2277d59a9128055d0b432046a1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-002.pdf",
+      "title": "OTCR / Buildings Bulletin 2013-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-002-139cf73657.pdf",
+      "bytes": 269264,
+      "sha256": "f37a4159bf182af7bafedcf89562c89bbd3575683ff774bcf977c8ef9d982279",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-003.pdf",
+      "title": "OTCR Buildings Bulletin 2013-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2013-003-fd7f14d4b0.pdf",
+      "bytes": 241924,
+      "sha256": "a4a6a9c40ba1eda9adb4edd1f5342a7b3809ee7e597f4a08935d62a6925bc25c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-004.pdf",
+      "title": "OTCR/Buildings Bulletin 2013-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2013-004-7a6998fe29.pdf",
+      "bytes": 240684,
+      "sha256": "b794b0a4a6fb2c09fe2d4db177fd649b07262eacab37bffdddd4ceda0519e109",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-005.pdf",
+      "title": "Technical / Buildings Bulletin 2013-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-005-3cc8092995.pdf",
+      "bytes": 158213,
+      "sha256": "0331e1702abda91b03d84e23712f015b25ef14bc92f0626c058a96b5279c3a63",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-006.pdf",
+      "title": "Technical / Buildings Bulletin 2013-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-006-39882cc77b.pdf",
+      "bytes": 159735,
+      "sha256": "d9a2e3f7fe6d0259ac97727c881ae21347d38a6dfe12440ae706921a98e44b55",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-007.pdf",
+      "title": "Technical / Buildings Bulletin 2013-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-007-9374735bbe.pdf",
+      "bytes": 172249,
+      "sha256": "c98983fe82d4aaa41087420572011de479b6700fe7da2c1db528e530972e2ed7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-008.pdf",
+      "title": "OTCR / Buildings Bulletin 2013-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-008-2155d6b28c.pdf",
+      "bytes": 225877,
+      "sha256": "14ceb7c55891182a9db80b2ab70354a10c6856505c3ad4e21eb69e0084e00412",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-009.pdf",
+      "title": "OTCR / Buildings Bulletin 2013-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-009-ea28d401e0.pdf",
+      "bytes": 202870,
+      "sha256": "63f58490df8e21eb820fd8e5d5a039cd06ee97c5b178e926c9d16593ea0ebc17",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-010.pdf",
+      "title": "Zoning / Buildings Bulletin 2013-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-010-dcbb2ca15f.pdf",
+      "bytes": 175138,
+      "sha256": "9245a1b36da0251b191ad046dd6831c62d99d3a7633b871f5077143cc41cf5b7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-011.pdf",
+      "title": "Operational / Buildings Bulletin 2013-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-011-2ac282bb10.pdf",
+      "bytes": 250737,
+      "sha256": "c0e0e24ab0d112880dd720319224c00c118785df900764696a47d1021f92c8ad",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-012.pdf",
+      "title": "Technical / Buildings Bulletin 2013-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-012-24ec1ab808.pdf",
+      "bytes": 207012,
+      "sha256": "9b4cfd318b6990dd74492a0b0d935818d12bc0233eabe5dda23953cb0dd2603b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-013.pdf",
+      "title": "Operational / Buildings Bulletin 2013-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-013-6fd61101c8.pdf",
+      "bytes": 350923,
+      "sha256": "f40699f26d6e81f3dc694ad5f3295632f29e189eb3e1a1a4d19fa6c33d8f974e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-014.pdf",
+      "title": "Operational / Buildings Bulletin 2013-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-014-722d9d0524.pdf",
+      "bytes": 215097,
+      "sha256": "ad46783ca335e95d433ea2e664e97f5c18fb0dcfb95360b6c3752773ef88f6f1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-015.pdf",
+      "title": "Technical/ Buildings Bulletin 2013-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-015-787e6a0ae1.pdf",
+      "bytes": 82863,
+      "sha256": "e2eaffbcf4f35dd4f842454d427a5f49fb52ca409155c17ffa1e2e517fe4f14e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-016.pdf",
+      "title": "Technical / Buildings Bulletin 2013-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-016-1396ad6190.pdf",
+      "bytes": 121356,
+      "sha256": "ac4a076902be672894645331c6dba393c1eada53691b204bb05d913020f71c68",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-017.pdf",
+      "title": "Operational / Buildings Bulletin 2013-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-017-8799645c09.pdf",
+      "bytes": 107320,
+      "sha256": "c0fe0426f9115b74cc2d9d3265415ed82c5d988262835eec00174476568b7f3e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2013-018.pdf",
+      "title": "OTCR / Buildings Bulletin 2013-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2013-018-2368ad8d39.pdf",
+      "bytes": 213038,
+      "sha256": "5dc93edcaabc943f3289506998e54f4395e7c4e29bc8dc38d45b8082bed04624",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-001-2af0c8c447.pdf",
+      "bytes": 236187,
+      "sha256": "230bbbc50b0485fd30c9e3300e0dc5d6e52d069a8266a3fc656cd6256e487c54",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-002.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-002-a6d52cb5fa.pdf",
+      "bytes": 232419,
+      "sha256": "fcccda6f48d5b5b1564d6a39e58a3c9b94d8c01354c7f557b45cd5acb84ea40f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-003.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-003-a7a85593fa.pdf",
+      "bytes": 675304,
+      "sha256": "217743f7e9f02a83fa6a0a0c7b2d39bffd0046a7acd313b28571ee8821efafa0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-004.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-004-ab15932992.pdf",
+      "bytes": 730543,
+      "sha256": "156f5e6ce09f538316943c36a7977b0e991e33f57784c96a2249bdc98c9e7637",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-005.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-005-607cc8ea13.pdf",
+      "bytes": 199105,
+      "sha256": "c2603d22471cc13995949b884c9c21b4a9789e749d078cc9e454183fb1db3173",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-006.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-006-ca128cc0ff.pdf",
+      "bytes": 280329,
+      "sha256": "542342fcf1c7e07b3a3d58f5110428d5b4f3683ca618ba81c227d65bc4d9094d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-007.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-007-b51b737fba.pdf",
+      "bytes": 212411,
+      "sha256": "bba6ff96511d0bd7379c691ccb3fa07237d587c955af9b71e36b0df4efe76f71",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-008.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-008-65f85ee4cb.pdf",
+      "bytes": 232016,
+      "sha256": "f00f56a7359689dfbd5191eae1e4905e4276f2a262475d9410ca5aa2a7b785f8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-009.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-009-3b8d2b2b6b.pdf",
+      "bytes": 576903,
+      "sha256": "e698162f2bd5c8d469a55faf0719c783d872f09afd605153a34ebe8c44b3ab19",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-010.pdf",
+      "title": "OTCR/Buildings Bulletin 2014-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2014-010-12749064c6.pdf",
+      "bytes": 214491,
+      "sha256": "5490d043049447a1e7cf21b384c854e97aa1451c16d23287c62fe8d8c9ed40d5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-011.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-011-f1ee4e96c8.pdf",
+      "bytes": 200815,
+      "sha256": "a9afa91632a994ca35f5559626c0ecb4add2874da83ac02e9d0571f45fe76362",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-012.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-012-0d01694886.pdf",
+      "bytes": 166506,
+      "sha256": "30eb41d7aba9b2568add41abf21d5cac7878ffc2c156664a6b1cd04980fd4f2f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-013.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-013-711600808f.pdf",
+      "bytes": 148599,
+      "sha256": "c1dc494ade02968a1cf2f7be8d37c5a21c9ebc3b6424fd4bc2016211f5efa4c3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-014.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-014-0410e0c075.pdf",
+      "bytes": 268060,
+      "sha256": "d26c25b944bb70e39a37b7d637adf2ef02d55153d7452ea1cc70213df73b0023",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-015.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2014-015-06db24e90e.pdf",
+      "bytes": 265156,
+      "sha256": "54d96c0ae1a3193984760e1282f36be79bb85f1d5100fa6c158042a5f1561a40",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-016.pdf",
+      "title": "Technical/Buildings Bulletins 2014-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-016-db0fe728b8.pdf",
+      "bytes": 153163,
+      "sha256": "ecff160f91f2c3b02a80bed5cbeac30c30b2997d2eb1541c11e77879bb736bd7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-017.pdf",
+      "title": "Operational/Buildings Bulletins 2014-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-017-a62e36918d.pdf",
+      "bytes": 491644,
+      "sha256": "45df27cae3ac3a756fac0fc4f6652d63fdb58648e5aff62b7d4b1e126caf2329",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-018.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2014-018-e3cb54e232.pdf",
+      "bytes": 157233,
+      "sha256": "dfc4c969f884a94da33d6c000326e2ad8fce19a87b44952f6c80462831c75db3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-019.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2014-019-21f3b808a2.pdf",
+      "bytes": 139678,
+      "sha256": "3233f05febffeaf08300848ff19d7a378a0c5fd5f4f79632acb4748b7344e625",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-020.pdf",
+      "title": "OTCR / Buildings Bulletin 2014-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2014-020-c7b440443e.pdf",
+      "bytes": 192794,
+      "sha256": "487f1772bcda68edf6a317d48ed1ebf193290646126e0b2ecb1568ef1f4bd210",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-021.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-021-ae09cd0dbe.pdf",
+      "bytes": 191399,
+      "sha256": "8cd631ca67e11e90e099494a435145353be1f1332911d62309855c80481165bb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-022.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-022-dc75b885af.pdf",
+      "bytes": 190508,
+      "sha256": "ce2d2fc282f6b0ad9a6e183b39cd19b78bf571f2b617c25f0a5bbc1bf4fac33b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-023.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2014-023-33cb63ef26.pdf",
+      "bytes": 126526,
+      "sha256": "19640b948b84727779137d95d66fe0e45114ec9b51610379560a9dd91159c3cf",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-024.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-024",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2014-024-dba3baec9c.pdf",
+      "bytes": 139332,
+      "sha256": "7299275f8676139975804ba63c35a4b9bd053ed57e425c3b41294e630e3ba9a1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-025.pdf",
+      "title": "Technical/ Buildings Bulletin 2014-025",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-025-6f2d84e537.pdf",
+      "bytes": 62995,
+      "sha256": "6fb4a349ec963a96b23dfa9c656eb5dd09dc03824eaf2195f5eee9b98509facf",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-026.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-026",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-026-a2e936c785.pdf",
+      "bytes": 385135,
+      "sha256": "86e48b4ae2c5e88b7fa6c76b1a70eefd0c34a591273eb4c5ce285be14ce1fd54",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-027.pdf",
+      "title": "Operational/ Buildings Bulletin 2014-027",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-027-8af2e94bd3.pdf",
+      "bytes": 185312,
+      "sha256": "ea1001aab9ad3d1b5665fedfc19644845ceb1783f4fef2827837c8debdff7bb4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-028.pdf",
+      "title": "OTCR/ Buildings Bulletin 2014-028",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2014-028-c006e7a78d.pdf",
+      "bytes": 67398,
+      "sha256": "c0b36cc8c51a1d978d8310b44038523e93bc38c56b492ce9aecbe9218139fa59",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-001.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-001-2321544324.pdf",
+      "bytes": 178686,
+      "sha256": "f2ff51f3c8295f8d778f3d3f8d319c83b321e0d863d65fc8f4b4355e9de9c1cd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-002.pdf",
+      "title": "Technical/ Buildings Bulletin 2015-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-002-c8704ec547.pdf",
+      "bytes": 176169,
+      "sha256": "354a97b9afce8612e705b2069e098761a8314f9ec29b13b80bcc6dd16cdd2720",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-003.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2015-003-634b23801a.pdf",
+      "bytes": 135869,
+      "sha256": "fc855d9d4f4f67088ba80343e3e9558718ea02a26d572de4850e46c74469efd8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-004.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2015-004-6993ca1b75.pdf",
+      "bytes": 211748,
+      "sha256": "122dfaa62cb33ba9febf14aad819626399ebc3d367be6caafd8cc57a1a3ef532",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-005.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2015-005-25635927a0.pdf",
+      "bytes": 194564,
+      "sha256": "d7b7da7d847b73d32ae3397f751accd4d9839fcfcbfc51b059637478ec8aa69d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-006.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2015-006-d876a63d21.pdf",
+      "bytes": 183958,
+      "sha256": "a92eae9d40a78293af42f0752257ac99c32534f6f89d27de2a836d33f5d36d6e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-007.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2015-007-9e79b9d29b.pdf",
+      "bytes": 182302,
+      "sha256": "cc0bb52393325ff1dd6fc1fd0313212005b91f4987a0b0139591a67cadacb413",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-008.pdf",
+      "title": "Legal / Buildings Bulletin 2015-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2015-008-087feaa832.pdf",
+      "bytes": 338409,
+      "sha256": "f155e06197e4909cd4bbebb259f8701d8ef3e58ef82e859479260dbdd66f4189",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-009.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-009-b952254e79.pdf",
+      "bytes": 254469,
+      "sha256": "8aca0f09e9728c4527ffd20dc92d8c0540fc0865344fb20bfb2093dae7072e49",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-010.pdf",
+      "title": "Operational/ Buildings Bulletin 2015-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-010-64861fcf43.pdf",
+      "bytes": 286489,
+      "sha256": "727db320bcc119ad67740b677b8d0a60f0f35d840d8aff49ec5579915f44c386",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-011.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2015-011-a6718e10c8.pdf",
+      "bytes": 235390,
+      "sha256": "fc0d6429958e3affc316bdd01943e098b16c77a44aae6956adc399010efff937",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-012.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2015-012-6517311077.pdf",
+      "bytes": 201482,
+      "sha256": "49aaa179bd978d4d38f6bb2fd7db2147b59b4a935622d07dcb792de13a515b39",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-013.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2015-013-85941c4904.pdf",
+      "bytes": 226558,
+      "sha256": "fd49a794370bc46db8dcfe720752e9cee3f7822d8e43b6d621b94fa878b5b2ac",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-014.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2015-014-9054706de1.pdf",
+      "bytes": 216545,
+      "sha256": "44aa2e4d1449a364b5727cfd97c752c760a52558cd8b806b8436aa15a71e506c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-015.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2015-015-54f381a3ab.pdf",
+      "bytes": 176681,
+      "sha256": "8ea815dbfad85e21c9b8c6b6b7f2e6416fe9587146a2d05e4247078700e5a142",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-016.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-016-ade89b187d.pdf",
+      "bytes": 197367,
+      "sha256": "86f822c04f790a2ad6709b596d1aa9e269852ee8316bbd6353bdf36db22041fb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-017.pdf",
+      "title": "Technical/ Buildings Bulletin 2015-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-017-8a3d09f514.pdf",
+      "bytes": 965715,
+      "sha256": "d26620603f14b3793fdd0e402e0ca561620ee165f03fcdb90a5c01fd7a41ea1a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-018.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-018-f61b39b522.pdf",
+      "bytes": 182359,
+      "sha256": "f4ab13d4ab96275fcabd6e21472290f51629b9595cc593ba98bc608d9a48aeef",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-019.pdf",
+      "title": "Technical/ Buildings Bulletin 2015-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-019-0c4ed3adbe.pdf",
+      "bytes": 171941,
+      "sha256": "5e7640026514ba80f18b07a6435617799fbfb98cf6fb6bdd973d2f356fe80467",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-020.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2015-020-adb5dd1c33.pdf",
+      "bytes": 206842,
+      "sha256": "01a2d4e6067a33795576bbb0a740cf1ccbc7fd23236082cb6839eaa88d1fba6d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-021.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2015-021-077211995c.pdf",
+      "bytes": 237524,
+      "sha256": "a875cf9e88832ad741bd5ef6bb7aa61fbc54412a3e8ad5d498560e009c294190",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-022.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2015-022-96745810a9.pdf",
+      "bytes": 268934,
+      "sha256": "6a19d0882f15aa5194b99ce1141e383253ca191d60a813882f41161440858d24",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-023.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2015-023-c62de549cf.pdf",
+      "bytes": 235325,
+      "sha256": "1e9596b0ee034c8562a52fe0e038c0fc2d783879fb63fe25f1f2d32795b22a5c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-024.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-024",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2015-024-bd51d87fa1.pdf",
+      "bytes": 245119,
+      "sha256": "175455aebe77d2a90003ab2edf4451575de1a71575b52eb9df0153aa31289315",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-025.pdf",
+      "title": "Technical/ Buildings Bulletin 2015-025",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2015-025-943110d6de.pdf",
+      "bytes": 172208,
+      "sha256": "7209117e4cf943ea69c4c309e8abb4bf39b4f08e784dc9322a82d47a1646abf0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-026.pdf",
+      "title": "Operational/ Buildings Bulletin 2015-026",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-026-2be681270a.pdf",
+      "bytes": 263164,
+      "sha256": "01fc4d221c913eef1facf9259f548a5cf25220740f408900e6e07f60381f7cfa",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-027.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-027",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-027-507248e111.pdf",
+      "bytes": 201112,
+      "sha256": "9f65fd6fefd54774c7cf6ba52b9fdcdc532effd8de125b207df743ac1f99c823",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-028.pdf",
+      "title": "OTCR/Buildings Bulletin 2015-028",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+      "filename": "bb_2015-028-6854b0392a.pdf",
+      "bytes": 56106,
+      "sha256": "9ca22c6d162fca662c634e85ff8b0bcc900a950ee9a4d3c5be58d4d5e815d19f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-029.pdf",
+      "title": "Operational / Buildings Bulletin 2015-029",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2015-029-9686dbf2e2.pdf",
+      "bytes": 191587,
+      "sha256": "a1ee2bc7aea89f20b9577694db174835f18ea5dd106325bf90263298dbe8df30",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-030.pdf",
+      "title": "Technical/ Buildings Bulletin 2015-030",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-030-362b30350a.pdf",
+      "bytes": 119580,
+      "sha256": "733d1a4e0e98dcb8dfebde53ca4c6506b7a75d627e1a794f877c1c881e39f59d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-031.pdf",
+      "title": "Operational/ Buildings Bulletin 2015-031",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2015-031-140e344a5a.pdf",
+      "bytes": 172468,
+      "sha256": "943c47c6d19871117e5212ce84d81d1ec2e55f5db593f8547996820776d0f4dd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-032.pdf",
+      "title": "Operational/ Buildings Bulletin 2015-032",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-032-48239ea1ae.pdf",
+      "bytes": 150525,
+      "sha256": "4d712314d8c8cd9fd92e330b62b77e72a0c4154ff5baced760981a556ed67b02",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-033.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-033",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-033-09ed45d838.pdf",
+      "bytes": 198151,
+      "sha256": "e9b649ff66e9213a2f5ed09cad14b0b6621b3b696b9a25889657248254d2e6bc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-034.pdf",
+      "title": "Operational/ Buildings Bulletin 2015-034",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-034-68bc8f2c95.pdf",
+      "bytes": 199387,
+      "sha256": "e37105dd37e90cefe6cdd468a70fb8791dd247a042d73fc342453f135161cb0a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-035.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-035",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-035-71b1d067d6.pdf",
+      "bytes": 209837,
+      "sha256": "eb65baa74c46329c047104bbd017a8a066e780299573176be2870da069b34352",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-036.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-036",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-036-367285e517.pdf",
+      "bytes": 307285,
+      "sha256": "42cebee4df41c2ed1b2a66df669a2df28a03317f59f29efdf9eec2fe61af1967",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2015-037.pdf",
+      "title": "OTCR/ Buildings Bulletin 2015-037",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2015-037-8f806db467.pdf",
+      "bytes": 57938,
+      "sha256": "d1d59419ce8c30cda02bd6e63c2468f4adb28a62bdfd3ff2e195aac38704ef76",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-001.pdf",
+      "title": "OTCR/ Buildings Bulletin 2016-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2016-001-1e7aa150bc.pdf",
+      "bytes": 193364,
+      "sha256": "c84bee77b5a8a6aecce105b4fcc22d2c1dbfbb8b3f5e6c3870cd3690bf2f59d4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-002.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-002-e74531020b.pdf",
+      "bytes": 134582,
+      "sha256": "7f660b33cf8f0079dc77346cc3a57bfb0153550cf061913220598b816db9cc4d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-003.pdf",
+      "title": "OTCR/ Buildings Bulletin 2016-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-003-1d5b95d389.pdf",
+      "bytes": 188238,
+      "sha256": "cefff8ea705e668cb5e46868ff1ea0f193fd306ae43e4a7ef1cc41eea8b9ad03",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-004.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-004-57f53b08c4.pdf",
+      "bytes": 104840,
+      "sha256": "80759fb0652080abe04ae6e2f67522129d83c790c4232e0f179f0763b46fbfd7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-005.pdf",
+      "title": "OTCR/Buildings Bulletin 2016-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2016-005-8ced1c9771.pdf",
+      "bytes": 168383,
+      "sha256": "c58ccfbc7d9f41e53741ac391ca0e4fc1f390dab1bc30ec8167c7a83f7ec8f3c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-006.pdf",
+      "title": "OTCR/ Buildings Bulletin 2016-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-006-837280836d.pdf",
+      "bytes": 150265,
+      "sha256": "75e945a0aac04c8ecaad9a6de299b4074aa2024dd765bff5ca77bc74ef3cf5be",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-007.pdf",
+      "title": "Operational/ Buildings Bulletin 2016-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-007-2f498d2e8f.pdf",
+      "bytes": 149552,
+      "sha256": "c53eed363599a164ea361ca6902ea1b7e51f8a1a60c8c06cfb56921d8a5e1153",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-008.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-008-d6b475e40b.pdf",
+      "bytes": 155705,
+      "sha256": "b8b9ff5d7e1e65d44486c580c545e26936c2255c794071569aec9ad22c80a7ac",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-009.pdf",
+      "title": "Operational/ Buildings Bulletin 2016-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-009-a59ec41f56.pdf",
+      "bytes": 165606,
+      "sha256": "a36d4271e1c34e21f5e38b1b27d158feed8093228997af35bd54941bbd8bf2e6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-010.pdf",
+      "title": "Operational/ Buildings Bulletin 2016-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-010-d8b659564f.pdf",
+      "bytes": 754171,
+      "sha256": "55f351bee4f908e986b9cf3c41e454dd5ab72f709bef9671c7f18fd445501dad",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-011.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-011-8a4f3d1d82.pdf",
+      "bytes": 91141,
+      "sha256": "6ff6a49a6a05b59a9b5bd8fd65642bda7124f78c81c23b2dc1afd86ec822006a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-012.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-012-eea4b3e046.pdf",
+      "bytes": 1234569,
+      "sha256": "03cce443fb5668025bce0c2ea57549451dd5fda32884505c430d5549628873c2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-013.pdf",
+      "title": "Buildings Bulletin 2016-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2016-013-7eedd58c69.pdf",
+      "bytes": 214521,
+      "sha256": "1709c88ac43555e6d7f58ee83d171b4910b64fcb3bcf9dc0ac8e798d54f57f0f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-014.pdf",
+      "title": "OTCR/ Buildings Bulletin 2016-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-014-b6503ca047.pdf",
+      "bytes": 268367,
+      "sha256": "f6386030cb638bb2dcfb7dee3cdef22745691bab924ff93a400820cbb33c5cea",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-015.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-015-b4e0757e07.pdf",
+      "bytes": 223544,
+      "sha256": "74d9532953876192b3234f4fe14e9a3f67e53db4a6c2ab948c81c6a9b618fd6b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2016-016.pdf",
+      "title": "Technical/ Buildings Bulletin 2016-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2016.page",
+      "filename": "bb_2016-016-46a57ecc29.pdf",
+      "bytes": 291153,
+      "sha256": "f0b9d33f040b8317442ec3ba6ffe4b8fb0bdacb16cc51380cec0ab86dad4d36b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-001-621c9ec850.pdf",
+      "bytes": 541125,
+      "sha256": "c0638abc9cadef667c76ade58bde2bb4220e491af5aa1a656de8d04d0f1d4461",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-002.pdf",
+      "title": "OTCR/ Buildings Bulletin 2017-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-002-5d248a8b60.pdf",
+      "bytes": 294726,
+      "sha256": "6d9022b654862a0f9fc65946c0471d7b3f966bb0c76945c6d0831946e3d7393c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-003.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-003-ae7067d60c.pdf",
+      "bytes": 216517,
+      "sha256": "743e909a9764950e95e989be3392b1e86e87366d7c0f7dddfd2b8a1bad07f7fb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-004.pdf",
+      "title": "Technical Buildings Bulletin 2017-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2017-004-053e548c3a.pdf",
+      "bytes": 105498,
+      "sha256": "7efbd68add3f861aa71b750e54c49b264bb1dd5611e34fba5745431383e82e3e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-005.pdf",
+      "title": "Technical Buildings Bulletin 2017-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2017-005-9400e3c7c1.pdf",
+      "bytes": 100929,
+      "sha256": "1b6ba10ec2c44a6a015546d28e6d9c2b515965999304c23a4b3cc1007e17a49b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-006.pdf",
+      "title": "Technical Buildings Bulletin 2017-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2017-006-8d45bdcb84.pdf",
+      "bytes": 199898,
+      "sha256": "c2a8d5ec2cef383359c22f480705272a774a3e97c152b3c16227132427cd7473",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-007.pdf",
+      "title": "Operational/ Buildings Bulletin 2017-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-007-06fc37b283.pdf",
+      "bytes": 92339,
+      "sha256": "f4a30f8ae6198a15cf2d51b5f57b6fb4902d98ff3c5248f01591d3ffd969f3dd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-008.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2017-008-cb884b5fda.pdf",
+      "bytes": 399142,
+      "sha256": "25fb14698007d184109eea6d9d55661fc9104375f728a052d6d30299b5408c4b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-009.pdf",
+      "title": "Technical/Buildings Bulletin 2017-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2012.page",
+      "filename": "bb_2017-009-6f3a62f9d9.pdf",
+      "bytes": 204027,
+      "sha256": "57857e8f3831a8648735f7879647d0dadd8c34d522d268990f89665a752ee27f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-010.pdf",
+      "title": "OTCR/ Buildings Bulletin 2017-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-010-3dd121a0c9.pdf",
+      "bytes": 194553,
+      "sha256": "b7c51e5ddb849c3100aae4503a1d8d82b472f2ebf9954c1905ca7f7fca02da18",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-011.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+      "filename": "bb_2017-011-b384f5b615.pdf",
+      "bytes": 154823,
+      "sha256": "7b24749129d0063f39ae4e3e886f964443ef392d41718a85c8c0d21a6f8942df",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-012.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-012-1002408cac.pdf",
+      "bytes": 157951,
+      "sha256": "bef469c4498b3c1808e1095a7af11d6887d123791f2b6782df56c780b75d54ec",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-013.pdf",
+      "title": "Operational/ Buildings Bulletin 2017-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-013-7ff5916eec.pdf",
+      "bytes": 150754,
+      "sha256": "680b97165a56df4d5be350089ffe19eb9bb51be4215d1bffb1946dd448471627",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-014.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-014-c223b07fb8.pdf",
+      "bytes": 182124,
+      "sha256": "de220c90769088dbaaedbbb3a9a78af2c265e85ae9840a133d6219046702c862",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-015.pdf",
+      "title": "OTCR/ Buildings Bulletin 2017-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-015-26b90977c0.pdf",
+      "bytes": 217605,
+      "sha256": "f774c615bfe08ecc3d9b57a64f62a8cdf8b5ea93b18cbe2b19805183fbf9e853",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-016.pdf",
+      "title": "Operational/ Buildings Bulletin 2017-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-016-381118d230.pdf",
+      "bytes": 150520,
+      "sha256": "e65941339c8aec36d7fd17e104bb8673b2fc53c9fd8cb57ba02c86acf518b0f4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-017.pdf",
+      "title": "Technical/ Buildings Bulletin 2017-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2017-017-4f0708cba7.pdf",
+      "bytes": 842289,
+      "sha256": "5e65f2b0cd534fbddd99df8469fb92b91b153935031caab7cfdc957f5407d629",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2018-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-001-e68d4281a7.pdf",
+      "bytes": 133594,
+      "sha256": "1dad4ceed5c077f8b624f72e2562c4fefd059b66bde288dc8d4797f844a510bc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-002.pdf",
+      "title": "Technical/ Buildings Bulletin 2018-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-002-89ed06082c.pdf",
+      "bytes": 434168,
+      "sha256": "e0d171a575296c1a5a0761c2f27f7cac4df1d637a156f21b1b5ebf37c036b4d2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-003.pdf",
+      "title": "OTCR/Buildings Bulletin 2018-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2018-003-a7d9b5ffc8.pdf",
+      "bytes": 211714,
+      "sha256": "4ce2e7fc2763d20cb151e21708d4730b0dbb8a63fccca68ec3cfa4a16bc09122",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-004.pdf",
+      "title": "OTCR/ Buildings Bulletin 2018-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-004-3ac2f653f1.pdf",
+      "bytes": 236784,
+      "sha256": "0c2b327e461f0575c62103c81d42054eb64dd39bdc7595dcf18fde62276bf406",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-005.pdf",
+      "title": "Operational/ Buildings Bulletin 2018-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-005-8bdd29e5a7.pdf",
+      "bytes": 192233,
+      "sha256": "25acf21f2ef8f487b46a1c9c23d32fb297880430f123ae315dc6611391ba0ba5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-006.pdf",
+      "title": "Technical/Buildings Bulletins 2018-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+      "filename": "bb_2018-006-2c4ffe7012.pdf",
+      "bytes": 80927,
+      "sha256": "180af2996acac277f84320b03123631d21f847dd683fe936cd2da1a4740c5095",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-007.pdf",
+      "title": "Technical/ Buildings Bulletin 2018-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-007-81c22f7f82.pdf",
+      "bytes": 304222,
+      "sha256": "2019cb2c4e493fe2ca1ac71daef5c27681e3cf99b4f01d56dc362405d0d7d84f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-008.pdf",
+      "title": "Operational/ Buildings Bulletin 2018-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-008-bdafdec4c4.pdf",
+      "bytes": 270798,
+      "sha256": "b26f27d0c23afc0a241e7bd3070241eaba51e271484428bf05cd361771d3ae23",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-009.pdf",
+      "title": "Operational/ Buildings Bulletin 2018-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-009-14e30b8edb.pdf",
+      "bytes": 239679,
+      "sha256": "aef4f39e6ce86a7065b63ecc96455e2dd7187bb8be95a03bbc3234b5965826b2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-010.pdf",
+      "title": "Technical/ Buildings Bulletin 2018-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-010-306ddef3c6.pdf",
+      "bytes": 707589,
+      "sha256": "4e80171d20db78823e7df08781b2494f5483661d32297a229ae6040b4201dce6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-011.pdf",
+      "title": "OTCR/Buildings Bulletin 2018-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-011-bbad5fdd4d.pdf",
+      "bytes": 213994,
+      "sha256": "2a644273caa6bb946bf164bf06be81525b5a65665af5131cc33fee0c13249778",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-012.pdf",
+      "title": "OTCR/ Buildings Bulletin 2018-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2018-012-60047ad369.pdf",
+      "bytes": 398285,
+      "sha256": "c7b3887e0a1d70f9ef45c2a95ead7bfd890e9c19dafb599c1a2d0f1634c431e9",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2018-013.pdf",
+      "title": "OTCR/Buildings Bulletin 2018-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2015.page",
+      "filename": "bb_2018-013-9c1ac738e8.pdf",
+      "bytes": 275052,
+      "sha256": "56048527f15c6d37964819bb76908791c7c40e9f560b55f106ac064067a7ebc5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-001-ff2a305b57.pdf",
+      "bytes": 409594,
+      "sha256": "a019e19056451d53b274030a7fcf9521778d9663f9a3f3e945efb4945c9e80c7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-002.pdf",
+      "title": "OTCR/Buildings Bulletin 2019-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2018.page",
+      "filename": "bb_2019-002-8fe2508649.pdf",
+      "bytes": 313748,
+      "sha256": "93655719a20aa7a32298889caa13308227fad84f9b38bda9c49660ab695d6781",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-003.pdf",
+      "title": "BB 2019-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-003-7ad11fd954.pdf",
+      "bytes": 302480,
+      "sha256": "d4062b78c54be52d21fc160e8bc5afbd9d904a6296b184ead69f1d3607dbf2f4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-004.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-004-9e473d7ee4.pdf",
+      "bytes": 334507,
+      "sha256": "66ee9f3e155c528fd223b794ba1cef5f57fe97123a60b76b64ba12c1a67894ce",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-005.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-005-6a6fe6f653.pdf",
+      "bytes": 179261,
+      "sha256": "c07dd75fc44652f8b60c4459c92c4870486de78795e2b0b78cfe2326e10b3a63",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-006.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-006-c718e836e1.pdf",
+      "bytes": 45870,
+      "sha256": "0ea8ac9f7441976c8493d2abbd91830a16b75dc6d7053a96e07dcea8154410df",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-007.pdf",
+      "title": "Zoning/ Buildings Bulletin 2019-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-007-d7da918768.pdf",
+      "bytes": 352556,
+      "sha256": "50d11019c9c848f0a45cca8ae9d3f7927b5373853ec83f48ee5f1a85ad6c1a03",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-008.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-008-bc7fa039bc.pdf",
+      "bytes": 232341,
+      "sha256": "d22388a62849bee9b75174921893cb7438b17cfd073ab25221908ddea87f3f1d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-009.pdf",
+      "title": "Zoning/ Buildings Bulletin 2019-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-009-f3ae2516e6.pdf",
+      "bytes": 733787,
+      "sha256": "ae1e2d0bbf321b6071bcc3c8fedbe5edcc800158bdf71332b3a33f9be735b68d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-010.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-010-e35d623af1.pdf",
+      "bytes": 270936,
+      "sha256": "25b1be93101a33cc86542a06b03cae2f713cdd528196ec4124edea52e0d9a410",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2019-011.pdf",
+      "title": "Technical/ Buildings Bulletin 2019-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2019.page",
+      "filename": "bb_2019-011-a3602d6934.pdf",
+      "bytes": 478117,
+      "sha256": "ca2f6b90a8bbcc8060bc802be3dd7a610fb3f3d13ad508ca20768ac1a56ccc42",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2020-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-001-d50d5490fe.pdf",
+      "bytes": 201962,
+      "sha256": "72d3b4f070c369a195779589c85d43ab3ab5d907aa0205852a31c9d57aa578cc",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-002.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-002-37807592b8.pdf",
+      "bytes": 151072,
+      "sha256": "b12e0ea551afd34118b6f4fb3402dbdb31630c4c6efd84b2b16431707703f0c1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-003.pdf",
+      "title": "Zoning/ Buildings Bulletin 2020-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-003-ffbc819d9c.pdf",
+      "bytes": 126055,
+      "sha256": "95879ef5d2d3a75286f00e35bef5e3a87e48517336db0aeb1e3b154476bb3bd1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-004.pdf",
+      "title": "BB 2020-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-004-f616112a7a.pdf",
+      "bytes": 174739,
+      "sha256": "4c4ff2db0fb36c39c1d468b17909f59102a897e085548c605b9ff58b8c7d1d7f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-005.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-005-a2f2ac9e1a.pdf",
+      "bytes": 287811,
+      "sha256": "da4aba1638512fb7dc06038e3a05c5717614e02d794e8546a68537d71407d49e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-006.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-006-82aab39c68.pdf",
+      "bytes": 164138,
+      "sha256": "a886541ed4da028a5e1c5d1bad1dc5c7004546cb0a9e9b4e9fd534a6424f0e75",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-007.pdf",
+      "title": "Technical Buildings Bulletin 2020-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2020-007-dbe9d5847d.pdf",
+      "bytes": 441471,
+      "sha256": "8fb8a85fcbaeb11935bfbcd5075590881340a2019692ba10127efba41992a1f1",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-008.pdf",
+      "title": "Technical Buildings Bulletin 2020-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2020-008-e7eca85cc2.pdf",
+      "bytes": 405565,
+      "sha256": "c7441fb98ec3476a3bde68ea1eb0bda1ab504e7783f376530d3d609183bf9d4b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-009.pdf",
+      "title": "Technical Buildings Bulletin 2020-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2020-009-c2326d6c0e.pdf",
+      "bytes": 336631,
+      "sha256": "1af8b3d7afd100852edc3534d40898375f86da5f7dd16a66eb74bd4876135a87",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-010.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-010-0701590d2a.pdf",
+      "bytes": 240815,
+      "sha256": "abb697ea32de41cef9060c88e2e408bded46e73192b674b49a57d5dd0d6739ff",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-011.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-011-890dcb58d0.pdf",
+      "bytes": 256533,
+      "sha256": "034e2b0c10b172cc6bed3ae74e01887479694b19661bddd3c552abe3acc59d1e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-012.pdf",
+      "title": "",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2017.page",
+      "filename": "bb_2020-012-d1d47eee82.pdf",
+      "bytes": 606878,
+      "sha256": "1e41010c82b09b049d271ecc9e5d2138829236a278bfcb496355a10234a84ddd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-013.pdf",
+      "title": "BB 2020-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-013-0e41bff41b.pdf",
+      "bytes": 188970,
+      "sha256": "0241d4f65374fc75b29948d574b2b0f8a57ffe36e725b386a62c57ba5203748c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-014.pdf",
+      "title": "Technical/ Buildings Bulletin 2020-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-014-66f2a82678.pdf",
+      "bytes": 142620,
+      "sha256": "28b2126b23d0df7199df72c987bf86042efe643a2bc9f94ff62f70e18b78dbbd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-015.pdf",
+      "title": "Operational/ Buildings Bulletin 2020-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-015-f12b5a78bc.pdf",
+      "bytes": 161924,
+      "sha256": "a1a2ffd95733db30d0dc13de46c6494a33d26b636d0552f591434ac3e46fccb3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-016.pdf",
+      "title": "Technical/ Buildings Bulletin 2020-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-016-8b2c07f8cb.pdf",
+      "bytes": 131520,
+      "sha256": "bd3e47573960d28b9d2e97dbe632ac97d62eba0e2036136b86eff63c95d6b3b3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-017.pdf",
+      "title": "BB 2020-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-017-7cd3702c29.pdf",
+      "bytes": 478024,
+      "sha256": "3d945c758143ffb21b1a7ad29f5f82e01de74af229b12f583f54788a1c04b5b7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-018.pdf",
+      "title": "Opertional/ Buildings Bulletin 2020-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-018-1e6f7b1f94.pdf",
+      "bytes": 226163,
+      "sha256": "ffc9468406242274618550842edc09279ecc8b7f98cd0592301bb8fb9ee4348e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-019.pdf",
+      "title": "Opertional/ Buildings Bulletin 2020-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-019-4d7f3b82da.pdf",
+      "bytes": 409610,
+      "sha256": "352e9c6f814aef420508ee6a782c14652f41e98e17525efceb8e5e8fe656a824",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-020.pdf",
+      "title": "Opertional/ Buildings Bulletin 2020-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-020-3343c32df2.pdf",
+      "bytes": 576785,
+      "sha256": "6a34595a415d58a7a3f6e7fff24b790b457a0751cb97c87c4bb70fc7fdb8e54e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-021.pdf",
+      "title": "OTCR/ Buildings Bulletin 2020-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-021-4ee825916c.pdf",
+      "bytes": 184907,
+      "sha256": "cbe20eff8d8db3baf5b2440f58026631e469dc29e6ae448794d281ca36fdf886",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-021_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-021_highlights-dd6dc5d868.pdf",
+      "bytes": 153870,
+      "sha256": "309417adc3bbce1fa10160dda431eaa2f0d70f8b5e948fd0f8d1426a064888ea",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-022.pdf",
+      "title": "Technical/ Buildings Bulletin 2020-022",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-022-7ed1a4c47d.pdf",
+      "bytes": 215667,
+      "sha256": "7a764c30830f465de952430cef751127bbef2ac7a4e5fb5ddc67553b28df57e3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-022_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-022_highlights-8a629a7e3e.pdf",
+      "bytes": 112271,
+      "sha256": "b4fc322d0c1db433c6bd4af6811aca7f937d81cad2513c7ee31227cbd9f67589",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-023.pdf",
+      "title": "Zoning/ Buildings Bulletin 2020-023",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-023-cbab8097ed.pdf",
+      "bytes": 207218,
+      "sha256": "43fbe6eb9e9f883f5158ea97858ea4b7cb0f716ff78bf37cff16484264d1a2b0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-023_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2020-023_highlights-dad068362a.pdf",
+      "bytes": 129115,
+      "sha256": "edebd1bd8133b0cfa88969aa96fbedc9b7d0467c483ac8ab97f722d5f174196c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-001-6b6ffd0a1e.pdf",
+      "bytes": 223311,
+      "sha256": "4b202f4c4b62c246c376db897fa230cbe8ae8d8cfbd5b9c82565f2e99cb5bb1d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-001_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-001_highlights-50552b2e68.pdf",
+      "bytes": 113124,
+      "sha256": "8cab3452b6c041450811caa8abe92e8da6dcd7115c1c6b092c2fb11610cb290c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-002.pdf",
+      "title": "Superseded by: BB 2021-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-002-06bafc85fa.pdf",
+      "bytes": 147996,
+      "sha256": "f7e9727e278862b5f23a3fb6d9081b2be84fa27c9920cfdf2b99a03bbb17c0e5",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-002_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-002_highlights-ed7e1a3eef.pdf",
+      "bytes": 144238,
+      "sha256": "fb797b40530e2126dfa7fc14e5e6885df1dbdecb0b3512dfa0c6ac6617239541",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-003.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-003-f7dc7312c5.pdf",
+      "bytes": 183279,
+      "sha256": "3a6d9fdb26e5e3b467f76d90edb513ae1bda06e83443c94c0010013673337988",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-003_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-003_highlights-2b919f3950.pdf",
+      "bytes": 102133,
+      "sha256": "d1520b94160fdd88499eeefaae0c8fecfd92af58015b52072d3be4c7d9fcee31",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-004.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-004-ba4f41c7fd.pdf",
+      "bytes": 492720,
+      "sha256": "3d040049fa6f2872345f7be2e9460dd5ba3e8308d21bfa366711e848a0d8aa0d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-004_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-004_highlights-c04b72745e.pdf",
+      "bytes": 131249,
+      "sha256": "8a36969d293d844d984fa27d331b19ef63b4b6d2c76adcc68f6a58cfcc46c709",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-005.pdf",
+      "title": "BB 2021-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-005-15037b6b85.pdf",
+      "bytes": 346828,
+      "sha256": "5dff1722e7365ca7c6aec634ef034de9e4efe284c4bfb9a0802f758821d2ad9b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-006.pdf",
+      "title": "BB 2021-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-006-3072f08396.pdf",
+      "bytes": 295572,
+      "sha256": "722be0da1092b968a959d73a05150bf59aa764780babf38df06bc7d80aa14d7d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-007.pdf",
+      "title": "BB 2021-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-007-1593dc7557.pdf",
+      "bytes": 481547,
+      "sha256": "4c4d91a75b63793c24376b6b0af6ee00462392a6b5095500cdb422d571fc5aaa",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-008.pdf",
+      "title": "BB 2021-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-008-d740e77b30.pdf",
+      "bytes": 333599,
+      "sha256": "9a8a87c0f41f4b6a3a0924297b9c27b832d426d0d7b5ff5ca86c1d74fcc0acdd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-009.pdf",
+      "title": "BB 2021-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bb_2021-009-685a19488c.pdf",
+      "bytes": 133322,
+      "sha256": "289f9c56c402184c76566941931802de208ff8620738e7fb5728a2631783c343",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-010.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-010-ceed14ac6b.pdf",
+      "bytes": 135551,
+      "sha256": "8536e99cbd301e81c234e883a18de9646b4c75794c8b0f1e5e55decb05ea039e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-011.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-011-b290beec0b.pdf",
+      "bytes": 1449719,
+      "sha256": "1c0641b6c81e58dabc746dc29fa9d77113a292f533d027fbff21ed3d9d87fa86",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-011_faqs.pdf",
+      "title": "Printable version",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/bb-2021-011-faqs.page",
+      "filename": "bb_2021-011_faqs-fbcf956487.pdf",
+      "bytes": 160807,
+      "sha256": "5faaec449429b563374aa39c96f41c957bf6fe077836c9476e6c9f7dd7451818",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-011_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-011_highlights-c7e1695fe7.pdf",
+      "bytes": 176803,
+      "sha256": "d8a521c21479ee996f634830668f9b77d985b51f5f3e654b38200981389faa2f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-012.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-012-2ddd5606d3.pdf",
+      "bytes": 157897,
+      "sha256": "a471b8c279c099fbc366b5b2fff4ea1c6212540a15b28c15435429ab69433f5e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-013.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-013-798a275574.pdf",
+      "bytes": 197693,
+      "sha256": "3572657d3df5dfc6bdf8760a89643aad6d4bc5849f71014ff8a179dabcfe8e0a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-014.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-014-b73a201997.pdf",
+      "bytes": 156117,
+      "sha256": "e2d72d22ad8a73e80237c391af163cf482bc3c1ed13c0f86397b01dac66eb66e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-015.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-015-893fbb3967.pdf",
+      "bytes": 240573,
+      "sha256": "272e966124aee36ff20f5df3319c4509c4d6b91d033282d59a176c5be57d790a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-016.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-016-212614bb5f.pdf",
+      "bytes": 163151,
+      "sha256": "f1a2a1656ea61e877a9ca691f9dde95d55877f4609e5765ea384061641e87cd6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-017.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-017-1f0ab1c89e.pdf",
+      "bytes": 162540,
+      "sha256": "7ac7c37a70d47fd543b1b71695be896e65cc6b38769aa19d5015ba98540c56e0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-018.pdf",
+      "title": "OTCR/ Buildings Bulletin 2021-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-018-b39af0e225.pdf",
+      "bytes": 158837,
+      "sha256": "a7c3878ecb285a6e976722c647d42953ebf51b3606158a64bef15322214c8306",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-019.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-019-88d4c02a09.pdf",
+      "bytes": 150247,
+      "sha256": "9579450933b23e3f6b4848527c1cea4c8136362c2816db0b8b33bb37935cc9e4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-019_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-019_highlights-e944540df3.pdf",
+      "bytes": 169044,
+      "sha256": "52f3f3e0a7b222d0867b7eb3a27a96fa5f0d5ddf3456e5e2110a4e4c9f5c8129",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-020.pdf",
+      "title": "Technical/ Buildings Bulletin 2021-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-020-3ee9d6a075.pdf",
+      "bytes": 149410,
+      "sha256": "efe655ef28614e01f0edeb16970e42afc7b38bf179a7e6c7fbcbe29e06b81b9e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-020_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2021-020_highlights-27b228aff7.pdf",
+      "bytes": 140088,
+      "sha256": "780ede40b15b10fa8a436b090f603caa783df95c4dc6bdba16d789b1e9470536",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-001.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-001-b9c6cf82ab.pdf",
+      "bytes": 165820,
+      "sha256": "48c99bb8c278552dde7fce270e2f9ca2063832fe3cb2451f2890cbd23efd5865",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-001_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-001_highlights-ffc48d6bb4.pdf",
+      "bytes": 220021,
+      "sha256": "b87433ebbfa86fc2cb60ccf591d92badb36c49c3546273627c518f7a9f098c6d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-002.pdf",
+      "title": "OTCR/ Buildings Bulletin 2022-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-002-d87518aa49.pdf",
+      "bytes": 166560,
+      "sha256": "c8b00ac118776a60ebd85a70400c081f5f9a9dbc33e8116a3503da31fc415f0a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-003.pdf",
+      "title": "Operational/ Buildings Bulletin 2022-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-003-95811b386e.pdf",
+      "bytes": 1187075,
+      "sha256": "37e6d971e29fd1e3701a05f87baffa03af553f6eef441dce5b0467381af376b3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-004.pdf",
+      "title": "Zoning/ Buildings Bulletin 2022-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2013.page",
+      "filename": "bb_2022-004-ea696f14d8.pdf",
+      "bytes": 2361853,
+      "sha256": "59495794a7246aa0563fbdd697ccdf67a88add9b5aa5ea7adeb133ecfaa8a922",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-005.pdf",
+      "title": "Zoning/ Buildings Bulletin 2022-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-005-daa956f1a9.pdf",
+      "bytes": 474192,
+      "sha256": "a823d07491466fdf28536ddc9c4dbaff6b9ebe47d4c70fac3487ea89f9fe4eec",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-005_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-005_highlights-82f591b1fa.pdf",
+      "bytes": 242358,
+      "sha256": "ec6788cf1bddfd4e7f457a2e74120ebb10722d3215faa431bc29bcd0e4e52e2f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-006.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-006-ac021fd6a9.pdf",
+      "bytes": 230758,
+      "sha256": "5464550a7a2390577201cd45095e9c1d0a16c072e08667fdb187969df908eb8a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-006_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-006_highlights-a9135cacd2.pdf",
+      "bytes": 178146,
+      "sha256": "b7512aec9ae3e461934c6e30417b616fd2839c6e6e1975a5b40319af5d79e889",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-007.pdf",
+      "title": "Operational/ Buildings Bulletin 2022-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-007-1e9e68a54e.pdf",
+      "bytes": 208704,
+      "sha256": "a29bb4ae4a9bf18a42316cfa855b19ca4b08a10b6c2b26145b46c5bbb23ccc4b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-008.pdf",
+      "title": "Operational/ Buildings Bulletin 2022-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-008-01632f5933.pdf",
+      "bytes": 3683726,
+      "sha256": "4dfd204a4b91c591d53484e36bbbe592262c14f3b6d8437317fc2b54134b1129",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-009.pdf",
+      "title": "Operational/ Buildings Bulletin 2022-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-009-1e2c67be47.pdf",
+      "bytes": 1882583,
+      "sha256": "4364aa37bb8cf28815cff177bab28224dbf25f3e2e81e8e4b47fc9b6f3e6ae5b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-010.pdf",
+      "title": "OTCR/ Buildings Bulletin 2022-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-010-967f1d72f0.pdf",
+      "bytes": 200619,
+      "sha256": "9c3d2dee95535eab359dd8f45ac396806984eb25def990c5cca5264eea57da12",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-011.pdf",
+      "title": "Zoning/ Buildings Bulletin 2022-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-011-8f9fad90b5.pdf",
+      "bytes": 785881,
+      "sha256": "35ec7cfb7fa13ce351f8f02f5ebfca13de7befb9d366d486e6d1348fec09e77a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-011_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-011_highlights-22f5d415d6.pdf",
+      "bytes": 205900,
+      "sha256": "ec7cae12efde22edeb7927a5a8e349998a20a93ebcef0fa599679e5d50bb70d0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-012.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-012-0f9f3edd55.pdf",
+      "bytes": 149222,
+      "sha256": "bca7dab44b4c63e74d4f6f87aa4a927662dc3b6fdb0f557c1ea0cb4ac45639b3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-012_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-012_highlights-4891dc2805.pdf",
+      "bytes": 174319,
+      "sha256": "ab34db0ebf3284e21ed696912d17e62d7ec14983d9531f5e7e0c29373613de28",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-013.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-013-7a2bc43e7b.pdf",
+      "bytes": 179541,
+      "sha256": "825383e340ec3e1f698c866c7d0800185577bd5293cc27229037d4ca2c59152e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-013_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-013_highlights-84771018ea.pdf",
+      "bytes": 173538,
+      "sha256": "053df095b97841c1278a90747fed1f2ad706443ef28fdbd09e1eed157ec9cb05",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-014.pdf",
+      "title": "OTCR/ Buildings Bulletin 2022-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-014-47775b6130.pdf",
+      "bytes": 240661,
+      "sha256": "0ff550faa3d4119b79bde6a58155f4008941b8e057b2cf533991d8b175304a4a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-015.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-015-2be399c79a.pdf",
+      "bytes": 1925084,
+      "sha256": "dca5f27a9eb0494e0b064988eae478a6e9e6c3e33f802c13031b97b526a9af8a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-016.pdf",
+      "title": "OTCR/ Buildings Bulletin 2022-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2010.page",
+      "filename": "bb_2022-016-e25144cafa.pdf",
+      "bytes": 1047092,
+      "sha256": "c8d996ea7f2cb34cda63d26411129a3f9601966da93c8dda005e3e5d9de081b0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-017.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-017-8e251140b3.pdf",
+      "bytes": 1526671,
+      "sha256": "e28624814e1bd3e17770975551620ff97de6cf6daf9705806324fd6fff47af19",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2022-018.pdf",
+      "title": "Technical/ Buildings Bulletin 2022-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2022.page",
+      "filename": "bb_2022-018-7fa97f4cc1.pdf",
+      "bytes": 171136,
+      "sha256": "b33e9463f6e71cb1c5316c00d390b7cf90d8bc265e60d6246d75e4fd3a9ce261",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-001.pdf",
+      "title": "Technical/Buildings Bulletin 2023-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-001-db0a9db2c4.pdf",
+      "bytes": 2075068,
+      "sha256": "9f820d9bfaa7ccf7116efca89869b5cba67300bb0fe68ac37b52c907e3c0721c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-002.pdf",
+      "title": "Technical/Buildings Bulletin 2023-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-002-316fb01ca5.pdf",
+      "bytes": 133353,
+      "sha256": "8013197d2329c48ecabefe0ac77a1d97e005402e5fa38a6476bd45c65c747863",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-003.pdf",
+      "title": "Technical/Buildings Bulletin 2023-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-003-adf6131fa6.pdf",
+      "bytes": 2822682,
+      "sha256": "75704d18eea125cc17dbb7225d38fa4166178f675dd2a73d5934c1e3f8a8e377",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-004.pdf",
+      "title": "Technical/Buildings Bulletin 2023-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-004-21599b5c4c.pdf",
+      "bytes": 4568249,
+      "sha256": "6526486857ea18230aec9f50dd8866a72793b5a25dbe47860ff85eb0136402fd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-005.pdf",
+      "title": "Technical/Buildings Bulletin 2023-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-005-b45546d5db.pdf",
+      "bytes": 278857,
+      "sha256": "96e4d75b527796305edbe4baf745aa846c201fd9fd7a8a50fb0804a8e3874e78",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-006.pdf",
+      "title": "OTCR/Buildings Bulletin 2023-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-006-961249fde1.pdf",
+      "bytes": 187849,
+      "sha256": "0753a8433e3758980ef2fb46f79ad8f097bb1bd7f3c38511b9d16ef030fa4609",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-007.pdf",
+      "title": "Technical/Buildings Bulletin 2023-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-007-ae11d563a1.pdf",
+      "bytes": 4659691,
+      "sha256": "804da260da2f971fdb9e0787fecdca64218d6eb89a4797e46451af00c287821f",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-008.pdf",
+      "title": "Technical/Buildings Bulletin 2023-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-008-5bce712b5b.pdf",
+      "bytes": 277463,
+      "sha256": "66907f2e8eda3ca97487f9ad1a95051a0df3331f2a9b18841b02abee07006fca",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-009.pdf",
+      "title": "Technical/Buildings Bulletin 2023-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-009-21d4610bdc.pdf",
+      "bytes": 234839,
+      "sha256": "c66e645b3b8323c8960cea7aa10425017c7f3d621711ac1cc9403c7dfa4dfe56",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-010.pdf",
+      "title": "Technical/Buildings Bulletin 2023-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-010-e3e61a9eef.pdf",
+      "bytes": 209717,
+      "sha256": "b327fe8313a42857ed919c38739337411e58eb59b664be4b11ea9d0c3d712ab8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-011.pdf",
+      "title": "Technical/Buildings Bulletin 2023-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-011-f68b09b7db.pdf",
+      "bytes": 1091324,
+      "sha256": "9a8048ba85780cd37c737c988ab17be35ee6593a37576ae7e6ad0f01b7add5eb",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-012.pdf",
+      "title": "Technical/ Buildings Bulletin 2023-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "bb_2023-012-d5bef1bca9.pdf",
+      "bytes": 812212,
+      "sha256": "632ccf1785362324ac7cd76b970c10b1940ed54b47d5128fbb3b1289590290be",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-013.pdf",
+      "title": "Technical/Buildings Bulletin 2023-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-013-affcec9747.pdf",
+      "bytes": 1099111,
+      "sha256": "53faf7c1dab09acd003b8d547c7d390e6c893191768ad60308982eb95d76dc11",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-014.pdf",
+      "title": "Technical/Buildings Bulletin 2023-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-014-c4c5c13d25.pdf",
+      "bytes": 1443290,
+      "sha256": "d001fc23388dace7bc2eeba33a2278712ac12f1c257e76e66d00fb5ea44a5d85",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-015.pdf",
+      "title": "Technical/Buildings Bulletin 2023-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-015-d0a21646a7.pdf",
+      "bytes": 1194739,
+      "sha256": "a22a4dcc7348379ff945d880d49b5c77d6fa1a849f14e730f83ae66b3b210b18",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-016.pdf",
+      "title": "Operational/Buildings Bulletin 2023-016",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-016-51c9b9da1e.pdf",
+      "bytes": 159638,
+      "sha256": "79ee0fd2897251c509673ab910107a288f606b3e99c585a30d27ee1e11a5282a",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-017.pdf",
+      "title": "Technical/Buildings Bulletin 2023-017",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-017-a52fa633a5.pdf",
+      "bytes": 210169,
+      "sha256": "6eb4ab6c91b4bafe58d75e357e29ee329c7b4ebf4719022334cc1005cb2ca0c8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-018.pdf",
+      "title": "Technical/Buildings Bulletin 2023-018",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-018-fd27899c7b.pdf",
+      "bytes": 203024,
+      "sha256": "bc34c793d5dc96e2d438463d0ab987d3e26e9fb14bfb8145ea04c0a0b6637e6c",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-018_highlights.pdf",
+      "title": "Bulletin Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-018_highlights-a5ebf3e8d8.pdf",
+      "bytes": 133782,
+      "sha256": "5e8236a27764151c421ed23b4cedac3f2269c43ce9d743471dd4d32d1541c607",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-019.pdf",
+      "title": "Technical/Buildings Bulletin 2023-019",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-019-0ceec4743c.pdf",
+      "bytes": 1025778,
+      "sha256": "9640939d997b44a9279a6dc45ffcf7e6219aa4bea3fbf8b4c353094aada71617",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-020.pdf",
+      "title": "Technical/Buildings Bulletin 2023-020",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-020-fd60327440.pdf",
+      "bytes": 1054946,
+      "sha256": "ef0535ef6b06d3a986cde3b8838c9cf76230759252fd63f809e3010e9d32c3e8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2023-021.pdf",
+      "title": "Technical/Buildings Bulletin 2023-021",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2023.page",
+      "filename": "bb_2023-021-96bee503a1.pdf",
+      "bytes": 2839741,
+      "sha256": "240c69af6ed0230acfad21905657441875184f1a62e398ee7d23fad91f6d9b99",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-001.pdf",
+      "title": "Technical/Buildings Bulletin 2024-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-001-2292864a02.pdf",
+      "bytes": 197260,
+      "sha256": "411abeb7bb94102bf5b353a682a23eaf2497a56b6db97d4e65c9c5cf1ab8d0f4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-002.pdf",
+      "title": "Technical/Buildings Bulletin 2024-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-002-9b82d24d35.pdf",
+      "bytes": 985561,
+      "sha256": "5e0445d5a727afdef03bac9b77a19ea0e225432657fec21c9037a3209c554110",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-003.pdf",
+      "title": "Technical/Buildings Bulletin 2024-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-003-fce185d022.pdf",
+      "bytes": 2018010,
+      "sha256": "f2f6e975ae8a95bbcc119f2b3ed38027b6c3250d63914c9e28f79c5b9578df3b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-004.pdf",
+      "title": "Technical/Buildings Bulletin 2024-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-004-c1560bc5f7.pdf",
+      "bytes": 301588,
+      "sha256": "3895b94eaea8f142173774ed6f329be55a54fa7103830a893b02d8001a4a0a22",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-005.pdf",
+      "title": "BB 2024-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+      "filename": "bb_2024-005-092b5e2782.pdf",
+      "bytes": 208321,
+      "sha256": "221930731334969b09df7dce4c68619e88555ac9a99e222eb0fecba374a28a11",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-005_highlights.pdf",
+      "title": "Technical/Buildings Bulletin 2024-005 Highlights",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-005_highlights-02cc8b8c7a.pdf",
+      "bytes": 232587,
+      "sha256": "e6cd3d609069bf07d385ce30d87308578fdaab2b76241cfdf5870aa8333a39b2",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-006.pdf",
+      "title": "Technical/Buildings Bulletin 2024-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-006-bb96090945.pdf",
+      "bytes": 2667940,
+      "sha256": "b24af25be617b09500601fb12a1f2c8af632a66cb601b0303762530bf5cd3143",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-007.pdf",
+      "title": "Operational/Buildings Bulletin 2024-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-007-5b90e11d7b.pdf",
+      "bytes": 163919,
+      "sha256": "4e29609f4d958d62e5a1d861e3921193865a1f604b5fd6444999929446123568",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2024-008.pdf",
+      "title": "Operational/Buildings Bulletin 2024-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2024.page",
+      "filename": "bb_2024-008-8467367962.pdf",
+      "bytes": 171313,
+      "sha256": "66cbe12bad970ec5090e724c3573af74702e6dda05036526e6117994a3ea5217",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-001.pdf",
+      "title": "Technical/Buildings Bulletin 2025-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-001-fa0f0f7690.pdf",
+      "bytes": 344446,
+      "sha256": "d315fc30ad311f8bdbf6541be5ec39d0e84acdf4e98daae710fa99ef4cb45376",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-002.pdf",
+      "title": "Operational/Buildings Bulletin 2025-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-002-e4ca765c9f.pdf",
+      "bytes": 203142,
+      "sha256": "6223645a387cf0431bf09d96f2fc75cdabb4b6a498d2666c3da938e7a0ed682e",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-003.pdf",
+      "title": "Operational/Buildings Bulletin 2025-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-003-92bfff0a66.pdf",
+      "bytes": 176623,
+      "sha256": "360c088aca96cc7d572bbae079d61aa2f960dcd89c1be610588aca6310cc77ce",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-004.pdf",
+      "title": "Operational/Buildings Bulletin 2025-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-004-914f962610.pdf",
+      "bytes": 200390,
+      "sha256": "4f40a6f90f7b8d61b351562833d9e2693809d029432fbbc076cfc7ce18b5367d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-005.pdf",
+      "title": "Operational/Buildings Bulletin 2025-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-005-10a6385add.pdf",
+      "bytes": 247202,
+      "sha256": "d3eeffd6ee48a14e09f327e47db6d76e443d5059476f72d5f373ff3d3159dfa6",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-006.pdf",
+      "title": "Operational/Buildings Bulletin 2025-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-006-3c21e49a49.pdf",
+      "bytes": 173090,
+      "sha256": "b2d48ed33639e3cc118cbb79beb3c79fc055c1b7092576dd957fca8cb2faa94d",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-007.pdf",
+      "title": "Technical/Buildings Bulletin 2025-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-007-8b5bd10001.pdf",
+      "bytes": 2297572,
+      "sha256": "185d88e4cd785e9779abf186e3be83da265196d7075b800ac4de12d0a669fe81",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-008.pdf",
+      "title": "Technical/Buildings Bulletin 2025-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-008-0621e9df58.pdf",
+      "bytes": 138573,
+      "sha256": "97885877a7297b371b83faa67c2d4400c7d06dccea83baceb734c0f742205d19",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-009.pdf",
+      "title": "OTCR/Buildings Bulletin 2025-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-009-5ffc3e7794.pdf",
+      "bytes": 189549,
+      "sha256": "fabd03cc5d71a507d239f647c84a31832b17e1e8f6dca4a9f2b57dc9b9ec1392",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-010.pdf",
+      "title": "OTCR/Buildings Bulletin 2025-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-010-db1d650ece.pdf",
+      "bytes": 237742,
+      "sha256": "50f08c5f419f0f84961fb6dfe929cbb9fcd62318f33d061e6879a81f58176fdf",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-011.pdf",
+      "title": "Operational/Buildings Bulletin 2025-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-011-12a78d76ca.pdf",
+      "bytes": 176314,
+      "sha256": "f8424bf455b08e9194fc1704d5f7afea901d6a3da791cc0e332f87cc5985cf15",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-012.pdf",
+      "title": "Operational/Buildings Bulletin 2025-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-012-a7afe30358.pdf",
+      "bytes": 164380,
+      "sha256": "136f7e195f550231c57f31015c8a095d6975bb950f0d26277b9869bb8bb22ace",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-013.pdf",
+      "title": "Zoning/Buildings Bulletin 2025-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-013-cb6c5084de.pdf",
+      "bytes": 490357,
+      "sha256": "1f7a550488cd0c6999716b6209e6389ff104cf92acab7739f584c87bc59157fd",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-014.pdf",
+      "title": "Operational/Buildings Bulletin 2025-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+      "filename": "bb_2025-014-dec9254748.pdf",
+      "bytes": 223660,
+      "sha256": "da1aea95853b27c4c79d3f6010854b91489ea894bd769f2301e27e25384ef0ec",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-001.pdf",
+      "title": "OTCR/Buildings Bulletin 2026-001",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-001-7219a323aa.pdf",
+      "bytes": 233397,
+      "sha256": "9f5303ec2dad40902a5b48b960d35f6f6100184c1f6db36fe35bc45a250e70f7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-002.pdf",
+      "title": "OTCR/Buildings Bulletin 2026-002",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-002-076c1ee3c1.pdf",
+      "bytes": 200479,
+      "sha256": "2ba7db0add4868f34256045a7bdc5cab3639a27286d999601ef123aead6776e4",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-003.pdf",
+      "title": "OTCR/Buildings Bulletin 2026-003",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-003-0acae915c9.pdf",
+      "bytes": 223081,
+      "sha256": "d2238b9bc85db908be3943561d5121f6d4389363b31201f81df161673d095892",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-004.pdf",
+      "title": "OTCR/Buildings Bulletin 2026-004",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-004-d798ef1139.pdf",
+      "bytes": 236103,
+      "sha256": "faa9ea5f11464457542703bb527df53f319a23bd0f7620ca600834af4dfb2ad3",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-005.pdf",
+      "title": "Operational/Buildings Bulletin 2026-005",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-005-60eb5f6455.pdf",
+      "bytes": 278228,
+      "sha256": "c78640e1e03c50b056fd35e2a62c4e1193a8d4ca5275163340abfc4ad8620ed7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-006.pdf",
+      "title": "Operational/Buildings Bulletin 2026-006",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-006-495cabb110.pdf",
+      "bytes": 293436,
+      "sha256": "22b4d3792c01d63d9b112b9d5c48775688fc1f4dd8cd7edddab4f721ec3f3893",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-007.pdf",
+      "title": "Technical/Buildings Bulletin 2026-007",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-007-4e1cf89a36.pdf",
+      "bytes": 2281161,
+      "sha256": "b8ccfd50827673460072c6fe7a44ad01ca6bdd058cd22e131f1adb5a0a15a160",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-008.pdf",
+      "title": "Technical/Buildings Bulletin 2026-008",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-008-681958687d.pdf",
+      "bytes": 638379,
+      "sha256": "c1d26f04271e4d187a22e29b699fd894f2d2965c22a5ee564e8792f0c2670101",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-009.pdf",
+      "title": "Buildings Bulletin 2026-009",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-009-6d4f13a21c.pdf",
+      "bytes": 291248,
+      "sha256": "12b8701fb5da1dd7a9da26ae0ffab1caa5e231dc92333d4804b726667fba27d0",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-010.pdf",
+      "title": "Zoning/Buildings Bulletin 2026-010",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-010-469a9560e1.pdf",
+      "bytes": 283727,
+      "sha256": "843a63ac8e1de753f6934729feb48cdee7f89933b34a00a0f997cbb3eeaf7ac7",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-011.pdf",
+      "title": "Operational/Buildings Bulletin 2026-011",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-011-8fbbe75dff.pdf",
+      "bytes": 183473,
+      "sha256": "c0ec02689a642280ed972b59655a6d4ad8237d7729acf12e184f7e9d03f944ad",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-012.pdf",
+      "title": "Technical/Buildings Bulletin 2026-012",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-012-3edbdefbb3.pdf",
+      "bytes": 314701,
+      "sha256": "4cb179d13fd519a56f363e26e504761b969ebf5a7b03a2dee166e1d6f04fadff",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-013.pdf",
+      "title": "Technical/Buildings Bulletin 2026-013",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-013-4381992e33.pdf",
+      "bytes": 277006,
+      "sha256": "763987b5757b2b4a401f1fdd522fd85a6b3f9aaf9610d0a56cbed5abb0883b34",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-014.pdf",
+      "title": "Operational/Buildings Bulletin 2026-014",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-014-35a412786e.pdf",
+      "bytes": 225451,
+      "sha256": "0b0b6ac7224fe0a98a704c305649decc1b9069ee7ac8fcd18152a5190cc9213b",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2026-015.pdf",
+      "title": "Operational/Buildings Bulletin 2026-015",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-current.page",
+      "filename": "bb_2026-015-9acfaec9a7.pdf",
+      "bytes": 1278426,
+      "sha256": "1bf5f60ad3bb75b1d1ae747011246f1bac3932748d81bef56c43f21e9fe7d960",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bird_friendly_guidance_document.pdf",
+      "title": "Bird Friendly Building Design and Construction Requirements Guidance Document",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+      "filename": "bird_friendly_guidance_document-222d20bbb2.pdf",
+      "bytes": 1940350,
+      "sha256": "b25b0f9f5a1bef20c37ce8ac74e90e6e0d6530e5ec3bfca5b033f6e30b40bed8",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    },
+    {
+      "source_url": "https://www.nyc.gov/assets/buildings/pdf/otcr_tech_bulletin_helical_piles.pdf",
+      "title": "Technical / Buildings Bulletin BC 18.01.08",
+      "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+      "filename": "otcr_tech_bulletin_helical_piles-adfe497d4e.pdf",
+      "bytes": 240656,
+      "sha256": "44bf0aeecd8022481bc308e00fdc1d210f934115885f7f4a085b653ce22fcdab",
+      "downloaded_at": "2026-10-11T03:22:57.023209+00:00"
+    }
+  ],
+  "errors": []
+}
