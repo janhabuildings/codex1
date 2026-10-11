@@ -1,0 +1,7 @@
+{
+  "api_calls": 54,
+  "input_budget_used": 1252304,
+  "budget_count_mode": "cl100k_base exact tokens",
+  "reported_tokens": 1252304,
+  "calls_with_unknown_usage": 0
+}
