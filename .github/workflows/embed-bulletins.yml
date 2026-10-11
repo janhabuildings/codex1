@@ -50,7 +50,7 @@ jobs:
           fi
       - name: Offer vector index download
         if: always()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: buildings-bulletin-embeddings
           path: references/bulletin-embeddings
@@ -58,5 +58,14 @@ jobs:
       - name: Report embedding failure
         if: steps.build.outcome == 'failure'
         run: |
-          echo 'Embedding run failed. Completed batches were saved; check logs, API billing and limits before running again.'
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path('references/bulletin-embeddings/last-error.json')
+          message = json.loads(path.read_text())['message'] if path.exists() else 'Embedding run failed. Expand Embed pending bulletin excerpts for its error.'
+          print(message)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('### Bulletin embedding failed\n\n' + message + '\n\n')
+              summary.write('For a missing key: repository Settings → Secrets and variables → Actions → New repository secret. Name: OPENAI_API_KEY. Render environment variables are separate. Never post the key in chat.\n')
+          PY
           exit 1

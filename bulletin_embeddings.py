@@ -148,6 +148,14 @@ def search(query,limit=4):
              'ocr_page':item['ocr_page'],'similarity':score} for score,item in ranked[:limit]]
 
 
+def record_build_failure(error,output=OUTPUT):
+    # Only our controlled errors are safe to persist; unexpected exceptions can contain secrets.
+    message=str(error) if isinstance(error,RuntimeError) else 'Embedding operation failed; check source files and configuration. Secret values are not logged.'
+    output=Path(output);output.mkdir(parents=True,exist_ok=True)
+    (output/'last-error.json').write_text(json.dumps({'status':'failed','message':message},indent=2)+'\n')
+    return message
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['estimate','build','search'])
@@ -162,10 +170,12 @@ if __name__=='__main__':
             print(json.dumps({'model':MODEL,'dimensions':DIMENSIONS,'chunks':len(items),'input_tokens_or_upper_bound':total,'count_mode':mode,'api_calls_made':0},indent=2))
         elif args.command=='build':
             result=build(args.max_api_calls,args.max_tokens)
+            (OUTPUT/'last-error.json').unlink(missing_ok=True)
             print(json.dumps({k:v for k,v in result.items() if k!='chunk_ids'},indent=2))
         else:
             if not args.query:parser.error('--query is required')
             print(json.dumps(search(args.query),indent=2))
     except Exception as error:
-        print(str(error) if isinstance(error,RuntimeError) else 'Embedding operation failed; check source files and configuration. Secret values are not logged.')
+        if args.command=='build':print(record_build_failure(error))
+        else:print(str(error) if isinstance(error,RuntimeError) else 'Embedding operation failed; check source files and configuration. Secret values are not logged.')
         raise SystemExit(1)

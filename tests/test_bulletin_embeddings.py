@@ -40,6 +40,19 @@ class EmbeddingTests(unittest.TestCase):
         for vector in [[],[math.nan]*embeddings.DIMENSIONS,[0.0]*embeddings.DIMENSIONS]:
             with self.assertRaises(RuntimeError):embeddings.validate_vector(vector)
 
+    def test_failure_diagnostics_do_not_persist_unexpected_exception_secrets(self):
+        message=embeddings.record_build_failure(ValueError('secret-key-test'),self.root)
+        saved=(self.root/'last-error.json').read_text()
+        self.assertNotIn('secret-key-test',saved)
+        self.assertEqual(json.loads(saved)['message'],message)
+
+    def test_missing_key_diagnostic_without_paid_request(self):
+        with patch.dict(embeddings.os.environ,{},clear=True),patch.object(embeddings,'embed') as embed:
+            with self.assertRaises(RuntimeError) as caught:embeddings.build(output=self.root)
+        embeddings.record_build_failure(caught.exception,self.root)
+        self.assertIn('OPENAI_API_KEY is missing',(self.root/'last-error.json').read_text())
+        embed.assert_not_called()
+
     def test_semantic_ranking_retains_pdf_citations(self):
         strongest=dict(self.items[0],vector=self.vector,page=3)
         other_vector=[0.0,1.0]+[0.0]*(embeddings.DIMENSIONS-2)
