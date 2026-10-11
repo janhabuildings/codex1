@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2020-014-66f2a82678.pdf",
+  "title": "Technical/ Buildings Bulletin 2020-014",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2020-014.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2020.page",
+  "sha256": "28b2126b23d0df7199df72c987bf86042efe643a2bc9f94ff62f70e18b78dbbd",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "                                        ISSUER: Joseph Ackroyd, P.E., CFM\n                                                Assistant Commissioner\n\n2020-014                                        Technical Affairs & Code Development\n                                     PURPOSE: To clarify 1RCNY §908-01 in relation to Section 6.3.3.2\n                                              of NFPA 720 regarding notification appliance devices\n                                              used for the detection of carbon monoxide.\n TECHNICAL\n                                    RELATED BC 908.7\n ISSUANCE DATE                  CODE/ZONING: 1 RCNY 908-01\n   July 24, 2020\n                                   SUBJECT(S): Fire alarm, carbon monoxide, notification appliance\nSUPERSEDED BY                                  devices, strobes\n  BB 2021-002\n\n\n                               EFFECTIVE IMMEDIATELY\n\n\n  I. BACKGROUND\n     Section 6.3.3.2 of NFPA 720 – 2015 Edition as referenced by 1RCNY §908-01 requires that ‘notification\n     appliances used for [carbon monoxide] signaling [ ] shall not have the word FIRE, or any fire symbol, in\n     any form (i.e., stamped, imprinted, etc.) on the appliance visible to the public. Notification appliances\n     with multiple visible elements shall be permitted to have fire markings only on those visible elements\n     used for fire signaling.’\n\n\n  II. CLARIFICATION\n     To standardize installation requirements and avoid confusion of occupants during building evacuation,\n     a separate visible appliance device or combination visual units designated for activation of carbon\n     monoxide system shall be installed when required. A permanently identified lamacoid label or a\n     permanent marking on the device with the wording Emergency or carbon monoxide shall be either\n     affixed to the combination device or within the vicinity of the device. The lens of the visible appliance\n     device shall be of amber color to distinguish between a fire and carbon monoxide system.\n\n\n\n\n  MELANIE E. LA ROCCA, Commissioner                                                       nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

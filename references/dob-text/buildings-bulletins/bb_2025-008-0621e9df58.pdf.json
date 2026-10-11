@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2025-008-0621e9df58.pdf",
+  "title": "Technical/Buildings Bulletin 2025-008",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-008.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2025.page",
+  "sha256": "97885877a7297b371b83faa67c2d4400c7d06dccea83baceb734c0f742205d19",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "buildings\n2025-008                             ISSUER: Joseph Ackroyd, P.E., CFM\n                                             Assistant Commissioner\n                                             Technical Affairs & Code Development\nbulletin                          PURPOSE: This Bulletin clarifies the updated filing requirements for\n TECHNICAL                                 certain electrical installations subject to plan examination\n                                           as triggered by the enactment of Local Law 128 of 2024.\nISSUANCE DATE\n August 8, 2025                SUBJECT(S): Electrical work, Electrical filing, Electrical Plan Review (EPR)\n\n\n\n   RELATED/SPECIAL INFORMATION: Local Law 128 of 2024\n\n I. PURPOSE\n    The purpose of this bulletin is to clarify electrical work requirements set forth in LL 128 of 2024. Section\n    110.2(B) of the 2025 NYC Electrical Code requires electrical plan review (EPR) for certain electrical\n    installations. Applicants are required to submit technical documentation to the Department's Electrical\n    Plan Review Unit prior to filing for an electrical permit in DOB NOW. These requirements differ from\n    those of 1 RCNY 4000-01 and this rule will be updated to coincide with the effective date of the 2025\n    NYC Electrical Code.\n\n\n II. ELECTRICAL WORK REQUIREMENTS\n    To support the consistent and efficient review of submissions, the Department has issued a companion\n    guide entitled: Electrical Work Guide for the 2025 NYC Electrical Code. This guide outlines the required\n    contents, format, and review criteria for electrical plan review filings. Refer to the Electrical Work\n    Guidance Document.\n    The document can be found at www.nyc.gov/assets/buildings/pdf/elect_work_guidance.pdf.\n\n\n\n\n James S. Oddo, Commissioner                                                               nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2021-019_highlights-e944540df3.pdf",
+  "title": "Bulletin Highlights",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-019_highlights.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+  "sha256": "52f3f3e0a7b222d0867b7eb3a27a96fa5f0d5ddf3456e5e2110a4e4c9f5c8129",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "ISSUED: October 5, 2021\n                                            2021-019\n\n   GREENHOUSE GAS EMISSIONS ACCOUNTING FOR\n   ELECTRIC VEHICLE SUPPLY EQUIPMENT (EVSE)\n   Construction Codes Requirements\n\n\n\n\n                                                                                           PHOTO SOURCE: M Simon DOT\n\n\n\n   New York City has aggressive climate goals, including reaching net zero emissions by 2050 across the\n   building, transportation, and waste sectors. Local Law 97 of 2019 (LL 97/2019), effective November 15,\n   2019, amends Title 28 of the New York City 2014 Administrative Code to require reductions in greenhouse\n   gas emissions from certain buildings beginning in 2024. The purpose of Bulletin 2021-012 is to clarify that\n   energy used to charge vehicles will not be included in emissions from buildings, as such emissions are\n   considered transportation sector emissions.\n\n\n\n\n   •   For the purposes of LL97/2019, deduction of energy used to charge plug-in electric vehicles (PEV) is\n       allowed for unidirectional EVSE only at this time. Accounting for bi-directional chargers will be\n       addressed by a future Buildings Bulletin.\n\n   •   Deduction of energy used to charge electric vehicles requires that the system must be metered or\n       submetered in such a way as to generate hourly records and a total annual amount of energy\n       consumed for vehicle charging on-site at a property.\n\n   •   EVSE require permits prior to installation and must meet other requirements contained within the New\n       York City Construction Codes, Electrical Code, and Fire Code.\n\n   Read the full version of Bulletin 2021-019 for more details on the requirements.\n\n   Send questions to GHGEmissions@buildings.nyc.gov.\n\n\n   MELANIE E. LA ROCCA, Commissioner                                                           nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

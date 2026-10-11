@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2008-006-0807d8695a.pdf",
+  "title": "Code Interpretation / Buildings Bulletin 2008-006",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2008-006.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2008.page",
+  "sha256": "a2b6e0e3e72f1be523c641f80d060e8bef3816901c82de72a7e088a993773044",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "  NYC Buildings Department\n  280 Broadway, New York, NY 10007\n\n  Robert D. LiMandri, Acting Commissioner\n\n\n\n\n                                          BUILDINGS BULLETIN 2008-006\n                                                         Code Interpretation\n\n\n       Supersedes:            None\n\n             Issuer:          Fatma M. Amer, P.E.\n         Issuer Title:        Deputy Commissioner and Chief Code Engineer.\n\n    Issuance Date:            June 26, 2008\n\n           Purpose:           This document is to clarify that the term “Fire Command Station” is interpreted to mean “Fire\n                              Command Center”.\n\n      Related Code             T28    109.3                   BC    911                 BC   K101.1 (§2.7.8.4)\n        Section(s):             BC    K101.1                  MC    607.3.2.1\n                                      (§2.27.3.2.1(a),              Item #6\n                                      (b), (f)(2) and\n                                      (f)(4))\n\n         Subject(s):          Fire protection system, Fire alarm, Fire command center\n\n\nThe term Fire Command Station is mentioned in the 1968 Code. To be consistent with the New Construction\nCodes, whenever such term is mentioned in the New Construction Codes it is construed to mean Fire Command\nCenter.\n\n\n\n\nBuildings Bulletin 2008-006\n1 of 1\n                                                    safety • service • integrity\n"
+  ],
+  "low_text_pages": []
+}

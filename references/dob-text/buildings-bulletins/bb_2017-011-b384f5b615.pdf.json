@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2017-011-b384f5b615.pdf",
+  "title": "Technical/ Buildings Bulletin 2017-011",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2017-011.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2011.page",
+  "sha256": "7b24749129d0063f39ae4e3e886f964443ef392d41718a85c8c0d21a6f8942df",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "NYC Buildings Department\n280 Broadway, New York, NY 10007\n\nRick D. Chandler, P.E., Commissioner\n\n\n\n\n                                       BUILDINGS BULLETIN 2017-011\n                                                         Technical\n\n\nSupersedes:               Buildings Bulletin 2011-012\n\nIssuer:                   Gus Sirakis, P.E.\n                          Assistant Commissioner for Technical Affairs and Code Development\n\nIssuance Date:            October 18, 2017\n\nPurpose:                  This document clarifies the protection requirements for enclosing wiring used in smoke control\n                          systems.\n\nRelated                   BC     909.12.1           2011     NYC Electrical Code\nCode/Zoning\n                          MC     513.12.1               EC   Article 760\nSection(s):\n\nSubject(s):               Smoke control system, wiring; Smoke control system, fire alarm wiring; Smoke control system,\n                          fire alarm cable; Fire alarm cable, smoke control system; Wiring, raceways ; Fire alarm, wiring\n\n\n\nFor wiring used in smoke control systems, sections BC 909.12.1 and MC 513.12.1 require that regardless of\nvoltage, such wiring shall be fully enclosed within continuous raceways.\n\nFor the purpose of smoke control system wiring, in accordance with Section 760.179(D) of the 2011 NYC Electrical\nCode, the Department shall interpret that the installation of Type FPLP power-limited fire alarm cable, also known\nas “New York City Certified Fire Alarm Cable”, as acceptable without running such wiring in raceways. Such fire\nalarm cable shall be in full compliance with section 760.179(D) of the 2011 NYC Electrical Code.\n\nHowever, where smoke control system wiring is installed in mechanical rooms, elevator rooms, garages, and\nloading docks, such wiring remains subject to the protection requirements of sections 760.52 and 760.131 of the\n2011 NYC Electrical Code.\n\n\n\n\nbuild safe|live safe                                                                             Buildings Bulletin 2017-011\n                                                                                                                  page 1 of 1\n"
+  ],
+  "low_text_pages": []
+}

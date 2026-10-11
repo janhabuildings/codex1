@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2021-001_highlights-50552b2e68.pdf",
+  "title": "Bulletin Highlights",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-001_highlights.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+  "sha256": "8cab3452b6c041450811caa8abe92e8da6dcd7115c1c6b092c2fb11610cb290c",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "ISSUED: March 1, 2021\n                                           2021-001\n   Zoning and Construction Codes Requirements\n   PLASTIC VENT PIPING FOR CATEGORY IV\n   APPLIANCES\n\n   The 2014 NYC Fuel Gas Code does not allow the use\n   of any Polyvinyl Chloride (PVC) pipe for gas venting\n   appliances. However, Chlorinated Polyvinyl Chloride\n   (CPVC) pipe that is listed is permitted for venting of\n   Category IV appliances.\n\n\n\n\n                                                                   PHOTO SOURCE: Discolored unlisted PVC Vent for Category IV Boiler\n\n\n\n\n   What are Category IV appliances?\n   Category IV appliances are condensing, high efficiency appliances, such as water heaters and furnaces\n   for example, whose vent systems are usually constructed of polypropylene, CPVC, or stainless steel\n   piping.\n\n   What type of pipe materials that are no longer allowed?\n   Due to a code modification from the 2008 NYC Fuel Gas Code (FGC) to the 2014 NYC FGC, the following\n   are no longer allowed for venting Category IV appliances:\n   • All PVC pipe (both listed and unlisted)\n   • Unlisted CPVC pipe\n\n   Why are PVCs and unlisted CPVC pipes not allowed in Category IV appliances?\n   PVC and unlisted CPVC pipes have been shown to fail through discoloration and melting when subjected\n   to high temperatures associated with Category IV appliances.\n\n   What is allowed for venting Category IV appliances?\n   Listed CPVC pipe\n\n\n   Consult with your Architect or Engineer about this Code revision as it applies to your scope of work.\n   Read Buildings Bulletin 2021-001 for more details on the requirements.\n\n   Send questions to constructioncodes@buildings.nyc.gov.\n\n\n\n   MELANIE E. LA ROCCA, Commissioner                                                                         nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

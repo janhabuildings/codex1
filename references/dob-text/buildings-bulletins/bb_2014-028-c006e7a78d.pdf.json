@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2014-028-c006e7a78d.pdf",
+  "title": "OTCR/ Buildings Bulletin 2014-028",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2014-028.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2014.page",
+  "sha256": "c0b36cc8c51a1d978d8310b44038523e93bc38c56b492ce9aecbe9218139fa59",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "   NYC Buildings Department\n   280 Broadway, New York, NY 10007\n\n   Rick D. Chandler, PE, Commissioner\n\n\n\n                                        BUILDINGS BULLETIN 2014-028\n                                                            OTCR\n\n\n               Issuer: Alan Price, P.E.\nDirector, Office of Tec Director, Office of Technical Certification and Research\n\n     Issuance Date:         December 29, 2014\n\n             Purpose:       This bulletin clarifies requirements for acceptable equipment in accordance with section BC\n                            3001.9.\n\n            Related              AC 28-113.2.3                1RCNY 101-07\n        Code/Zoning              BC 3001.9\n         Section(s):\n\n             Related             BB 2012-001\n           Buildings\n          Bulletin(s):\n\n          Subject(s):       Elevator, equipment, approval\n\n\n   Section BC 3001.9 requires all equipment prescribed in ASME A17.1, section 8.3 to be approved by the\n   commissioner. This bulletin clarifies that equipment used in accordance with section AC 28-113.2 and ASME\n   A17.1, section 8.3 as prescribed shall be deemed acceptable by the commissioner.\n\n   Acceptable equipment shall be listed by an approved agency in accordance with section AC 28-113.2.3, ASME A17.1\n   section 8.3.1, and 1 RCNY 101-07.\n\n\n\n\n   Buildings Bulletin 2014-028                                                                               Page 1 of 1\n\n\n                                                               |\n                                                     build safe live safe\n"
+  ],
+  "low_text_pages": []
+}

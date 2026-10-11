@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2021-020_highlights-27b228aff7.pdf",
+  "title": "Bulletin Highlights",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-020_highlights.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+  "sha256": "780ede40b15b10fa8a436b090f603caa783df95c4dc6bdba16d789b1e9470536",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "ISSUED: October 7, 2021\n                                             2021-020\n\n   ELECTRICAL INSTALLATIONS FILINGS\n   Electrical Code Requirements\n\n\n   The purpose of Buildings Bulletin 2021-020 is to clarify the types of electrical installations of different\n   equipment that are subject to plan examination, including electrical equipment totaling or exceeding\n   1000kVA, or if such equipment operates above 600 Volts.\n\n   Examples of equipment include but are not limited to:\n   •   Service equipment\n   •   Transformers\n   •   Uninterrupted Power Source (UPS) systems\n   •   Generators\n   •   Generator paralleling equipment\n   •   Energy storage system\n   •   Fuel Cell\n   •   Photovoltaic Systems\n   •   DC or AC micro grid\n   •   Co-generation plant\n   •   Stationary battery\n                                                                              SOURCE: EOLA Power image of UPS Systems Installation\n\n\n\n   REQUIREMENTS\n   • Electrical installations are required to be reviewed and approved by the Department of Buildings as per\n     the 2011 NYC Electrical Code §110.2(B).\n   • Filing requirements for electrical installations can be found under DOB’s Project Guideline\n     Requirements for Design Professionals: Electrical Systems on DOB’s website at,\n     https://www1.nyc.gov/site/buildings/industry/project-requirements-design-professional-\n     electrical.page.\n   • Consult with your Architect or Engineer on the applicability of Buildings Bulletin 2021-020 to your\n     scope of work.\n\n   Read the full version of Bulletin 2021-020 for more details on the requirements.\n\n   Send questions to ECRICquestions@buildings.nyc.gov.\n\n\n\n\n   1 RCNY §4000-01 became effective on July 11, 2019. It addresses Electrical Work Review and doesn’t\n   amend, supersede or replace the requirements of Section 110.2(B) of the 2011 NYC Electrical Code.\n\n\n   MELANIE E. LA ROCCA, Commissioner                                                                      nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

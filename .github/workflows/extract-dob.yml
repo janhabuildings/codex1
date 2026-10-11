@@ -1,0 +1,62 @@
+name: Extract and index DOB references
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Download NYC DOB TPPNs', 'Download NYC DOB Buildings Bulletins']
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: write
+concurrency:
+  group: dob-document-archive
+  cancel-in-progress: false
+jobs:
+  extract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      OMP_THREAD_LIMIT: '1'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install extraction and OCR tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-eng
+      - name: Extract PDF page text
+        id: text
+        continue-on-error: true
+        run: python scripts/extract_dob.py
+      - name: OCR scanned pages
+        id: ocr
+        continue-on-error: true
+        run: python scripts/ocr_dob.py
+      - name: Build searchable SQLite index
+        run: python dob_references.py
+      - name: Save extracted text and provenance
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add references/dob-text
+          if ! git diff --cached --quiet; then
+            git commit -m 'Extract and OCR archived DOB reference pages'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Offer searchable reference download
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: dob-searchable-references
+          path: |
+            references/dob-text
+            references/dob.sqlite
+          retention-days: 30
+      - name: Report extraction limitations
+        if: steps.text.outcome == 'failure' || steps.ocr.outcome == 'failure'
+        run: |
+          cat references/dob-text/index.json
+          exit 1

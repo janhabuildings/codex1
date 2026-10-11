@@ -39,7 +39,7 @@ class AccessTests(unittest.TestCase):
         return 'Basic ' + base64.b64encode(('owner:' + password).encode()).decode()
 
     def test_all_app_routes_require_login(self):
-        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review', '/mapping', '/mappings.js', '/api/mappings', '/onedrive', '/onedrive.js', '/onedrive/start', '/onedrive/callback?code=private-code', '/api/onedrive/status']:
+        for path in ['/', '/app.js', '/style.css', '/api/status', '/api/review', '/mapping', '/mappings.js', '/api/mappings', '/onedrive', '/onedrive.js', '/onedrive/start', '/onedrive/callback?code=private-code', '/api/onedrive/status', '/references', '/references.js', '/api/dob/status', '/api/dob/search?query=attic']:
             status, headers, _ = self.request(path, data={} if path == '/api/review' else None)
             self.assertEqual(status, 401, path)
             self.assertIn('WWW-Authenticate', headers)
@@ -80,6 +80,14 @@ class AccessTests(unittest.TestCase):
         self.assertIn('Max-Age=0',headers['Set-Cookie'])
         self.assertEqual(complete.call_args[0][0]['code'],['private-code'])
         self.assertNotIn('private-code',str(log.call_args_list))
+
+    def test_dob_search_preserves_query_and_returns_page_citations(self):
+        hit={'text':'Verified excerpt','citation':'Bulletin 2025-001, PDF page 2','source_url':'https://www.nyc.gov/test.pdf'}
+        with patch('server.dob_references.search',return_value=[hit]) as search:
+            status,_,body=self.request('/api/dob/search?query=attic%20floor&collection=tppn',self.auth())
+        self.assertEqual(status,200)
+        search.assert_called_once_with('attic floor','tppn')
+        self.assertEqual(json.loads(body)['excerpts'][0]['citation'],hit['citation'])
 
     def test_bad_and_malformed_credentials_rejected(self):
         for auth in [self.auth('wrong'), 'Basic !!!!', 'Bearer token']:

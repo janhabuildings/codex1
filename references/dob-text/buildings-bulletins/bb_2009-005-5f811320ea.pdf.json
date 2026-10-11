@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2009-005-5f811320ea.pdf",
+  "title": "Technical / Buildings Bulletin 2009-005",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2009-005.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2009.page",
+  "sha256": "d8366a7290a23fe56404343ab7b76a017748d06ca2ec39cb1a01066ad58d35f2",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "NYC Buildings Department\n280 Broadway, New York, NY 10007\n\nRobert D. LiMandri, Commissioner\n\n\n\n\n                                          BUILDINGS BULLETIN 2009-005\n                                                           Technical\n\n\n        Supersedes:           None\n\n               Issuer:        James P. Colgate, RA, Esq.\n                              Assistant Commissioner for Technical Affairs and Code Development\n\n     Issuance Date:           April 3, 2009\n\n            Purpose:          This document clarifies that only electric clothes dryers may be exempt from exhausting to\n                              the outside of a building\n\n      Related Code             MC    504.1\n        Section(s):           FGC    614.1\n\n\n          Subject(s):         Clothes dryer, exhaust\n\n\nBoth the 2008 NYC Mechanical Code (\"MC\") and 2008 NYC Fuel Gas Code (\"FGC\") establish venting\nrequirements for clothes dryers that are installed or replaced under the 2008 Construction Codes. In particular,\nSection MC 504.1 requires clothes dryers to be exhausted but provides the following exception:\n\n          “This section shall not apply to listed and labeled condensing (ductless) electric clothes dryers.”\n\nSection FGC 614.1 requires the same and provides a similar, but not identical, exception:\n\n          “This section shall not apply to listed and labeled condensing (ductless) clothes dryers.”\n\nAlthough Section FGC 614.1 provides a general exception for listed and labeled condensing clothes dryers, the\nexception in MC 504.1 is more specific.\n\nTherefore, only electric clothes dryers that are listed and labeled may be exempt from exhausting to the outside of\na building. In all other cases, clothes dryers must exhaust to the outside of the building.\n\n\n\n\nBuildings Bulletin 2009-005\n1 of 1\n                                                   safety • service • integrity\n"
+  ],
+  "low_text_pages": []
+}

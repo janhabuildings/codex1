@@ -1,0 +1,13 @@
+{
+  "collection": "buildings-bulletins",
+  "filename": "bb_2021-002_highlights-ed7e1a3eef.pdf",
+  "title": "Bulletin Highlights",
+  "source_url": "https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2021-002_highlights.pdf",
+  "listing_url": "https://www.nyc.gov/site/buildings/codes/building-bulletins-2021.page",
+  "sha256": "fb797b40530e2126dfa7fc14e5e6885df1dbdecb0b3512dfa0c6ac6617239541",
+  "extractor": "pdftotext-layout-v1",
+  "pages": [
+    "ISSUED: March 10, 2021\n                                                 2021-002\n\n   VISIBLE NOTIFICATION APPLIANCE REQUIREMENTS\n   Construction Codes Requirements\n\n\n   What is a Visible Notification Appliance?\n   • Alerts occupants through sight with strobe lights (see Figure 1)\n   • Installed in conjunction with a carbon monoxide detector (see Figure 2)\n   • Must activate when the carbon monoxide detector is triggered\n   • When used only for carbon monoxide detection, the appliance should not have the word ‘FIRE’ or any\n     fire symbol markings on it that is visible to the public.\n\n\n\n\n     Figure 1: Visible Notification Appliance - Amber Strobe            Figure 2: Carbon Monoxide Detector\n     (Source https://dssfire.com/docs/EST_Genesis_Horns_Strobes.pdf)    (Source: dynamoelectricllc.com/wp-content)\n\n\n\n\n   Buildings Bulletin 2021-002 supersedes Buildings Bulletin 2020-014 as a result of the most recent\n   amendment to 1 RCNY §908-01, effective November 9, 2019, which updates the Rule to amend the 2015\n   edition of NFPA 720, Standard for the Installation of Carbon Monoxide (CO) Detection and Warning\n   Equipment. Buildings Bulletin 2021-002 clarifies the requirements for visible occupant notification\n   appliances as part of the adopted NFPA 720 standard.\n   Speak with your architect or engineer about the current carbon monoxide installation code requirements\n   for applicability to your proposed scope of work.\n   Read Buildings Bulletin 2021-002 for more details on the requirements.\n\n\n   Send questions to constructioncodes@buildings.nyc.gov.\n\n\n\n\n   MELANIE E. LA ROCCA, Commissioner                                                              nyc.gov/buildings\n"
+  ],
+  "low_text_pages": []
+}

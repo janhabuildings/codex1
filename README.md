@@ -126,6 +126,10 @@ Without a key the app validates submissions and returns a preparation checklist,
 
 Reports display model-generated Markdown as plain text, including source URLs, and can be downloaded. Source accuracy, drawing interpretation, and zoning conclusions require professional verification. This is not DOB approval, an exhaustive compliance engine, or a substitute for an architect. Image-only drawings, unclear dimensions, amendments and special districts may prevent reliable findings.
 
+## DOB reference library
+
+The protected `/references` page searches extracted TPPNs and Buildings Bulletins by document and PDF page. Reviews and follow-up chat can retrieve these references alongside the supplied Zoning Resolution. [Extraction and OCR instructions](docs/dob-references.md) explain coverage, provenance and rebuilds. OCR text and archived legal status require verification.
+
 ## OneDrive document storage
 
 The protected `/onedrive` page connects a personal Microsoft account for document storage in the app's OneDrive folder. Follow [registration and Render setup](docs/onedrive.md). Saved tokens are encrypted in the shared PostgreSQL database. This provides storage for PDFs, extracted text and metadata; automatic DOB collection is a separate next step.
