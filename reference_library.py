@@ -1,5 +1,7 @@
 """Unified browsing of supplied zoning text and archived DOB references."""
 from itertools import zip_longest
+from functools import lru_cache
+import bulletin_embeddings
 import dob_references
 import resolution
 
@@ -32,12 +34,31 @@ def status():
             'coverage':'Supplied zoning text and archived DOB guidance. Diagrams, OCR and current applicability require verification.'}
 
 
-def search_page(query, collection='all', page=0):
+@lru_cache(maxsize=32)
+def hybrid_bulletins(query):
+    semantic=bulletin_embeddings.search(query,limit=40)
+    lexical=dob_references.search(query,'buildings-bulletins',limit=40)
+    scores={};records={};methods={}
+    for method,hits in [('keyword',lexical),('meaning',semantic)]:
+        seen=set()
+        for rank,hit in enumerate(hits,1):
+            identity=(hit['filename'],hit['citation'].split('PDF page')[-1].strip())
+            if identity in seen:continue
+            seen.add(identity)
+            scores[identity]=scores.get(identity,0)+1/(60+rank)
+            records.setdefault(identity,hit);methods.setdefault(identity,set()).add(method)
+    return [dict(records[key],match_method=' + '.join(sorted(methods[key])))
+            for key in sorted(scores,key=lambda key:scores[key],reverse=True)]
+
+
+def search_page(query, collection='all', page=0, mode='keyword'):
     if collection not in ('all','zoning-resolution','tppn','buildings-bulletins'):
         raise ValueError('Unknown reference collection.')
     if type(page) is not int or not 0 <= page <= 100000:
         raise ValueError('Invalid result page.')
-    groups=[];has_more=False;offset=page*4
+    if mode not in ('keyword','hybrid') or len(query)>300:
+        raise ValueError('Invalid search mode or query.')
+    groups=[];has_more=False;offset=page*4;notice=''
     if collection in ('all','zoning-resolution'):
         hits=resolution.search(query,limit=5,offset=offset,paginate=True)
         contexts=[h for h in hits if h.get('reference_context')]
@@ -48,9 +69,17 @@ def search_page(query, collection='all', page=0):
                        for hit in contexts+matches[:4]])
     for kind in ('tppn','buildings-bulletins'):
         if collection in ('all',kind):
-            hits=dob_references.search(query,kind,limit=5,offset=offset)
+            if kind=='buildings-bulletins' and mode=='hybrid' and query.strip():
+                try:
+                    hits=hybrid_bulletins(query)[offset:offset+5]
+                    notice='Bulletins combine up to 40 keyword and 40 meaning matches. Zoning and TPPNs use keywords.'
+                except Exception:
+                    hits=dob_references.search(query,kind,limit=5,offset=offset)
+                    notice='Meaning search unavailable; showing keyword results. Check the embedding index and OpenAI API access.'
+            else:hits=dob_references.search(query,kind,limit=5,offset=offset)
             has_more |= len(hits)>4
             groups.append(hits[:4])
     return {'excerpts':[hit for row in zip_longest(*groups) for hit in row if hit is not None],
             'page':page,'has_more':has_more,'next_page':page+1 if has_more else None,
+            'notice':notice,
             'coverage':'Matching excerpts, not exhaustive compliance findings. OCR, diagrams and current applicability require verification.'}

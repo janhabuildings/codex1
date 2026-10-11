@@ -451,7 +451,7 @@ class Handler(BaseHTTPRequestHandler):
                 return self.respond(503, {'error':message})
         if self.path == '/api/dob/search':
             try:
-                result = reference_library.search_page(query.get('query',[''])[0],query.get('collection',['all'])[0],int(query.get('page',['0'])[0]))
+                result = reference_library.search_page(query.get('query',[''])[0],query.get('collection',['all'])[0],int(query.get('page',['0'])[0]),mode=query.get('mode',['keyword'])[0])
             except ValueError:
                 return self.respond(400, {'error':'Invalid result page or reference collection.'})
             return self.respond(200, result)

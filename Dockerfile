@@ -10,6 +10,7 @@ COPY server.py ./server.py
 COPY resolution.py ./resolution.py
 COPY dob_references.py ./dob_references.py
 COPY reference_library.py ./reference_library.py
+COPY bulletin_embeddings.py ./bulletin_embeddings.py
 COPY review_guidance.py ./review_guidance.py
 COPY mapping_worker.py ./mapping_worker.py
 COPY onedrive.py ./onedrive.py
@@ -18,6 +19,7 @@ COPY requirements-worker.txt ./requirements-worker.txt
 COPY references/resolution.json ./references/resolution.json
 COPY references/far_tables.json ./references/far_tables.json
 COPY references/dob-text/ ./references/dob-text/
+COPY references/bulletin-embeddings/ ./references/bulletin-embeddings/
 COPY static/ ./static/
 
 RUN pip install --no-cache-dir -r requirements-worker.txt && python resolution.py && python dob_references.py && chmod -R a+rX /app && python -m py_compile server.py mapping_worker.py

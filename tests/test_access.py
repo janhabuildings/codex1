@@ -86,7 +86,7 @@ class AccessTests(unittest.TestCase):
         with patch('server.reference_library.search_page',return_value={'excerpts':[hit],'has_more':False}) as search:
             status,_,body=self.request('/api/dob/search?query=attic%20floor&collection=tppn',self.auth())
         self.assertEqual(status,200)
-        search.assert_called_once_with('attic floor','tppn',0)
+        search.assert_called_once_with('attic floor','tppn',0,mode='keyword')
         self.assertEqual(json.loads(body)['excerpts'][0]['citation'],hit['citation'])
 
     def test_bad_and_malformed_credentials_rejected(self):

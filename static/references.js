@@ -16,14 +16,15 @@ async function loadPage(){
   const results=document.querySelector('#results');
   try {
     const params=new URLSearchParams({...activeSearch,page:nextPage});
-    const response=await fetch('/api/dob/search?'+params,{signal:AbortSignal.timeout(20000)});
+    status.textContent='Searching references…';
+    const response=await fetch('/api/dob/search?'+params,{signal:AbortSignal.timeout(150000)});
     const data=await response.json();
     if (!response.ok) throw new Error(data.error || 'Search unavailable.');
     nextPage=data.next_page;more.hidden=!data.has_more;
     for(const hit of data.excerpts){
       const article=document.createElement('article');article.className='chat-message';
       const title=document.createElement('h3');title.textContent=(hit.collection==='zoning-resolution'?'Zoning Resolution — ':'')+hit.citation;
-      const note=document.createElement('p');note.textContent=(hit.ocr_page?'OCR text: verify against PDF. ':'')+(hit.low_text_page?'Limited readable text.':'');
+      const note=document.createElement('p');note.textContent=(hit.match_method?`Matched by ${hit.match_method}. `:'')+(hit.ocr_page?'OCR text: verify against PDF. ':'')+(hit.low_text_page?'Limited readable text.':'');
       const text=document.createElement('pre');text.textContent=hit.text;
       article.append(title,note,text);
       if(hit.source_url){
@@ -37,12 +38,13 @@ async function loadPage(){
       results.append(article);
     }
     status.textContent=results.children.length ? `Showing ${results.children.length} excerpts.${data.has_more?' More results are available.':' End of matching results.'}` : 'No matching text found. Try fewer terms; scanned pages may have limited text.';
+    if(data.notice)status.textContent+=' '+data.notice;
   } catch(error){status.textContent=error.message;}
   finally{button.disabled=false;more.disabled=false;busy=false;}
 }
 document.querySelector('#search').addEventListener('submit',event=>{
   event.preventDefault();if(busy)return;
-  activeSearch={query:document.querySelector('#query').value,collection:document.querySelector('#collection').value};
+  activeSearch={query:document.querySelector('#query').value,collection:document.querySelector('#collection').value,mode:document.querySelector('#mode').value};
   nextPage=0;more.hidden=true;document.querySelector('#results').replaceChildren();loadPage();
 });
 more.addEventListener('click',()=>loadPage());

@@ -46,3 +46,28 @@ class ReferenceLibraryTests(unittest.TestCase):
         citations=[h['citation'] for page in pages for h in page['excerpts']]
         self.assertEqual(citations,['verified']+[str(n) for n in range(9)])
         self.assertFalse(pages[-1]['has_more'])
+
+    def test_hybrid_merges_page_matches_and_caches_paid_query(self):
+        library.hybrid_bulletins.cache_clear()
+        common={'text':'one','citation':'Bulletin, PDF page 1','filename':'a.pdf','collection':'buildings-bulletins'}
+        other=dict(common,text='two',filename='b.pdf')
+        with patch.object(library.bulletin_embeddings,'search',return_value=[common,other]) as semantic,patch.object(library.dob_references,'search',return_value=[common]):
+            first=library.search_page('hybrid example','buildings-bulletins',mode='hybrid')
+            library.search_page('hybrid example','buildings-bulletins',mode='hybrid')
+        self.assertEqual(len(first['excerpts']),2)
+        self.assertEqual(first['excerpts'][0]['match_method'],'keyword + meaning')
+        semantic.assert_called_once()
+        library.hybrid_bulletins.cache_clear()
+
+    def test_hybrid_failure_returns_keyword_results(self):
+        library.hybrid_bulletins.cache_clear()
+        with patch.object(library.bulletin_embeddings,'search',side_effect=RuntimeError('Unavailable')),patch.object(library.dob_references,'search',return_value=[{'text':'keyword'}]):
+            result=library.search_page('fallback','buildings-bulletins',mode='hybrid')
+        self.assertEqual(result['excerpts'][0]['text'],'keyword')
+        self.assertIn('unavailable',result['notice'])
+
+    def test_keyword_search_never_calls_embeddings(self):
+        with patch.object(library.bulletin_embeddings,'search') as semantic:
+            library.search_page('egress','buildings-bulletins',mode='keyword')
+            library.search_page('yards','zoning-resolution',mode='hybrid')
+        semantic.assert_not_called()
