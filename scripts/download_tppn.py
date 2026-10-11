@@ -65,7 +65,7 @@ def fetch(url):
         return body
 
 
-def discover(start=INDEX, loader=fetch, max_pages=150):
+def discover(start=INDEX, loader=fetch, max_pages=150, collection="tppn"):
     queue = deque([(start, True)])
     navigation_count = 0
     seen = set()
@@ -94,7 +94,7 @@ def discover(start=INDEX, loader=fetch, max_pages=150):
             if not target:
                 continue
             path = urllib.parse.urlsplit(target).path.lower()
-            relevant = 'tppn' in path or 'technical-policy' in path or 'tppn' in label.lower() or 'technical policy' in label.lower()
+            relevant = ('bulletin' in path or 'bulletin' in label.lower()) if collection == 'bulletins' else ('tppn' in path or 'technical-policy' in path or 'tppn' in label.lower() or 'technical policy' in label.lower())
             if path.endswith('.pdf'):
                 if relevant:
                     documents.setdefault(target,{'source_url':target,'title':label,'listing_url':url})
@@ -114,10 +114,13 @@ def filename(url):
     return stem+'-'+hashlib.sha256(url.encode()).hexdigest()[:10]+'.pdf'
 
 
-def archive(output, start=INDEX, loader=fetch):
+def archive(output, start=INDEX, loader=fetch, collection="tppn"):
+    if collection not in ("tppn", "bulletins"):
+        raise ValueError("Unknown document collection")
+    title = "Buildings Bulletin" if collection == "bulletins" else "TPPN"
     output = Path(output)
     output.mkdir(parents=True,exist_ok=True)
-    documents,errors = discover(start,loader)
+    documents,errors = discover(start,loader,collection=collection)
     old = {}
     index = output/'index.json'
     if index.exists():
@@ -144,9 +147,9 @@ def archive(output, start=INDEX, loader=fetch):
         except Exception as error:
             errors.append({'url':doc['source_url'],'error':str(error)})
     if not documents:
-        errors.append({'url':start,'error':'No TPPN PDF links found; verify the official archive URL and page structure'})
+        errors.append({'url':start,'error':'No '+title+' PDF links found; verify the official archive URL and page structure'})
     index.write_text(json.dumps({'source_index':start,'last_checked':now,
-        'coverage':'Linked official TPPN PDFs only. Current applicability, rescission and supersession require verification.',
+        'coverage':'Linked official '+title+' PDFs only. Current applicability, rescission and supersession require verification.',
         'discovered_documents':len(documents),'documents':sorted(saved.values(),key=lambda d:d['filename']),
         'errors':errors},indent=2)+'\n')
     print(json.dumps({'discovered':len(documents),'saved':len(saved),'errors':len(errors),'folder':str(output)}))

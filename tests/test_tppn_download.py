@@ -51,6 +51,21 @@ class TppnTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             self.assertFalse(tppn.archive(directory,loader=lambda url:b'<html>empty</html>'))
 
+    def test_bulletins_follow_year_archives_and_exclude_tppn(self):
+        listing='https://www.nyc.gov/site/buildings/codes/building-bulletins.page'
+        year='https://www.nyc.gov/site/buildings/codes/bulletins-2025.page'
+        pdf='https://www.nyc.gov/assets/buildings/bldgs_bulletins/bb_2025-001.pdf'
+        pages={tppn.INDEX:b'<a href="building-bulletins.page">Buildings Bulletins</a><a href="/assets/buildings/pdf/tppn0100.pdf">TPPN 1/00</a>',
+               listing:b'<a href="bulletins-2025.page">2025</a>',
+               year:b'<a href="/assets/buildings/bldgs_bulletins/bb_2025-001.pdf">2025-001</a><a href="/assets/buildings/bldgs_bulletins/bb_2025-001.pdf">Duplicate</a>',pdf:b'%PDF-1.4 bulletin'}
+        with tempfile.TemporaryDirectory() as directory:
+            self.assertTrue(tppn.archive(directory,loader=pages.__getitem__,collection='bulletins'))
+            result=json.loads((Path(directory)/'index.json').read_text())
+            self.assertEqual(result['discovered_documents'],1)
+            self.assertEqual(result['documents'][0]['source_url'],pdf)
+            self.assertEqual(result['documents'][0]['listing_url'],year)
+            self.assertIn('Buildings Bulletin',result['coverage'])
+
     def test_url_and_filename_boundaries(self):
         for url in ['https://nyc.gov.evil.example/tppn.pdf','file:///tmp/tppn.pdf','https://name:password@nyc.gov/tppn.pdf']:
             self.assertIsNone(tppn.official_url(url))

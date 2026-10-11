@@ -1,10 +1,11 @@
-name: Download NYC DOB TPPNs
+name: Download NYC DOB Buildings Bulletins
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/download-tppn.yml'
+      - '.github/workflows/download-bulletins.yml'
+      - 'scripts/download_bulletins.py'
       - 'scripts/download_tppn.py'
 permissions:
   contents: write
@@ -23,21 +24,21 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Download official TPPN PDFs
+      - name: Download official Buildings Bulletin PDFs
         id: download
         continue-on-error: true
-        run: python scripts/download_tppn.py
+        run: python scripts/download_bulletins.py
       - name: Show download result
         if: always()
         run: |
-          if [ -f references/tppn/index.json ]; then
-            cat references/tppn/index.json
+          if [ -f references/buildings-bulletins/index.json ]; then
+            cat references/buildings-bulletins/index.json
             python - <<'PYTHON'
           import json, os
           from pathlib import Path
-          result = json.loads(Path('references/tppn/index.json').read_text())
+          result = json.loads(Path('references/buildings-bulletins/index.json').read_text())
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
-              summary.write('## TPPN download result\n\n')
+              summary.write('## Buildings Bulletin download result\n\n')
               summary.write(f"Discovered: {result['discovered_documents']}; saved: {len(result['documents'])}; errors: {len(result['errors'])}\n\n")
               for error in result['errors']:
                   summary.write(f"- {error['url']}: {error['error']}\n")
@@ -47,9 +48,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add references/tppn
+          git add references/buildings-bulletins
           if ! git diff --cached --quiet; then
-            git commit -m 'Archive official NYC DOB TPPNs and source index'
+            git commit -m 'Archive official NYC DOB Buildings Bulletins and source index'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -57,11 +58,11 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v5
         with:
-          name: nyc-dob-tppn
-          path: references/tppn
+          name: nyc-dob-buildings-bulletins
+          path: references/buildings-bulletins
           retention-days: 30
       - name: Report incomplete downloads
         if: steps.download.outcome == 'failure'
         run: |
-          echo 'Some sources could not be downloaded. See references/tppn/index.json errors and the downloaded artifact.'
+          echo 'Some sources could not be downloaded. See references/buildings-bulletins/index.json errors and the downloaded artifact.'
           exit 1
