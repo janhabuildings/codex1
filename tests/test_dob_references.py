@@ -37,6 +37,17 @@ class DobSearchTests(unittest.TestCase):
         self.assertEqual(dob_references.search('',database=self.database),[])
         self.assertEqual(dob_references.search('absentword',database=self.database),[])
 
+    def test_ranked_pages_have_no_gaps_or_duplicates(self):
+        path=self.root/'tppn.json';record=json.loads(path.read_text())
+        record['pages']=[f'pagination marker {i}' for i in range(9)]
+        path.write_text(json.dumps(record));dob_references.build_index(self.root,self.database)
+        hits=[]
+        for offset in (0,4,8):
+            hits.extend(dob_references.search('pagination marker','tppn',self.database,limit=4,offset=offset))
+        self.assertEqual(len(hits),9)
+        self.assertEqual(len({h['citation'] for h in hits}),9)
+        self.assertEqual(dob_references.search('pagination marker','tppn',self.database,offset=12),[])
+
     def test_review_routes_dob_lookup_with_source_link(self):
         calls=[{'status':'completed','output':[{'type':'function_call','name':'search_resolution','call_id':'zr','arguments':'{"query":"23-21"}'}]},
                {'status':'completed','output':[{'type':'function_call','name':'search_dob_references','call_id':'dob','arguments':'{"query":"attic","collection":"tppn"}'}]},

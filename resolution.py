@@ -51,7 +51,7 @@ def metadata():
             'coverage': 'Extracted text only; maps, diagrams and image-only provisions require visual review.'}
 
 
-def search(query, use_scope='unknown'):
+def search(query, use_scope='unknown', *, limit=4, offset=0, paginate=False):
     tokens = re.findall(r'[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*', str(query))[:24]
     if not tokens:
         return []
@@ -60,7 +60,7 @@ def search(query, use_scope='unknown'):
         for phrase, section in [('front yard', '23-321'), ('side yard', '23-332'),
                                 ('rear yard', '23-342'), ('height', '23-42')]:
             if phrase in subject:
-                return search(section)
+                return search(section, limit=limit, offset=offset, paginate=paginate)
     requested = [word for word in tokens if word in SECTION_PAGES]
     if requested:
         pages = source_pages()
@@ -68,10 +68,11 @@ def search(query, use_scope='unknown'):
         for section in requested:
             for page in SECTION_PAGES[section]:
                 selected.setdefault(page, []).append(section)
-        return [{'text': pages[page-1],
+        hits = [{'text': pages[page-1],
                  'citation': f'ZR {", ".join(sections)}: Split 1, PDF page {page}',
                  'scope': 'community facility applicability' if page == 564 else 'residential bulk'}
                 for page, sections in selected.items()]
+        return hits[offset:offset+limit] if paginate else hits
     expression = ' OR '.join('"' + word + '"' for word in tokens)
     sections = [word for word in tokens if re.fullmatch(r'\d{2,3}-\d{2,4}', word)]
     districts = [word for word in tokens if re.fullmatch(r'[RCM]\d[A-Z0-9-]*', word, re.I)]
@@ -85,16 +86,16 @@ def search(query, use_scope='unknown'):
             expression += ' AND (' + ' OR '.join('"' + word + '"' for word in terms) + ')'
     db = sqlite3.connect(f'file:{DATABASE}?mode=ro', uri=True)
     try:
-        rows = db.execute('SELECT text,part,page,global_page FROM excerpts WHERE excerpts MATCH ? ORDER BY bm25(excerpts) LIMIT 4', (expression,)).fetchall()
+        rows = db.execute('SELECT text,part,page,global_page FROM excerpts WHERE excerpts MATCH ? ORDER BY bm25(excerpts), rowid LIMIT ? OFFSET ?', (expression, limit, offset)).fetchall()
     finally:
         db.close()
     hits = [{'text': text, 'citation': f'Split {part}, PDF page {page}, combined page {global_page}'}
             for text, part, page, global_page in rows]
     # Merged table cells can scramble row/value associations in PDF text.
     # Supply the visually verified rows whenever a low-density FAR query is made.
-    if re.search(r'\b(?:FAR|floor|R[1-5][A-Z0-9-]*|23-21|23-71[12])\b', str(query), re.I):
+    if offset == 0 and re.search(r'\b(?:FAR|floor|R[1-5][A-Z0-9-]*|23-21|23-71[12])\b', str(query), re.I):
         tables = far_tables()
-        hits.insert(0, {'text': json.dumps(tables),
+        hits.insert(0, {'text': json.dumps(tables), 'reference_context':True,
                         'citation': 'ZR 23-21: Split 1, PDF pages 436–437; ZR 23-711: pages 541–542; ZR 23-712: page 542'})
     return hits
 

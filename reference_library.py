@@ -30,3 +30,27 @@ def status():
             'low_text_pages':sum(len(d['low_text_pages']) for d in dob['documents'])+zoning['low_text_pages'],
             'extraction_errors':dob.get('errors',[]),'ocr_errors':dob.get('ocr_errors',[]),
             'coverage':'Supplied zoning text and archived DOB guidance. Diagrams, OCR and current applicability require verification.'}
+
+
+def search_page(query, collection='all', page=0):
+    if collection not in ('all','zoning-resolution','tppn','buildings-bulletins'):
+        raise ValueError('Unknown reference collection.')
+    if type(page) is not int or not 0 <= page <= 100000:
+        raise ValueError('Invalid result page.')
+    groups=[];has_more=False;offset=page*4
+    if collection in ('all','zoning-resolution'):
+        hits=resolution.search(query,limit=5,offset=offset,paginate=True)
+        contexts=[h for h in hits if h.get('reference_context')]
+        matches=[h for h in hits if not h.get('reference_context')]
+        has_more |= len(matches)>4
+        groups.append([dict(hit,collection='zoning-resolution',filename='Supplied NYC Zoning Resolution',
+                            source_url=None,source_note='Supplied zoning text; original PDF is not stored in this repository.')
+                       for hit in contexts+matches[:4]])
+    for kind in ('tppn','buildings-bulletins'):
+        if collection in ('all',kind):
+            hits=dob_references.search(query,kind,limit=5,offset=offset)
+            has_more |= len(hits)>4
+            groups.append(hits[:4])
+    return {'excerpts':[hit for row in zip_longest(*groups) for hit in row if hit is not None],
+            'page':page,'has_more':has_more,'next_page':page+1 if has_more else None,
+            'coverage':'Matching excerpts, not exhaustive compliance findings. OCR, diagrams and current applicability require verification.'}

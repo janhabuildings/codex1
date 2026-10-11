@@ -21,3 +21,28 @@ class ReferenceLibraryTests(unittest.TestCase):
         with patch.object(library.resolution,'search') as zr,patch.object(library.dob_references,'search',return_value=[]) as dob:
             library.search('2025-001','buildings-bulletins')
         zr.assert_not_called();dob.assert_called_once_with('2025-001','buildings-bulletins')
+
+    def test_pagination_preserves_continuations_and_stops_at_end(self):
+        pages=library.search_page('23-332','zoning-resolution')
+        self.assertEqual(len(pages['excerpts']),3)
+        self.assertFalse(pages['has_more'])
+        first=library.search_page('23-421','zoning-resolution',0)
+        second=library.search_page('23-421','zoning-resolution',1)
+        third=library.search_page('23-421','zoning-resolution',2)
+        self.assertTrue(first['has_more'])
+        self.assertFalse(second['has_more'])
+        self.assertFalse(third['has_more'])
+        hits=first['excerpts']+second['excerpts']+third['excerpts']
+        self.assertEqual(len(hits),8)
+        self.assertEqual(len({h['citation'] for h in hits}),8)
+
+    def test_verified_table_does_not_displace_paginated_matches(self):
+        def lookup(query,**kwargs):
+            rows=[{'text':str(i),'citation':str(i)} for i in range(9)]
+            offset=kwargs['offset'];rows=rows[offset:offset+kwargs['limit']]
+            return ([{'text':'table','citation':'verified','reference_context':True}]+rows) if offset==0 else rows
+        with patch.object(library.resolution,'search',side_effect=lookup):
+            pages=[library.search_page('FAR','zoning-resolution',n) for n in range(3)]
+        citations=[h['citation'] for page in pages for h in page['excerpts']]
+        self.assertEqual(citations,['verified']+[str(n) for n in range(9)])
+        self.assertFalse(pages[-1]['has_more'])

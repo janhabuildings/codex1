@@ -30,7 +30,7 @@ def build_index(source=SOURCE, database=DATABASE):
     finally: db.close()
 
 
-def search(query, collection='all', database=DATABASE):
+def search(query, collection='all', database=DATABASE, *, limit=4, offset=0):
     if collection not in ('all','tppn','buildings-bulletins'): return []
     words=re.findall(r'[A-Za-z0-9]+',str(query))[:20]
     if not words or not Path(database).exists(): return []
@@ -45,7 +45,7 @@ def search(query, collection='all', database=DATABASE):
         args=[expression]
         if collection!='all':
             sql+=' AND collection=?';args.append(collection)
-        rows=db.execute(sql+' ORDER BY bm25(dob_excerpts) LIMIT 4',args).fetchall()
+        rows=db.execute(sql+' ORDER BY bm25(dob_excerpts), rowid LIMIT ? OFFSET ?',args+[limit,offset]).fetchall()
     finally: db.close()
     return [{'text':text,'citation':f'{kind}: {title or filename} ({filename}), PDF page {page}', 'collection':kind,
              'filename':filename,'source_url':url,'low_text_page':bool(low),'ocr_page':bool(ocr),

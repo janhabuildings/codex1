@@ -83,10 +83,10 @@ class AccessTests(unittest.TestCase):
 
     def test_dob_search_preserves_query_and_returns_page_citations(self):
         hit={'text':'Verified excerpt','citation':'Bulletin 2025-001, PDF page 2','source_url':'https://www.nyc.gov/test.pdf'}
-        with patch('server.dob_references.search',return_value=[hit]) as search:
+        with patch('server.reference_library.search_page',return_value={'excerpts':[hit],'has_more':False}) as search:
             status,_,body=self.request('/api/dob/search?query=attic%20floor&collection=tppn',self.auth())
         self.assertEqual(status,200)
-        search.assert_called_once_with('attic floor','tppn')
+        search.assert_called_once_with('attic floor','tppn',0)
         self.assertEqual(json.loads(body)['excerpts'][0]['citation'],hit['citation'])
 
     def test_bad_and_malformed_credentials_rejected(self):

@@ -450,8 +450,11 @@ class Handler(BaseHTTPRequestHandler):
                 message = str(error) if isinstance(error,RuntimeError) else 'OneDrive connection failed. Check configuration; credentials are not displayed.'
                 return self.respond(503, {'error':message})
         if self.path == '/api/dob/search':
-            hits = reference_library.search(query.get('query',[''])[0],query.get('collection',['all'])[0])
-            return self.respond(200, {'excerpts':hits,'coverage':'Supplied zoning text and archived DOB guidance; OCR, diagrams and current applicability require verification.'})
+            try:
+                result = reference_library.search_page(query.get('query',[''])[0],query.get('collection',['all'])[0],int(query.get('page',['0'])[0]))
+            except ValueError:
+                return self.respond(400, {'error':'Invalid result page or reference collection.'})
+            return self.respond(200, result)
         if self.path == '/api/dob/status':
             return self.respond(200, reference_library.status())
         if self.path == '/api/mappings':
