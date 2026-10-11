@@ -126,6 +126,10 @@ Without a key the app validates submissions and returns a preparation checklist,
 
 Reports display model-generated Markdown as plain text, including source URLs, and can be downloaded. Source accuracy, drawing interpretation, and zoning conclusions require professional verification. This is not DOB approval, an exhaustive compliance engine, or a substitute for an architect. Image-only drawings, unclear dimensions, amendments and special districts may prevent reliable findings.
 
+## Buildings Bulletin embedding pilot
+
+[Build the vector index](docs/bulletin-embeddings.md) with the manual GitHub Actions workflow. This requires an OpenAI repository secret and makes paid embedding requests within configured limits. The website remains keyword-based until hybrid search is integrated.
+
 ## DOB reference library
 
 The protected `/references` page searches extracted TPPNs and Buildings Bulletins by document and PDF page. Reviews and follow-up chat can retrieve these references alongside the supplied Zoning Resolution. [Extraction and OCR instructions](docs/dob-references.md) explain coverage, provenance and rebuilds. OCR text and archived legal status require verification.

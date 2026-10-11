@@ -1,0 +1,62 @@
+name: Build Buildings Bulletin embeddings
+on:
+  workflow_dispatch:
+    inputs:
+      max_api_calls:
+        description: 'Maximum embedding requests (100 is enough for the initial corpus)'
+        default: '100'
+        required: true
+      max_tokens:
+        description: 'Maximum input tokens; byte upper bound used if tokenizer unavailable'
+        default: '8000000'
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: dob-document-archive
+  cancel-in-progress: false
+jobs:
+  embed:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-embedding.txt
+      - name: Count input without paid API calls
+        run: python bulletin_embeddings.py estimate
+      - name: Embed pending bulletin excerpts
+        id: build
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EMBEDDING_CALL_CAP: ${{ inputs.max_api_calls }}
+          EMBEDDING_TOKEN_CAP: ${{ inputs.max_tokens }}
+        run: python bulletin_embeddings.py build --max-api-calls "$EMBEDDING_CALL_CAP" --max-tokens "$EMBEDDING_TOKEN_CAP"
+      - name: Save checkpoints
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add references/bulletin-embeddings
+          if ! git diff --cached --quiet; then
+            git commit -m 'Checkpoint Buildings Bulletin vector embeddings'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Offer vector index download
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: buildings-bulletin-embeddings
+          path: references/bulletin-embeddings
+          retention-days: 30
+      - name: Report embedding failure
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo 'Embedding run failed. Completed batches were saved; check logs, API billing and limits before running again.'
+          exit 1
